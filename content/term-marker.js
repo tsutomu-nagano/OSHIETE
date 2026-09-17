@@ -3,7 +3,7 @@
 
   const app = globalThis.EstatBeginner = globalThis.EstatBeginner || {};
   const SKIPPED_TAGS = new Set([
-    'SCRIPT', 'STYLE', 'TEXTAREA', 'INPUT', 'SELECT', 'OPTION', 'CODE', 'PRE',
+    'A', 'SCRIPT', 'STYLE', 'TEXTAREA', 'INPUT', 'SELECT', 'OPTION', 'CODE', 'PRE',
     'SVG', 'CANVAS', 'NOSCRIPT', 'IFRAME'
   ]);
 
@@ -29,7 +29,7 @@
     shouldSkipElement(element) {
       return !element || SKIPPED_TAGS.has(element.tagName) ||
         element.isContentEditable ||
-        element.closest('[contenteditable="true"], [data-estat-beginner-ignore], .estat-beginner-term, #estat-beginner-extension-root');
+        element.closest('a, .stat-filter-list-item, [contenteditable="true"], [data-estat-beginner-ignore], .estat-beginner-term, #estat-beginner-extension-root');
     }
 
     markRoot(root) {

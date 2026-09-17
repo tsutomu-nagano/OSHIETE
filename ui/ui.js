@@ -73,7 +73,13 @@
 
     handleClick(event) {
       const element = this.termElement(event);
-      if (!element) return;
+      if (!element) {
+        const clickedInsideDrawer = event.composedPath().includes(this.host);
+        if (this.drawer?.classList.contains('open') && !clickedInsideDrawer) {
+          this.closeDrawer();
+        }
+        return;
+      }
       event.preventDefault();
       event.stopPropagation();
       this.openDrawer(this.getTerm(element.dataset.estatTermId));
@@ -126,9 +132,10 @@
       this.tooltipTarget = null;
     }
 
-    createSection(title, values) {
+    createSection(title, values, className) {
       if (!values?.length) return null;
       const section = document.createElement('section');
+      section.className = className;
       const heading = document.createElement('h3');
       heading.textContent = title;
       const list = document.createElement('ul');
@@ -159,9 +166,12 @@
       detailTitle.textContent = '詳しい説明';
       const detail = document.createElement('p');
       detail.textContent = term.description;
-      content.append(title, category, lead, detailTitle, detail);
-      const examples = this.createSection('例', term.examples);
-      const related = this.createSection('関連用語', term.relatedTerms);
+      const detailSection = document.createElement('section');
+      detailSection.className = 'detail-section';
+      detailSection.append(detailTitle, detail);
+      content.append(title, category, lead, detailSection);
+      const examples = this.createSection('例', term.examples, 'examples-section');
+      const related = this.createSection('関連用語', term.relatedTerms, 'related-section');
       if (examples) content.append(examples);
       if (related) content.append(related);
 

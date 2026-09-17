@@ -84,6 +84,8 @@ e-Statのページに表示された統計用語を検出し、その場でや�
 ## 安全性と現時点の制約
 
 - `innerHTML`によるページ全体の置換は行わず、対象TextNodeだけを`span`へ分割します。
+- リンクの遷移を妨げないよう、アンカータグ内の文字列は用語検出の対象外です。
+- e-Statの絞り込み操作を妨げないよう、`.stat-filter-list-item`内も用語検出の対象外です。
 - OFF時は追加した`span`をTextNodeへ戻し、隣接TextNodeを正規化します。
 - 動的DOMは追加されたNodeだけを100ms単位でまとめて探索します。
 - iframe内、閉じたShadow DOM内、Canvas上の文字は検出しません。
