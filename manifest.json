@@ -16,6 +16,7 @@
     {
       "matches": ["https://www.e-stat.go.jp/*"],
       "js": [
+        "content/aho-corasick.js",
         "content/term-marker.js",
         "ui/ui.js",
         "content/mutation-observer.js",

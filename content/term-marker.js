@@ -14,16 +14,9 @@
         .filter(Boolean)
         .map((label) => ({ label, term })))
         .sort((a, b) => b.label.length - a.label.length);
-      this.pattern = this.matches.length
-        ? new RegExp(this.matches.map(({ label }) => this.escapeRegExp(label)).join('|'), 'g')
-        : null;
-      this.matchByLabel = new Map(this.matches.map((match) => [match.label, match.term]));
+      this.matcher = this.matches.length ? new app.AhoCorasickMatcher(this.matches) : null;
       this.count = 0;
       this.onCountChange = onCountChange;
-    }
-
-    escapeRegExp(value) {
-      return value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
     }
 
     shouldSkipElement(element) {
@@ -33,7 +26,7 @@
     }
 
     markRoot(root) {
-      if (!this.pattern || !root?.isConnected ||
+      if (!this.matcher || !root?.isConnected ||
           (root.nodeType === Node.ELEMENT_NODE && this.shouldSkipElement(root))) return;
 
       const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, {
@@ -41,8 +34,7 @@
           if (!node.nodeValue?.trim() || this.shouldSkipElement(node.parentElement)) {
             return NodeFilter.FILTER_REJECT;
           }
-          this.pattern.lastIndex = 0;
-          return this.pattern.test(node.nodeValue)
+          return this.matcher.hasMatch(node.nodeValue)
             ? NodeFilter.FILTER_ACCEPT
             : NodeFilter.FILTER_REJECT;
         }
@@ -58,12 +50,11 @@
       const text = node.nodeValue;
       const fragment = document.createDocumentFragment();
       let cursor = 0;
-      let added = 0;
-      this.pattern.lastIndex = 0;
+      const matches = this.matcher.findAll(text);
 
-      for (const match of text.matchAll(this.pattern)) {
-        if (match.index > cursor) fragment.append(text.slice(cursor, match.index));
-        const term = this.matchByLabel.get(match[0]);
+      for (const match of matches) {
+        if (match.start > cursor) fragment.append(text.slice(cursor, match.start));
+        const term = match.term;
         const span = document.createElement('span');
         span.className = 'estat-beginner-term';
         span.dataset.estatTermId = term.id;
@@ -71,16 +62,15 @@
         span.tabIndex = 0;
         span.setAttribute('role', 'button');
         span.setAttribute('aria-label', `${term.term}の説明を表示`);
-        span.textContent = match[0];
+        span.textContent = match.label;
         fragment.append(span);
-        cursor = match.index + match[0].length;
-        added += 1;
+        cursor = match.end;
       }
 
-      if (!added) return;
+      if (!matches.length) return;
       if (cursor < text.length) fragment.append(text.slice(cursor));
       node.replaceWith(fragment);
-      this.count += added;
+      this.count += matches.length;
       this.onCountChange?.(this.count);
     }
 

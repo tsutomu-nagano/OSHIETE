@@ -3,8 +3,9 @@
   const app = globalThis.EstatBeginner = globalThis.EstatBeginner || {};
 
   class BeginnerUI {
-    constructor(getTerm) {
+    constructor(getTerm, onModeChange) {
       this.getTerm = getTerm;
+      this.onModeChange = onModeChange;
       this.host = null;
       this.shadow = null;
       this.tooltip = null;
@@ -32,6 +33,20 @@
 
       const shell = document.createElement('div');
       shell.innerHTML = `
+        <label class="mode-control">
+          <span class="mode-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" focusable="false">
+              <path d="M4.5 4.5h15v11h-8l-4.5 4v-4H4.5z"></path>
+              <path d="M9.8 8.7a2.35 2.35 0 0 1 4.58.74c0 1.74-2.38 1.73-2.38 3.06"></path>
+              <circle cx="12" cy="14.6" r=".7"></circle>
+            </svg>
+          </span>
+          <span class="mode-label">教えてモード</span>
+          <span class="mode-switch">
+            <input type="checkbox" role="switch" aria-label="教えてモード">
+            <span class="mode-slider" aria-hidden="true"></span>
+          </span>
+        </label>
         <div class="tooltip" role="tooltip" hidden></div>
         <aside class="drawer" aria-label="用語解説" aria-hidden="true">
           <header>
@@ -43,6 +58,10 @@
       this.shadow.append(shell);
       this.tooltip = this.shadow.querySelector('.tooltip');
       this.drawer = this.shadow.querySelector('.drawer');
+      this.modeToggle = this.shadow.querySelector('.mode-control input');
+      this.modeToggle.addEventListener('change', () => {
+        this.onModeChange?.(this.modeToggle.checked);
+      });
       this.shadow.querySelector('.close').addEventListener('click', () => this.closeDrawer());
       document.documentElement.append(this.host);
 
@@ -132,6 +151,14 @@
       this.tooltipTarget = null;
     }
 
+    setModeEnabled(enabled) {
+      if (this.modeToggle) this.modeToggle.checked = enabled;
+      if (!enabled) {
+        this.hideTooltip();
+        this.closeDrawer();
+      }
+    }
+
     createSection(title, values, className) {
       if (!values?.length) return null;
       const section = document.createElement('section');
@@ -194,7 +221,7 @@
       window.removeEventListener('scroll', this.boundViewport, true);
       window.removeEventListener('resize', this.boundViewport);
       this.host?.remove();
-      this.host = this.shadow = this.tooltip = this.drawer = null;
+      this.host = this.shadow = this.tooltip = this.drawer = this.modeToggle = null;
     }
   }
 

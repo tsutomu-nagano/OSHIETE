@@ -8,6 +8,62 @@
 
 *, *::before, *::after { box-sizing: border-box; }
 
+.mode-control {
+  position: fixed;
+  z-index: 2147483645;
+  top: 16px;
+  right: 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 44px;
+  padding: 8px 12px 8px 14px;
+  color: #285a79;
+  background: #fff;
+  border-radius: 999px;
+  box-shadow: 0 3px 14px rgb(36 70 94 / 20%);
+  cursor: pointer;
+  user-select: none;
+}
+
+.mode-icon {
+  display: grid;
+  place-items: center;
+  width: 26px;
+  height: 26px;
+  color: #2676a6;
+  background: #e9f3f8;
+  border-radius: 50%;
+}
+.mode-icon svg { width: 18px; height: 18px; overflow: visible; }
+.mode-icon path, .mode-icon circle {
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.mode-icon circle { fill: currentColor; stroke: none; }
+.mode-label { font-size: 14px; font-weight: 700; white-space: nowrap; }
+.mode-switch { position: relative; width: 44px; height: 24px; flex: 0 0 auto; }
+.mode-switch input { position: absolute; width: 1px; height: 1px; opacity: 0; }
+.mode-slider { position: absolute; inset: 0; border-radius: 999px; background: #aab8c1; transition: background 150ms ease; }
+.mode-slider::before {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: 0 1px 3px rgb(0 0 0 / 25%);
+  transition: transform 150ms ease;
+}
+.mode-switch input:checked + .mode-slider { background: #2676a6; }
+.mode-switch input:checked + .mode-slider::before { transform: translateX(20px); }
+.mode-switch input:focus-visible + .mode-slider { outline: 2px solid #2676a6; outline-offset: 2px; }
+
 .tooltip {
   position: fixed;
   z-index: 2147483647;
@@ -80,7 +136,7 @@
   line-height: 1.35;
   letter-spacing: 0.03em;
 }
-.drawer-content h2::before { content: "●"; margin-right: 8px; color: #4b91b7; font-size: 16px; vertical-align: 3px; }
+/* .drawer-content h2::before { content: "●"; margin-right: 8px; color: #4b91b7; font-size: 16px; vertical-align: 3px; } */
 .drawer-content h3 { margin: 0 0 8px; color: #245f86; font-size: 16px; }
 .drawer-content p { margin: 0 0 14px; }
 .drawer-content .category {
@@ -115,4 +171,6 @@
 .drawer-content li { margin: 4px 0; }
 .drawer-content li::marker { color: #4b91b7; }
 
-@media (prefers-reduced-motion: reduce) { .drawer { transition: none; } }
+@media (prefers-reduced-motion: reduce) {
+  .drawer, .mode-slider, .mode-slider::before { transition: none; }
+}

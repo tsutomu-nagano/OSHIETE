@@ -19,30 +19,44 @@
     chrome.storage.local.set({ [`detectedCount:${location.href}`]: count });
   }
 
+  async function ensureUI() {
+    if (ui) return;
+    ui = new app.BeginnerUI(
+      (id) => marker?.getTerm(id),
+      (nextEnabled) => chrome.storage.sync.set({ beginnerModeEnabled: nextEnabled })
+    );
+    await ui.mount();
+  }
+
+  async function ensureMarker() {
+    if (marker) return;
+    const terms = await loadTerms();
+    marker = new app.TermMarker(terms, saveCount);
+  }
+
   async function enable() {
     if (enabled || !document.body) return;
     try {
-      const terms = await loadTerms();
-      marker = new app.TermMarker(terms, saveCount);
-      ui = new app.BeginnerUI((id) => marker?.getTerm(id));
-      await ui.mount();
+      await ensureUI();
+      await ensureMarker();
+      ui.setModeEnabled(true);
       marker.markRoot(document.body);
       observer = new app.IncrementalObserver((root) => marker?.markRoot(root));
       observer.start();
       enabled = true;
     } catch (error) {
       console.warn('[e-Stat初心者モード] 初期化に失敗しました。e-Stat本体には影響ありません。', error);
-      disable();
+      enabled = false;
+      ui?.setModeEnabled(false);
     }
   }
 
-  function disable() {
+  async function disable() {
+    await ensureUI();
     observer?.stop();
     observer = null;
-    ui?.unmount();
-    ui = null;
     marker?.clear();
-    marker = null;
+    ui.setModeEnabled(false);
     enabled = false;
     saveCount(0);
   }
