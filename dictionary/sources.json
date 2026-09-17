@@ -1,0 +1,65 @@
+[
+  {
+    "id": "census-2010-word1",
+    "title": "人口の基本属性に関する用語",
+    "url": "https://www.stat.go.jp/data/kokusei/2010/users-g/word1.html",
+    "indexUrl": "https://www.stat.go.jp/data/kokusei/2010/users-g/word.html",
+    "publisher": "総務省統計局",
+    "retrievedAt": "2026-09-17",
+    "termIds": ["population", "population_center", "area", "population_density", "sex_ratio", "age", "average_age", "median_age", "marital_status", "education", "nationality"]
+  },
+  {
+    "id": "census-2010-word2",
+    "title": "世帯・家族の属性に関する用語",
+    "url": "https://www.stat.go.jp/data/kokusei/2010/users-g/word2.html",
+    "indexUrl": "https://www.stat.go.jp/data/kokusei/2010/users-g/word.html",
+    "publisher": "総務省統計局",
+    "retrievedAt": "2026-09-17",
+    "termIds": ["household_type", "household_head", "household_members", "family_type", "three_generation_household", "mother_child_household", "father_child_household", "elderly_single_household", "elderly_couple_household", "household_economic_composition"]
+  },
+  {
+    "id": "census-2010-word3",
+    "title": "住宅・居住地に関する用語",
+    "url": "https://www.stat.go.jp/data/kokusei/2010/users-g/word3.html",
+    "indexUrl": "https://www.stat.go.jp/data/kokusei/2010/users-g/word.html",
+    "publisher": "総務省統計局",
+    "retrievedAt": "2026-09-17",
+    "termIds": ["dwelling_type", "housing_tenure", "total_floor_area", "building_type"]
+  },
+  {
+    "id": "census-2010-word4",
+    "title": "労働・就業の状態に関する用語",
+    "url": "https://www.stat.go.jp/data/kokusei/2010/users-g/word4.html",
+    "indexUrl": "https://www.stat.go.jp/data/kokusei/2010/users-g/word.html",
+    "publisher": "総務省統計局",
+    "retrievedAt": "2026-09-17",
+    "termIds": ["labour_force_status", "labour_force_rate", "employment_status", "industry", "occupation", "socioeconomic_classification"]
+  },
+  {
+    "id": "census-2010-word5",
+    "title": "世帯の移動に関する用語",
+    "url": "https://www.stat.go.jp/data/kokusei/2010/users-g/word5.html",
+    "indexUrl": "https://www.stat.go.jp/data/kokusei/2010/users-g/word.html",
+    "publisher": "総務省統計局",
+    "retrievedAt": "2026-09-17",
+    "termIds": ["residence_duration", "residence_five_years_ago", "household_migration_type"]
+  },
+  {
+    "id": "census-2010-word6",
+    "title": "従業地・通学地に関する用語",
+    "url": "https://www.stat.go.jp/data/kokusei/2010/users-g/word6.html",
+    "indexUrl": "https://www.stat.go.jp/data/kokusei/2010/users-g/word.html",
+    "publisher": "総務省統計局",
+    "retrievedAt": "2026-09-17",
+    "termIds": ["place_of_work_or_school", "nighttime_population", "daytime_population", "transportation_mode", "household_daytime_status"]
+  },
+  {
+    "id": "census-2010-word7",
+    "title": "地域区分に関する用語",
+    "url": "https://www.stat.go.jp/data/kokusei/2010/users-g/word7.html",
+    "indexUrl": "https://www.stat.go.jp/data/kokusei/2010/users-g/word.html",
+    "publisher": "総務省統計局",
+    "retrievedAt": "2026-09-17",
+    "termIds": ["prefecture", "municipality", "former_municipality", "shi_bu", "gun_bu", "major_city", "densely_inhabited_district", "quasi_densely_inhabited_district", "combined_densely_inhabited_district", "metropolitan_area", "urban_area", "central_city", "surrounding_municipality", "distance_zone", "basic_unit_block", "cho_aza", "regional_mesh", "urban_planning_area_classification"]
+  }
+]

@@ -3,6 +3,14 @@
   "name": "e-Stat 初心者モード",
   "version": "0.1.0",
   "description": "e-Stat上の統計用語をその場でやさしく解説します。",
+
+  "icons": {
+    "16": "icons/icon.png",
+    "32": "icons/icon.png",
+    "48": "icons/icon.png",
+    "128": "icons/icon.png"
+  },
+
   "permissions": ["storage", "activeTab"],
   "host_permissions": ["https://www.e-stat.go.jp/*"],
   "action": {

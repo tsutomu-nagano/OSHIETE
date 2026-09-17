@@ -14,6 +14,7 @@
         .filter(Boolean)
         .map((label) => ({ label, term })))
         .sort((a, b) => b.label.length - a.label.length);
+      this.termsByLabel = new Map(this.matches.map(({ label, term }) => [label, term]));
       this.matcher = this.matches.length ? new app.AhoCorasickMatcher(this.matches) : null;
       this.count = 0;
       this.onCountChange = onCountChange;
@@ -88,6 +89,10 @@
 
     getTerm(id) {
       return this.termsById.get(id);
+    }
+
+    findTermByLabel(label) {
+      return this.termsByLabel.get(label);
     }
   }
 

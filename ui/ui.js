@@ -3,9 +3,10 @@
   const app = globalThis.EstatBeginner = globalThis.EstatBeginner || {};
 
   class BeginnerUI {
-    constructor(getTerm, onModeChange) {
+    constructor(getTerm, onModeChange, findTermByLabel) {
       this.getTerm = getTerm;
       this.onModeChange = onModeChange;
+      this.findTermByLabel = findTermByLabel;
       this.host = null;
       this.shadow = null;
       this.tooltip = null;
@@ -36,9 +37,9 @@
         <label class="mode-control">
           <span class="mode-icon" aria-hidden="true">
             <svg viewBox="0 0 24 24" focusable="false">
-              <path d="M4.5 4.5h15v11h-8l-4.5 4v-4H4.5z"></path>
-              <path d="M9.8 8.7a2.35 2.35 0 0 1 4.58.74c0 1.74-2.38 1.73-2.38 3.06"></path>
-              <circle cx="12" cy="14.6" r=".7"></circle>
+              <circle cx="12" cy="12" r="9"></circle>
+              <path d="M9.7 9.1a2.5 2.5 0 0 1 4.85.85c0 1.85-2.55 2.05-2.55 3.55"></path>
+              <path d="M12 16.8h.01"></path>
             </svg>
           </span>
           <span class="mode-label">教えてモード</span>
@@ -50,8 +51,13 @@
         <div class="tooltip" role="tooltip" hidden></div>
         <aside class="drawer" aria-label="用語解説" aria-hidden="true">
           <header>
-            <span>用語解説</span>
-            <button class="close" type="button" aria-label="用語解説を閉じる">×</button>
+            <span class="drawer-heading">
+              <span class="heading-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M11.5 3.5 13 8l4.5 1.5L13 11l-1.5 4.5L10 11 5.5 9.5 10 8zM18.5 14.5l.8 2.2 2.2.8-2.2.8-.8 2.2-.8-2.2-2.2-.8 2.2-.8z"/></svg>
+              </span>
+              用語解説
+            </span>
+            <button class="close" type="button">閉じる</button>
           </header>
           <div class="drawer-content"></div>
         </aside>`;
@@ -159,16 +165,85 @@
       }
     }
 
-    createSection(title, values, className) {
+    createIcon(name) {
+      const paths = {
+        info: 'M12 10.5v6M12 7.5h.01M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0z',
+        lightbulb: 'M9 18h6M10 22h4M8.2 14.6A6 6 0 1 1 15.8 14.6c-.9.7-1.3 1.5-1.3 2.4h-5c0-.9-.4-1.7-1.3-2.4z',
+        link: 'M10 13a5 5 0 0 0 7.5.5l2-2a5 5 0 0 0-7-7l-1.1 1.1M14 11a5 5 0 0 0-7.5-.5l-2 2a5 5 0 0 0 7 7l1.1-1.1',
+        source: 'M6 3h9l4 4v14H6zM14 3v5h5M9 12h6M9 16h6'
+      };
+      const iconElement = document.createElement('span');
+      iconElement.className = 'heading-icon';
+      iconElement.setAttribute('aria-hidden', 'true');
+      const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+      svg.setAttribute('viewBox', '0 0 24 24');
+      const path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+      path.setAttribute('d', paths[name] || paths.info);
+      svg.append(path);
+      iconElement.append(svg);
+      return iconElement;
+    }
+
+    createHeading(title, icon, level = 'h3') {
+      const heading = document.createElement(level);
+      const iconElement = this.createIcon(icon);
+      const label = document.createElement('span');
+      label.textContent = title;
+      heading.append(iconElement, label);
+      return heading;
+    }
+
+    createSection(title, icon, values, className) {
       if (!values?.length) return null;
       const section = document.createElement('section');
       section.className = className;
-      const heading = document.createElement('h3');
-      heading.textContent = title;
+      const heading = this.createHeading(title, icon);
       const list = document.createElement('ul');
       values.forEach((value) => {
         const item = document.createElement('li');
-        item.textContent = value;
+        const relatedTerm = className === 'related-section'
+          ? this.findTermByLabel?.(value)
+          : null;
+        if (relatedTerm) {
+          const button = document.createElement('button');
+          button.type = 'button';
+          button.className = 'related-term-link';
+          button.textContent = value;
+          button.addEventListener('click', () => this.openDrawer(relatedTerm));
+          item.append(button);
+        } else {
+          item.textContent = value;
+        }
+        list.append(item);
+      });
+      section.append(heading, list);
+      return section;
+    }
+
+    createSourcesSection(sources) {
+      const section = document.createElement('section');
+      section.className = 'sources-section';
+      const heading = this.createHeading('出典', 'source');
+      if (!sources?.length) {
+        const empty = document.createElement('p');
+        empty.className = 'source-empty';
+        empty.textContent = '出典情報は登録されていません。';
+        section.append(heading, empty);
+        return section;
+      }
+      const list = document.createElement('ul');
+      sources.forEach((source) => {
+        const item = document.createElement('li');
+        const link = document.createElement('a');
+        link.href = source.url;
+        link.target = '_blank';
+        link.rel = 'noopener noreferrer';
+        link.textContent = source.title;
+        const metadata = document.createElement('span');
+        metadata.className = 'source-metadata';
+        metadata.textContent = [source.publisher, source.retrievedAt ? `取得日：${source.retrievedAt}` : '']
+          .filter(Boolean).join(' ／ ');
+        item.append(link, metadata);
         list.append(item);
       });
       section.append(heading, list);
@@ -189,18 +264,19 @@
       const lead = document.createElement('p');
       lead.className = 'lead';
       lead.textContent = term.shortDescription;
-      const detailTitle = document.createElement('h3');
-      detailTitle.textContent = '詳しい説明';
+      const detailTitle = this.createHeading('詳しい説明', 'info');
       const detail = document.createElement('p');
       detail.textContent = term.description;
       const detailSection = document.createElement('section');
       detailSection.className = 'detail-section';
       detailSection.append(detailTitle, detail);
       content.append(title, category, lead, detailSection);
-      const examples = this.createSection('例', term.examples, 'examples-section');
-      const related = this.createSection('関連用語', term.relatedTerms, 'related-section');
+      const examples = this.createSection('例', 'lightbulb', term.examples, 'examples-section');
+      const related = this.createSection('関連用語', 'link', term.relatedTerms, 'related-section');
+      const sources = this.createSourcesSection(term.sources);
       if (examples) content.append(examples);
       if (related) content.append(related);
+      content.append(sources);
 
       this.drawer.classList.add('open');
       this.drawer.setAttribute('aria-hidden', 'false');

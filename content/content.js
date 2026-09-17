@@ -7,12 +7,26 @@
   let enabled = false;
   let operation = Promise.resolve();
 
-  async function loadTerms() {
-    const response = await fetch(chrome.runtime.getURL('dictionary/terms.json'));
-    if (!response.ok) throw new Error(`辞書を読み込めませんでした (${response.status})`);
-    const terms = await response.json();
+  async function loadDictionary() {
+    const [termsResponse, sourcesResponse] = await Promise.all([
+      fetch(chrome.runtime.getURL('dictionary/terms.json')),
+      fetch(chrome.runtime.getURL('dictionary/sources.json'))
+    ]);
+    if (!termsResponse.ok) throw new Error(`辞書を読み込めませんでした (${termsResponse.status})`);
+    if (!sourcesResponse.ok) throw new Error(`出典を読み込めませんでした (${sourcesResponse.status})`);
+    const [terms, sources] = await Promise.all([termsResponse.json(), sourcesResponse.json()]);
     if (!Array.isArray(terms)) throw new Error('辞書の形式が正しくありません');
-    return terms;
+    if (!Array.isArray(sources)) throw new Error('出典の形式が正しくありません');
+
+    const sourcesByTermId = new Map();
+    sources.forEach((source) => {
+      (source.termIds || []).forEach((termId) => {
+        const termSources = sourcesByTermId.get(termId) || [];
+        termSources.push(source);
+        sourcesByTermId.set(termId, termSources);
+      });
+    });
+    return terms.map((term) => ({ ...term, sources: sourcesByTermId.get(term.id) || [] }));
   }
 
   function saveCount(count) {
@@ -23,14 +37,15 @@
     if (ui) return;
     ui = new app.BeginnerUI(
       (id) => marker?.getTerm(id),
-      (nextEnabled) => chrome.storage.sync.set({ beginnerModeEnabled: nextEnabled })
+      (nextEnabled) => chrome.storage.sync.set({ beginnerModeEnabled: nextEnabled }),
+      (label) => marker?.findTermByLabel(label)
     );
     await ui.mount();
   }
 
   async function ensureMarker() {
     if (marker) return;
-    const terms = await loadTerms();
+    const terms = await loadDictionary();
     marker = new app.TermMarker(terms, saveCount);
   }
 
