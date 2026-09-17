@@ -1,4 +1,10 @@
-# OSHIETE — e-Stat 初心者モード
+# OSHIETE
+
+`O`penly `S`eek Help, `I`nformation, `E`xplanations, `T`ips, and `E`xamples  
+~ わからないことがあれば、情報・説明・ヒント・例を気軽に探せる ~ 
+
+
+---
 
 e-Statのページに表示された統計用語を検出し、その場でやさしい説明を表示するChrome / Microsoft Edge向けブラウザ拡張のPoCです。e-Stat本体には手を加えず、Manifest V3のContent Scriptから必要なTextNodeだけを安全にマークします。
 
