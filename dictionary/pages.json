@@ -1,0 +1,17 @@
+[
+  {
+    "urlPattern": "/stat-search/",
+    "elements": [
+      {
+        "selector": "#search-button",
+        "title": "検索ボタン",
+        "description": "設定した条件で統計表を検索します。"
+      },
+      {
+        "selector": ".stats-list",
+        "title": "検索結果",
+        "description": "条件に一致した統計表が表示されます。"
+      }
+    ]
+  }
+]

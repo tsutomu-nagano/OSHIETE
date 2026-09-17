@@ -1,0 +1,123 @@
+[
+  {
+    "id": "statistical_table",
+    "term": "統計表",
+    "aliases": ["統計表一覧"],
+    "shortDescription": "統計調査の結果を表形式でまとめたものです。",
+    "description": "統計調査の結果を、分類、地域、時間などの軸によって表形式で整理したものです。",
+    "examples": ["人口統計表", "事業所数の統計表"],
+    "relatedTerms": ["統計調査", "表章項目"],
+    "category": "基本用語",
+    "difficulty": 1
+  },
+  {
+    "id": "statistical_survey",
+    "term": "統計調査",
+    "aliases": [],
+    "shortDescription": "社会や経済の状態を数値で把握するための調査です。",
+    "description": "国や地方公共団体などが、対象となる人や事業所から情報を集め、社会・経済の状態を明らかにする調査です。",
+    "examples": ["国勢調査", "経済センサス"],
+    "relatedTerms": ["政府統計", "調査票情報"],
+    "category": "基本用語",
+    "difficulty": 1
+  },
+  {
+    "id": "official_statistics",
+    "term": "政府統計",
+    "aliases": [],
+    "shortDescription": "行政機関などが作成する公的な統計です。",
+    "description": "国の行政機関、地方公共団体などが作成する、社会や経済を把握するための公的な統計です。",
+    "examples": ["国勢調査の結果", "人口動態統計"],
+    "relatedTerms": ["統計調査", "政府統計コード"],
+    "category": "基本用語",
+    "difficulty": 1
+  },
+  {
+    "id": "official_statistics_code",
+    "term": "政府統計コード",
+    "aliases": [],
+    "shortDescription": "政府統計を識別するためのコードです。",
+    "description": "e-Statで各政府統計を重複なく識別するために付けられたコードです。",
+    "examples": [],
+    "relatedTerms": ["政府統計"],
+    "category": "識別情報",
+    "difficulty": 2
+  },
+  {
+    "id": "display_item",
+    "term": "表章項目",
+    "aliases": ["表章事項"],
+    "shortDescription": "統計表で表示される数値の種類です。",
+    "description": "統計表の中で集計・表示対象となる項目を表します。",
+    "examples": ["人口", "世帯数", "平均年齢"],
+    "relatedTerms": ["分類事項", "時間軸"],
+    "category": "統計表",
+    "difficulty": 2
+  },
+  {
+    "id": "classification_item",
+    "term": "分類事項",
+    "aliases": [],
+    "shortDescription": "統計値をグループ分けするための観点です。",
+    "description": "性別、年齢、産業など、統計値を分類して比較するために使う項目です。",
+    "examples": ["男女", "年齢階級", "産業分類"],
+    "relatedTerms": ["表章項目", "地域区分"],
+    "category": "統計表",
+    "difficulty": 2
+  },
+  {
+    "id": "time_axis",
+    "term": "時間軸",
+    "aliases": [],
+    "shortDescription": "統計値がいつの時点・期間のものかを示す軸です。",
+    "description": "年、四半期、月など、統計値の時点または対象期間を表す項目です。",
+    "examples": ["2025年", "2026年4月"],
+    "relatedTerms": ["表章項目"],
+    "category": "統計表",
+    "difficulty": 1
+  },
+  {
+    "id": "regional_classification",
+    "term": "地域区分",
+    "aliases": [],
+    "shortDescription": "統計値を地域ごとに分ける単位です。",
+    "description": "全国、都道府県、市区町村など、統計値を地域別に表示・比較するための区分です。",
+    "examples": ["全国", "東京都", "市区町村"],
+    "relatedTerms": ["分類事項"],
+    "category": "統計表",
+    "difficulty": 1
+  },
+  {
+    "id": "dataset",
+    "term": "データセット",
+    "aliases": [],
+    "shortDescription": "ひとまとまりとして扱われるデータです。",
+    "description": "特定の目的やテーマに沿って収集・整理され、ひとまとまりとして提供されるデータです。",
+    "examples": [],
+    "relatedTerms": ["メタ情報"],
+    "category": "データ",
+    "difficulty": 1
+  },
+  {
+    "id": "metadata",
+    "term": "メタ情報",
+    "aliases": ["メタデータ"],
+    "shortDescription": "データの内容や条件を説明する情報です。",
+    "description": "データの名称、作成者、作成時期、単位、分類など、データを正しく理解して利用するための情報です。",
+    "examples": ["単位", "更新日", "調査名"],
+    "relatedTerms": ["データセット"],
+    "category": "データ",
+    "difficulty": 2
+  },
+  {
+    "id": "questionnaire_information",
+    "term": "調査票情報",
+    "aliases": [],
+    "shortDescription": "調査票から得られた回答単位の情報です。",
+    "description": "統計調査で集めた個々の調査票の回答をもとにした情報です。利用には所定の手続きが必要な場合があります。",
+    "examples": [],
+    "relatedTerms": ["統計調査"],
+    "category": "データ",
+    "difficulty": 3
+  }
+]

@@ -1,0 +1,30 @@
+.estat-beginner-term {
+  padding: 0 2px !important;
+  color: inherit !important;
+  background-color: rgba(23, 105, 170, 0.08) !important;
+  text-decoration-line: underline !important;
+  text-decoration-style: dotted !important;
+  text-decoration-color: #1769aa !important;
+  text-decoration-thickness: 2px !important;
+  text-underline-offset: 3px !important;
+  border-radius: 2px !important;
+  cursor: help !important;
+  transition: background-color 120ms ease, box-shadow 120ms ease !important;
+}
+
+.estat-beginner-term:hover {
+  background-color: rgba(23, 105, 170, 0.16) !important;
+  box-shadow: 0 0 0 1px rgba(23, 105, 170, 0.22) !important;
+}
+
+.estat-beginner-term:focus-visible {
+  outline: 2px solid #1769aa !important;
+  outline-offset: 2px !important;
+  background-color: rgba(23, 105, 170, 0.16) !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .estat-beginner-term {
+    transition: none !important;
+  }
+}

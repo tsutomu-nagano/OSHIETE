@@ -1,0 +1,34 @@
+{
+  "manifest_version": 3,
+  "name": "e-Stat 初心者モード",
+  "version": "0.1.0",
+  "description": "e-Stat上の統計用語をその場でやさしく解説します。",
+  "permissions": ["storage", "activeTab"],
+  "host_permissions": ["https://www.e-stat.go.jp/*"],
+  "action": {
+    "default_title": "e-Stat 初心者モード",
+    "default_popup": "popup/popup.html"
+  },
+  "background": {
+    "service_worker": "background/service-worker.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.e-stat.go.jp/*"],
+      "js": [
+        "content/term-marker.js",
+        "ui/ui.js",
+        "content/mutation-observer.js",
+        "content/content.js"
+      ],
+      "css": ["content/term-styles.css"],
+      "run_at": "document_idle"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["dictionary/*.json", "ui/styles.css"],
+      "matches": ["https://www.e-stat.go.jp/*"]
+    }
+  ]
+}
