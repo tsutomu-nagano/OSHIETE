@@ -18,7 +18,8 @@
       "marital_status",
       "education",
       "nationality"
-    ]
+    ],
+    "officialStatisticsCode": "00200521"
   },
   {
     "id": "census-2010-word2",
@@ -38,7 +39,8 @@
       "elderly_single_household",
       "elderly_couple_household",
       "household_economic_composition"
-    ]
+    ],
+    "officialStatisticsCode": "00200521"
   },
   {
     "id": "census-2010-word3",
@@ -52,7 +54,8 @@
       "housing_tenure",
       "total_floor_area",
       "building_type"
-    ]
+    ],
+    "officialStatisticsCode": "00200521"
   },
   {
     "id": "census-2010-word4",
@@ -68,7 +71,8 @@
       "industry",
       "occupation",
       "socioeconomic_classification"
-    ]
+    ],
+    "officialStatisticsCode": "00200521"
   },
   {
     "id": "census-2010-word5",
@@ -81,7 +85,8 @@
       "residence_duration",
       "residence_five_years_ago",
       "household_migration_type"
-    ]
+    ],
+    "officialStatisticsCode": "00200521"
   },
   {
     "id": "census-2010-word6",
@@ -96,7 +101,8 @@
       "daytime_population",
       "transportation_mode",
       "household_daytime_status"
-    ]
+    ],
+    "officialStatisticsCode": "00200521"
   },
   {
     "id": "census-2010-word7",
@@ -124,7 +130,8 @@
       "cho_aza",
       "regional_mesh",
       "urban_planning_area_classification"
-    ]
+    ],
+    "officialStatisticsCode": "00200521"
   },
   {
     "id": "economic-census-2019-glossary",
@@ -149,7 +156,8 @@
       "enterprise_industry_classification",
       "capital_amount",
       "sales_revenue_amount"
-    ]
+    ],
+    "officialStatisticsCode": "00200552"
   },
   {
     "id": "mext-school-basic-survey-glossary",
@@ -178,7 +186,8 @@
       "school_basic_survey_temporary_employee",
       "school_basic_survey_other_postgraduation_status",
       "school_basic_survey_deceased_or_unknown_postgraduation_status"
-    ]
+    ],
+    "officialStatisticsCode": "00400001"
   },
   {
     "id": "maff-agriculture-forestry-census-glossary",
@@ -415,6 +424,103 @@
       "mountain_area",
       "gorge",
       "unconnectable_settlement_data"
+    ],
+    "officialStatisticsCode": "00500209"
+  },
+  {
+    "id": "labour-force-survey-definitions-2013",
+    "title": "労働力調査 用語の解説",
+    "url": "https://www.stat.go.jp/data/roudou/pdf/definit.pdf",
+    "indexUrl": "https://www.stat.go.jp/data/roudou/index.html",
+    "publisher": "総務省統計局",
+    "retrievedAt": "2026-09-18",
+    "officialStatisticsCode": "00200531",
+    "termIds": [
+      "labour_force_survey_age",
+      "labour_force_survey_marital_status",
+      "labour_force_survey_relationship_to_household_head",
+      "labour_force_survey_spouse_of_household_head",
+      "labour_force_survey_other_family_member",
+      "labour_force_survey_education",
+      "labour_force_survey_employment_status",
+      "labour_force_population",
+      "labour_force_survey_employed_person",
+      "labour_force_survey_person_at_work",
+      "labour_force_survey_person_not_at_work",
+      "labour_force_survey_unemployed_person",
+      "labour_force_survey_not_in_labour_force",
+      "labour_force_population_ratio",
+      "labour_force_survey_employment_rate",
+      "labour_force_survey_unemployment_rate",
+      "labour_force_survey_status_in_employment",
+      "labour_force_survey_self_employed_worker",
+      "labour_force_survey_self_employed_with_employees",
+      "labour_force_survey_self_employed_without_employees",
+      "labour_force_survey_general_self_employed_without_employees",
+      "labour_force_survey_home_worker",
+      "labour_force_survey_family_worker",
+      "labour_force_survey_employee",
+      "labour_force_survey_regular_employee",
+      "labour_force_survey_executive",
+      "labour_force_survey_general_regular_employee",
+      "labour_force_survey_indefinite_contract",
+      "labour_force_survey_fixed_term_contract_over_one_year",
+      "labour_force_survey_temporary_employee",
+      "labour_force_survey_daily_employee",
+      "labour_force_survey_form_of_employment",
+      "days_worked_in_last_week",
+      "average_weekly_days_worked",
+      "weekly_hours_worked",
+      "aggregate_weekly_hours_worked",
+      "average_weekly_hours_worked",
+      "monthly_days_worked",
+      "average_monthly_days_worked",
+      "monthly_hours_worked",
+      "average_monthly_hours_worked",
+      "average_annual_days_worked",
+      "average_annual_hours_worked",
+      "labour_force_survey_industry",
+      "labour_force_survey_occupation",
+      "labour_force_survey_enterprise_size",
+      "labour_force_survey_legal_organization",
+      "tenure_in_present_job",
+      "employment_mobility",
+      "job_changer",
+      "newly_employed_person",
+      "job_changer_ratio",
+      "desire_to_change_or_add_job",
+      "job_seeker_among_employed",
+      "non_job_seeker_among_employed",
+      "no_desire_to_change_or_add_job",
+      "desire_for_more_working_hours",
+      "desire_for_fewer_working_hours",
+      "reason_for_seeking_work",
+      "seeking_work_after_leaving_job",
+      "involuntary_job_separation",
+      "retirement_or_contract_expiry_separation",
+      "employer_initiated_separation",
+      "voluntary_job_separation",
+      "newly_seeking_work",
+      "school_graduate_not_yet_employed",
+      "seeking_work_due_to_income_need",
+      "other_reason_for_new_job_search",
+      "job_search_method",
+      "duration_of_unemployment",
+      "timing_of_job_search_activity",
+      "unemployed_person_after_job_separation",
+      "desire_for_work",
+      "person_wishing_to_work",
+      "person_with_job_offer",
+      "person_not_wishing_to_work",
+      "timing_of_previous_job_separation",
+      "labour_force_survey_household_type",
+      "two_or_more_person_household",
+      "labour_force_survey_one_person_household",
+      "related_household",
+      "nuclear_family_household",
+      "household_with_married_couple",
+      "labour_force_survey_mother_child_household",
+      "elderly_household"
     ]
   }
 ]

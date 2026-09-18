@@ -19,15 +19,22 @@
     if (!Array.isArray(terms)) throw new Error('辞書の形式が正しくありません');
     if (!Array.isArray(sources)) throw new Error('出典の形式が正しくありません');
 
+    const governmentStatisticsCode = new URL(location.href).searchParams.get('toukei');
+    const activeSources = governmentStatisticsCode
+      ? sources.filter((source) => source.governmentStatisticsCodes?.includes(governmentStatisticsCode))
+      : sources;
+
     const sourcesByTermId = new Map();
-    sources.forEach((source) => {
+    activeSources.forEach((source) => {
       (source.termIds || []).forEach((termId) => {
         const termSources = sourcesByTermId.get(termId) || [];
         termSources.push(source);
         sourcesByTermId.set(termId, termSources);
       });
     });
-    return terms.map((term) => ({ ...term, sources: sourcesByTermId.get(term.id) || [] }));
+    return terms
+      .filter((term) => !governmentStatisticsCode || sourcesByTermId.has(term.id))
+      .map((term) => ({ ...term, sources: sourcesByTermId.get(term.id) || [] }));
   }
 
   function saveCount(count) {

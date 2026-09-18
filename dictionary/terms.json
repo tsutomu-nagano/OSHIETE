@@ -16,7 +16,8 @@
       "表章項目"
     ],
     "category": "基本用語",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": []
   },
   {
     "id": "statistical_survey",
@@ -33,7 +34,8 @@
       "調査票情報"
     ],
     "category": "基本用語",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": []
   },
   {
     "id": "official_statistics",
@@ -50,7 +52,8 @@
       "政府統計コード"
     ],
     "category": "基本用語",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": []
   },
   {
     "id": "official_statistics_code",
@@ -63,7 +66,8 @@
       "政府統計"
     ],
     "category": "識別情報",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": []
   },
   {
     "id": "display_item",
@@ -83,7 +87,8 @@
       "時間軸"
     ],
     "category": "統計表",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": []
   },
   {
     "id": "classification_item",
@@ -101,7 +106,8 @@
       "地域区分"
     ],
     "category": "統計表",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": []
   },
   {
     "id": "time_axis",
@@ -117,7 +123,8 @@
       "表章項目"
     ],
     "category": "統計表",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": []
   },
   {
     "id": "regional_classification",
@@ -134,7 +141,8 @@
       "分類事項"
     ],
     "category": "統計表",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": []
   },
   {
     "id": "dataset",
@@ -147,7 +155,8 @@
       "メタ情報"
     ],
     "category": "データ",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": []
   },
   {
     "id": "metadata",
@@ -166,7 +175,8 @@
       "データセット"
     ],
     "category": "データ",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": []
   },
   {
     "id": "questionnaire_information",
@@ -179,7 +189,8 @@
       "統計調査"
     ],
     "category": "データ",
-    "difficulty": 3
+    "difficulty": 3,
+    "officialStatisticsCodes": []
   },
   {
     "id": "population",
@@ -198,7 +209,10 @@
       "夜間人口"
     ],
     "category": "人口の基本属性",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200521"
+    ]
   },
   {
     "id": "population_center",
@@ -215,7 +229,10 @@
       "基本単位区"
     ],
     "category": "人口の基本属性",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00200521"
+    ]
   },
   {
     "id": "area",
@@ -230,7 +247,10 @@
       "人口密度"
     ],
     "category": "人口の基本属性",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200521"
+    ]
   },
   {
     "id": "population_density",
@@ -247,7 +267,10 @@
       "人口集中地区"
     ],
     "category": "人口の基本属性",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200521"
+    ]
   },
   {
     "id": "sex_ratio",
@@ -264,7 +287,10 @@
       "人口"
     ],
     "category": "人口の基本属性",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00200521"
+    ]
   },
   {
     "id": "age",
@@ -283,7 +309,10 @@
       "年齢中位数"
     ],
     "category": "人口の基本属性",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200521"
+    ]
   },
   {
     "id": "average_age",
@@ -299,7 +328,10 @@
       "年齢中位数"
     ],
     "category": "人口の基本属性",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00200521"
+    ]
   },
   {
     "id": "median_age",
@@ -315,7 +347,10 @@
       "平均年齢"
     ],
     "category": "人口の基本属性",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00200521"
+    ]
   },
   {
     "id": "marital_status",
@@ -333,7 +368,10 @@
       "世帯の家族類型"
     ],
     "category": "人口の基本属性",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200521"
+    ]
   },
   {
     "id": "education",
@@ -350,7 +388,10 @@
       "通学地"
     ],
     "category": "人口の基本属性",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200521"
+    ]
   },
   {
     "id": "nationality",
@@ -367,7 +408,10 @@
       "人口"
     ],
     "category": "人口の基本属性",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200521"
+    ]
   },
   {
     "id": "household_type",
@@ -384,7 +428,10 @@
       "世帯人員"
     ],
     "category": "世帯・家族",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200521"
+    ]
   },
   {
     "id": "household_head",
@@ -398,7 +445,10 @@
       "世帯の種類"
     ],
     "category": "世帯・家族",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200521"
+    ]
   },
   {
     "id": "household_members",
@@ -416,7 +466,10 @@
       "世帯の種類"
     ],
     "category": "世帯・家族",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200521"
+    ]
   },
   {
     "id": "family_type",
@@ -435,7 +488,10 @@
       "3世代世帯"
     ],
     "category": "世帯・家族",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00200521"
+    ]
   },
   {
     "id": "three_generation_household",
@@ -453,7 +509,10 @@
       "世帯の家族類型"
     ],
     "category": "世帯・家族",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200521"
+    ]
   },
   {
     "id": "mother_child_household",
@@ -467,7 +526,10 @@
       "一般世帯"
     ],
     "category": "世帯・家族",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200521"
+    ]
   },
   {
     "id": "father_child_household",
@@ -481,7 +543,10 @@
       "一般世帯"
     ],
     "category": "世帯・家族",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200521"
+    ]
   },
   {
     "id": "elderly_single_household",
@@ -494,7 +559,10 @@
       "高齢夫婦世帯"
     ],
     "category": "世帯・家族",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200521"
+    ]
   },
   {
     "id": "elderly_couple_household",
@@ -507,7 +575,10 @@
       "高齢単身世帯"
     ],
     "category": "世帯・家族",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200521"
+    ]
   },
   {
     "id": "household_economic_composition",
@@ -525,7 +596,10 @@
       "産業"
     ],
     "category": "世帯・家族",
-    "difficulty": 3
+    "difficulty": 3,
+    "officialStatisticsCodes": [
+      "00200521"
+    ]
   },
   {
     "id": "dwelling_type",
@@ -542,7 +616,10 @@
       "住宅の建て方"
     ],
     "category": "住宅・居住地",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200521"
+    ]
   },
   {
     "id": "housing_tenure",
@@ -561,7 +638,10 @@
       "住居の種類"
     ],
     "category": "住宅・居住地",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200521"
+    ]
   },
   {
     "id": "total_floor_area",
@@ -578,7 +658,10 @@
       "住居の種類"
     ],
     "category": "住宅・居住地",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200521"
+    ]
   },
   {
     "id": "building_type",
@@ -595,7 +678,10 @@
       "住居の種類"
     ],
     "category": "住宅・居住地",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200521"
+    ]
   },
   {
     "id": "labour_force_status",
@@ -613,7 +699,10 @@
       "従業上の地位"
     ],
     "category": "労働・就業",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00200521"
+    ]
   },
   {
     "id": "labour_force_rate",
@@ -629,7 +718,10 @@
       "労働力人口"
     ],
     "category": "労働・就業",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00200521"
+    ]
   },
   {
     "id": "employment_status",
@@ -648,7 +740,10 @@
       "職業"
     ],
     "category": "労働・就業",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00200521"
+    ]
   },
   {
     "id": "industry",
@@ -668,7 +763,10 @@
       "従業上の地位"
     ],
     "category": "労働・就業",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00200521"
+    ]
   },
   {
     "id": "occupation",
@@ -688,7 +786,10 @@
       "従業上の地位"
     ],
     "category": "労働・就業",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00200521"
+    ]
   },
   {
     "id": "socioeconomic_classification",
@@ -707,7 +808,10 @@
       "従業上の地位"
     ],
     "category": "労働・就業",
-    "difficulty": 3
+    "difficulty": 3,
+    "officialStatisticsCodes": [
+      "00200521"
+    ]
   },
   {
     "id": "residence_duration",
@@ -723,7 +827,10 @@
       "5年前の常住地"
     ],
     "category": "人口移動",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200521"
+    ]
   },
   {
     "id": "residence_five_years_ago",
@@ -743,7 +850,10 @@
       "世帯の移動類型"
     ],
     "category": "人口移動",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200521"
+    ]
   },
   {
     "id": "household_migration_type",
@@ -759,7 +869,10 @@
       "5年前の常住地"
     ],
     "category": "人口移動",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00200521"
+    ]
   },
   {
     "id": "place_of_work_or_school",
@@ -776,7 +889,10 @@
       "昼間人口"
     ],
     "category": "従業地・通学地",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200521"
+    ]
   },
   {
     "id": "nighttime_population",
@@ -792,7 +908,10 @@
       "人口"
     ],
     "category": "従業地・通学地",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200521"
+    ]
   },
   {
     "id": "daytime_population",
@@ -810,7 +929,10 @@
       "従業地・通学地"
     ],
     "category": "従業地・通学地",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00200521"
+    ]
   },
   {
     "id": "transportation_mode",
@@ -827,7 +949,10 @@
       "従業地・通学地"
     ],
     "category": "従業地・通学地",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200521"
+    ]
   },
   {
     "id": "household_daytime_status",
@@ -842,7 +967,10 @@
       "従業地・通学地"
     ],
     "category": "従業地・通学地",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00200521"
+    ]
   },
   {
     "id": "prefecture",
@@ -859,7 +987,10 @@
       "地域区分"
     ],
     "category": "地域区分",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200521"
+    ]
   },
   {
     "id": "municipality",
@@ -876,7 +1007,10 @@
       "旧市町村"
     ],
     "category": "地域区分",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200521"
+    ]
   },
   {
     "id": "former_municipality",
@@ -891,7 +1025,10 @@
       "市区町村"
     ],
     "category": "地域区分",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00200521"
+    ]
   },
   {
     "id": "shi_bu",
@@ -908,7 +1045,10 @@
       "市区町村"
     ],
     "category": "地域区分",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00200521"
+    ]
   },
   {
     "id": "gun_bu",
@@ -924,7 +1064,10 @@
       "市区町村"
     ],
     "category": "地域区分",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00200521"
+    ]
   },
   {
     "id": "major_city",
@@ -941,7 +1084,10 @@
       "市区町村"
     ],
     "category": "地域区分",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200521"
+    ]
   },
   {
     "id": "densely_inhabited_district",
@@ -957,7 +1103,10 @@
       "基本単位区"
     ],
     "category": "地域区分",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00200521"
+    ]
   },
   {
     "id": "quasi_densely_inhabited_district",
@@ -971,7 +1120,10 @@
       "基本単位区"
     ],
     "category": "地域区分",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00200521"
+    ]
   },
   {
     "id": "combined_densely_inhabited_district",
@@ -985,7 +1137,10 @@
       "大都市"
     ],
     "category": "地域区分",
-    "difficulty": 3
+    "difficulty": 3,
+    "officialStatisticsCodes": [
+      "00200521"
+    ]
   },
   {
     "id": "metropolitan_area",
@@ -1003,7 +1158,10 @@
       "周辺市町村"
     ],
     "category": "地域区分",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00200521"
+    ]
   },
   {
     "id": "urban_area",
@@ -1021,7 +1179,10 @@
       "周辺市町村"
     ],
     "category": "地域区分",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00200521"
+    ]
   },
   {
     "id": "central_city",
@@ -1039,7 +1200,10 @@
       "周辺市町村"
     ],
     "category": "地域区分",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00200521"
+    ]
   },
   {
     "id": "surrounding_municipality",
@@ -1054,7 +1218,10 @@
       "都市圏"
     ],
     "category": "地域区分",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00200521"
+    ]
   },
   {
     "id": "distance_zone",
@@ -1073,7 +1240,10 @@
       "町丁・字等"
     ],
     "category": "地域区分",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00200521"
+    ]
   },
   {
     "id": "basic_unit_block",
@@ -1089,7 +1259,10 @@
       "人口集中地区"
     ],
     "category": "地域区分",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00200521"
+    ]
   },
   {
     "id": "cho_aza",
@@ -1109,7 +1282,10 @@
       "市区町村"
     ],
     "category": "地域区分",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00200521"
+    ]
   },
   {
     "id": "regional_mesh",
@@ -1127,7 +1303,10 @@
       "地域区分"
     ],
     "category": "地域区分",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00200521"
+    ]
   },
   {
     "id": "urban_planning_area_classification",
@@ -1144,7 +1323,10 @@
       "地域区分"
     ],
     "category": "地域区分",
-    "difficulty": 3
+    "difficulty": 3,
+    "officialStatisticsCodes": [
+      "00200521"
+    ]
   },
   {
     "id": "establishment",
@@ -1163,7 +1345,10 @@
       "事業所の産業分類"
     ],
     "category": "事業所・企業",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200552"
+    ]
   },
   {
     "id": "establishment_by_activity_status",
@@ -1181,7 +1366,10 @@
       "事業所"
     ],
     "category": "事業所・企業",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00200552"
+    ]
   },
   {
     "id": "persons_engaged",
@@ -1202,7 +1390,10 @@
       "事業従事者数"
     ],
     "category": "従業者",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200552"
+    ]
   },
   {
     "id": "employees_dispatched_from_other_establishments",
@@ -1221,7 +1412,10 @@
       "事業従事者数"
     ],
     "category": "従業者",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00200552"
+    ]
   },
   {
     "id": "private_sector_workers",
@@ -1237,7 +1431,10 @@
       "従業者"
     ],
     "category": "従業者",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00200552"
+    ]
   },
   {
     "id": "persons_working_at_establishment",
@@ -1253,7 +1450,10 @@
       "他からの出向・派遣従業者"
     ],
     "category": "従業者",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00200552"
+    ]
   },
   {
     "id": "establishment_industry_classification",
@@ -1272,7 +1472,10 @@
       "産業"
     ],
     "category": "産業分類",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00200552"
+    ]
   },
   {
     "id": "establishment_opening_period",
@@ -1290,7 +1493,10 @@
       "経営組織"
     ],
     "category": "事業所・企業",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00200552"
+    ]
   },
   {
     "id": "legal_organization",
@@ -1310,7 +1516,10 @@
       "会社企業"
     ],
     "category": "事業所・企業",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200552"
+    ]
   },
   {
     "id": "head_branch_status",
@@ -1331,7 +1540,10 @@
       "企業等"
     ],
     "category": "事業所・企業",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00200552"
+    ]
   },
   {
     "id": "head_office_location",
@@ -1351,7 +1563,10 @@
       "都道府県"
     ],
     "category": "事業所・企業",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200552"
+    ]
   },
   {
     "id": "enterprises_etc",
@@ -1369,7 +1584,10 @@
       "経営組織"
     ],
     "category": "事業所・企業",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00200552"
+    ]
   },
   {
     "id": "company_enterprise",
@@ -1388,7 +1606,10 @@
       "単独・本所・支所の別"
     ],
     "category": "事業所・企業",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00200552"
+    ]
   },
   {
     "id": "enterprise_industry_classification",
@@ -1407,7 +1628,10 @@
       "産業"
     ],
     "category": "産業分類",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00200552"
+    ]
   },
   {
     "id": "capital_amount",
@@ -1426,7 +1650,10 @@
       "経営組織"
     ],
     "category": "企業の経理",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200552"
+    ]
   },
   {
     "id": "sales_revenue_amount",
@@ -1451,7 +1678,10 @@
       "資本金額"
     ],
     "category": "企業の経理",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200552"
+    ]
   },
   {
     "id": "school_basic_survey_closed_school",
@@ -1462,7 +1692,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "学校基本調査",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00400001"
+    ]
   },
   {
     "id": "school_basic_survey_regular_staff",
@@ -1473,7 +1706,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "学校基本調査",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00400001"
+    ]
   },
   {
     "id": "school_basic_survey_concurrent_staff",
@@ -1488,7 +1724,10 @@
     ],
     "relatedTerms": [],
     "category": "学校基本調査",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00400001"
+    ]
   },
   {
     "id": "school_basic_survey_educational_assistant",
@@ -1499,7 +1738,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "学校基本調査",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00400001"
+    ]
   },
   {
     "id": "school_basic_survey_long_term_absentees",
@@ -1510,7 +1752,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "学校基本調査",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00400001"
+    ]
   },
   {
     "id": "school_basic_survey_long_absence_illness",
@@ -1521,7 +1766,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "学校基本調査",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00400001"
+    ]
   },
   {
     "id": "school_basic_survey_long_absence_economic_reason",
@@ -1532,7 +1780,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "学校基本調査",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00400001"
+    ]
   },
   {
     "id": "school_basic_survey_long_absence_nonattendance",
@@ -1543,7 +1794,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "学校基本調査",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00400001"
+    ]
   },
   {
     "id": "school_basic_survey_long_absence_other_reason",
@@ -1558,7 +1812,10 @@
     ],
     "relatedTerms": [],
     "category": "学校基本調査",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00400001"
+    ]
   },
   {
     "id": "school_basic_survey_foreign_national",
@@ -1569,7 +1826,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "学校基本調査",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00400001"
+    ]
   },
   {
     "id": "school_basic_survey_multigrade_class",
@@ -1580,7 +1840,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "学校基本調査",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00400001"
+    ]
   },
   {
     "id": "school_basic_survey_secondary_integrated_school",
@@ -1591,7 +1854,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "学校基本調査",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00400001"
+    ]
   },
   {
     "id": "school_basic_survey_public_vocational_training_facilities",
@@ -1602,7 +1868,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "学校基本調査",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00400001"
+    ]
   },
   {
     "id": "school_basic_survey_self_employed_etc",
@@ -1613,7 +1882,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "学校基本調査",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00400001"
+    ]
   },
   {
     "id": "school_basic_survey_regular_employee",
@@ -1624,7 +1896,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "学校基本調査",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00400001"
+    ]
   },
   {
     "id": "school_basic_survey_indefinite_term_employee",
@@ -1635,7 +1910,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "学校基本調査",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00400001"
+    ]
   },
   {
     "id": "school_basic_survey_fixed_term_employee_one_month_or_more",
@@ -1646,7 +1924,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "学校基本調査",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00400001"
+    ]
   },
   {
     "id": "school_basic_survey_temporary_employee",
@@ -1657,7 +1938,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "学校基本調査",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00400001"
+    ]
   },
   {
     "id": "school_basic_survey_other_postgraduation_status",
@@ -1672,7 +1956,10 @@
     ],
     "relatedTerms": [],
     "category": "学校基本調査",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00400001"
+    ]
   },
   {
     "id": "school_basic_survey_deceased_or_unknown_postgraduation_status",
@@ -1683,7 +1970,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "学校基本調査",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00400001"
+    ]
   },
   {
     "id": "fundamental_statistical_survey",
@@ -1694,7 +1984,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 3
+    "difficulty": 3,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "general_statistical_survey",
@@ -1705,7 +1998,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "local_government_or_independent_agency_statistical_survey",
@@ -1716,7 +2012,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "census_survey_method",
@@ -1729,7 +2028,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "sample_survey_method",
@@ -1742,7 +2044,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "enumerator_completed_survey",
@@ -1755,7 +2060,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "respondent_completed_survey",
@@ -1766,7 +2074,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "survey_candidate_list",
@@ -1777,7 +2088,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "agricultural_and_forestry_management_entity",
@@ -1788,7 +2102,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 3
+    "difficulty": 3,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "agricultural_management_entity",
@@ -1799,7 +2116,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "forestry_management_entity",
@@ -1810,7 +2130,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "family_management_entity",
@@ -1821,7 +2144,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "organization_management_entity",
@@ -1832,7 +2158,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "non_farm_agricultural_business_for_sales",
@@ -1843,7 +2172,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "incorporated_management_entity",
@@ -1854,7 +2186,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "agricultural_producers_cooperative_corporation",
@@ -1865,7 +2200,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "company",
@@ -1876,7 +2214,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "stock_company",
@@ -1887,7 +2228,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "general_or_limited_partnership_company",
@@ -1898,7 +2242,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "limited_liability_company",
@@ -1909,7 +2256,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "various_organizations",
@@ -1920,7 +2270,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "agricultural_cooperative",
@@ -1931,7 +2284,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "forestry_cooperative",
@@ -1942,7 +2298,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "other_organizations",
@@ -1953,7 +2312,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "other_corporation",
@@ -1964,7 +2326,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "local_government_or_property_ward",
@@ -1975,7 +2340,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "single_farming_management_entity",
@@ -1986,7 +2354,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "quasi_single_mixed_farming_management_entity",
@@ -1997,7 +2368,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "mixed_farming_management_entity",
@@ -2008,7 +2382,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "managed_farmland",
@@ -2019,7 +2396,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 3
+    "difficulty": 3,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "managed_paddy_field",
@@ -2030,7 +2410,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "paddy_field_planted_with_rice",
@@ -2041,7 +2424,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "food_use_rice_paddy",
@@ -2052,7 +2438,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "feed_use_rice_paddy",
@@ -2063,7 +2452,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "double_cropped_rice_paddy",
@@ -2074,7 +2466,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "paddy_field_only_non_rice_crops",
@@ -2085,7 +2480,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "unplanted_paddy_field",
@@ -2096,7 +2494,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "managed_upland_field",
@@ -2107,7 +2508,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "upland_field_with_ordinary_crops",
@@ -2118,7 +2522,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "upland_field_with_feed_crops",
@@ -2129,7 +2536,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "permanent_grassland",
@@ -2140,7 +2550,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "unplanted_upland_field",
@@ -2151,7 +2564,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "managed_orchard",
@@ -2162,7 +2578,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "owned_farmland",
@@ -2173,7 +2592,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "rented_in_farmland",
@@ -2184,7 +2606,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "rented_out_farmland",
@@ -2195,7 +2620,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "abandoned_cultivated_land",
@@ -2206,7 +2634,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "non_farmland_used_for_hay_or_grazing",
@@ -2217,7 +2648,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "crops_for_sale",
@@ -2228,7 +2662,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "planted_area",
@@ -2239,7 +2676,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "cultivated_area",
@@ -2250,7 +2690,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "dairy_cattle",
@@ -2261,7 +2704,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "beef_cattle",
@@ -2272,7 +2718,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "beef_dairy_crossbred_cattle",
@@ -2283,7 +2732,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "pigs",
@@ -2294,7 +2746,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "laying_hens",
@@ -2305,7 +2760,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "broilers",
@@ -2316,7 +2774,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "agricultural_product_sales",
@@ -2327,7 +2788,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "agricultural_managers_and_officers",
@@ -2338,7 +2802,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "agricultural_employees",
@@ -2349,7 +2816,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "regular_agricultural_employees",
@@ -2360,7 +2830,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "temporary_agricultural_employees",
@@ -2371,7 +2844,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "contracted_agricultural_work",
@@ -2382,7 +2858,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "contracted_rice_farming_work",
@@ -2393,7 +2872,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "contracted_sugarcane_farming_work",
@@ -2404,7 +2886,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "agricultural_machine_units_owned",
@@ -2415,7 +2900,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "agriculture_related_business",
@@ -2426,7 +2914,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "agricultural_product_processing",
@@ -2437,7 +2928,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "direct_sales_to_consumers",
@@ -2448,7 +2942,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "allotment_or_experience_farm",
@@ -2459,7 +2956,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "tourist_farm",
@@ -2470,7 +2970,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "farm_inn",
@@ -2481,7 +2984,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "farm_restaurant",
@@ -2492,7 +2998,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "agricultural_exports",
@@ -2503,7 +3012,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "agriculture_related_business_income",
@@ -2514,7 +3026,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "environmentally_friendly_agriculture",
@@ -2525,7 +3040,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "reduced_chemical_fertilizer_use",
@@ -2536,7 +3054,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "reduced_pesticide_use",
@@ -2547,7 +3068,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "soil_improvement_with_compost",
@@ -2558,7 +3082,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "non_agricultural_capital_investment",
@@ -2569,7 +3096,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "construction_or_transport_industry",
@@ -2580,7 +3110,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "food_manufacturing_or_service_industry",
@@ -2591,7 +3124,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "food_wholesale_or_retail_industry",
@@ -2602,7 +3138,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "non_food_manufacturing_industry",
@@ -2613,7 +3152,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "non_food_wholesale_or_retail_industry",
@@ -2624,7 +3166,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "healthcare_welfare_or_education_industry",
@@ -2635,7 +3180,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "other_capital_provider_industry",
@@ -2646,7 +3194,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "principal_farming_household",
@@ -2657,7 +3208,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "semi_principal_farming_household",
@@ -2668,7 +3222,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "side_business_farming_household",
@@ -2679,7 +3236,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "full_time_farming_household",
@@ -2690,7 +3250,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "part_time_farming_household",
@@ -2701,7 +3264,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "class_one_part_time_farming_household",
@@ -2712,7 +3278,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "class_two_part_time_farming_household",
@@ -2723,7 +3292,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "working_age_population",
@@ -2734,7 +3306,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "agricultural_successor",
@@ -2745,7 +3320,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "non_manager_farm_policy_decision_participant",
@@ -2756,7 +3334,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "household_member",
@@ -2767,7 +3348,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "agricultural_worker",
@@ -2778,7 +3362,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "full_time_agricultural_worker",
@@ -2789,7 +3376,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "agricultural_working_population",
@@ -2800,7 +3390,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "core_agricultural_worker",
@@ -2811,7 +3404,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "owned_forest",
@@ -2822,7 +3418,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "rented_out_forest",
@@ -2833,7 +3432,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "rented_in_forest",
@@ -2844,7 +3446,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "managed_forest",
@@ -2855,7 +3460,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "forest_managed_by_others",
@@ -2866,7 +3474,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "forest_managed_for_others",
@@ -2877,7 +3488,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "forest_products_sold",
@@ -2888,7 +3502,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "timber",
@@ -2899,7 +3516,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "standing_timber_sale",
@@ -2910,7 +3530,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "log_sale",
@@ -2921,7 +3544,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "mushroom_bed_log",
@@ -2932,7 +3558,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "special_forest_products",
@@ -2943,7 +3572,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "forestry_manager_and_working_household_members",
@@ -2954,7 +3586,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "forestry_employees",
@@ -2965,7 +3600,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "regular_forestry_employees",
@@ -2976,7 +3614,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "temporary_forestry_employees",
@@ -2987,7 +3628,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "afforestation",
@@ -2998,7 +3642,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "underbrush_clearing_and_other_tending",
@@ -3009,7 +3656,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "forest_thinning",
@@ -3020,7 +3670,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "final_felling",
@@ -3031,7 +3684,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "contracted_forestry_work",
@@ -3042,7 +3698,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "log_production_volume",
@@ -3053,7 +3712,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "log_production_from_purchased_standing_trees",
@@ -3064,7 +3726,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "farm_household",
@@ -3075,7 +3740,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "commercial_farm_household",
@@ -3086,7 +3754,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "subsistence_farm_household",
@@ -3097,7 +3768,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "landholding_nonfarm_household",
@@ -3108,7 +3782,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "participation_in_organized_agricultural_production",
@@ -3119,7 +3796,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "agricultural_production_corporation_as_management_entity",
@@ -3130,7 +3810,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "organized_agricultural_production_entity",
@@ -3141,7 +3824,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 3
+    "difficulty": 3,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "agricultural_work_contract_only_entity",
@@ -3152,7 +3838,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "forestry_work_contract_entity",
@@ -3163,7 +3852,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "forest_household",
@@ -3174,7 +3866,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "total_land_area",
@@ -3185,7 +3880,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "forest_and_grassland_area",
@@ -3196,7 +3894,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "forest_area",
@@ -3207,7 +3908,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "current_forest_area",
@@ -3218,7 +3922,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "non_forest_grassland",
@@ -3229,7 +3936,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "forest_land_ratio",
@@ -3240,7 +3950,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "forest_plan_area",
@@ -3251,7 +3964,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "national_forest",
@@ -3262,7 +3978,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "forestry_agency_forest",
@@ -3273,7 +3992,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "other_national_agency_forest",
@@ -3284,7 +4006,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "non_national_forest",
@@ -3295,7 +4020,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "independent_agency_owned_forest",
@@ -3306,7 +4034,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "public_forest",
@@ -3317,7 +4048,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "prefectural_owned_forest",
@@ -3328,7 +4062,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "forest_development_corporation_forest",
@@ -3339,7 +4076,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "municipal_owned_forest",
@@ -3350,7 +4090,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "property_ward_forest",
@@ -3361,7 +4104,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "privately_owned_forest",
@@ -3372,7 +4118,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "depopulated_area",
@@ -3383,7 +4132,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "peninsula_development_area",
@@ -3394,7 +4146,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "agricultural_settlement",
@@ -3405,7 +4160,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "agricultural_region_type",
@@ -3416,7 +4174,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 3
+    "difficulty": 3,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "city_planning_area",
@@ -3427,7 +4188,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "urbanization_and_control_areas",
@@ -3438,7 +4202,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "unzoned_city_planning_area",
@@ -3449,7 +4216,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "agricultural_promotion_area",
@@ -3460,7 +4230,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "agricultural_land_use_area",
@@ -3471,7 +4244,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "mountain_village_development_area",
@@ -3482,7 +4258,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "heavy_snow_area",
@@ -3493,7 +4272,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "special_heavy_snow_area",
@@ -3504,7 +4286,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "remote_island_development_area",
@@ -3515,7 +4300,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "designated_rural_area",
@@ -3526,7 +4314,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "specially_approved_area",
@@ -3537,7 +4328,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "agricultural_settlement_did",
@@ -3548,7 +4342,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "daily_life_facilities",
@@ -3559,7 +4356,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "municipal_office",
@@ -3570,7 +4370,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "agricultural_cooperative_facility",
@@ -3581,7 +4384,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "police_station_or_box",
@@ -3592,7 +4398,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "hospital_or_clinic",
@@ -3603,7 +4412,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "primary_school_facility",
@@ -3614,7 +4426,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "junior_high_school_facility",
@@ -3625,7 +4440,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "community_center",
@@ -3636,7 +4454,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "supermarket_or_convenience_store",
@@ -3647,7 +4468,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "travel_time",
@@ -3658,7 +4482,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "farm_household_count",
@@ -3669,7 +4496,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "farm_household_ratio",
@@ -3680,7 +4510,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "cultivated_land",
@@ -3691,7 +4524,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "settlement_paddy_field",
@@ -3702,7 +4538,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "settlement_upland_field",
@@ -3713,7 +4552,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "settlement_orchard",
@@ -3724,7 +4566,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "cultivated_land_ratio",
@@ -3735,7 +4580,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "paddy_field_ratio",
@@ -3746,7 +4594,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "paddy_dominant_settlement",
@@ -3757,7 +4608,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "mixed_paddy_upland_settlement",
@@ -3768,7 +4622,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "upland_dominant_settlement",
@@ -3779,7 +4636,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "settlement_functions",
@@ -3790,7 +4650,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "farmers_action_group",
@@ -3801,7 +4664,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "community_meeting",
@@ -3812,7 +4678,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "agricultural_production_matters",
@@ -3823,7 +4692,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "management_of_farm_roads_waterways_and_ponds",
@@ -3834,7 +4706,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "management_of_shared_property_and_facilities",
@@ -3845,7 +4720,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "settlement_environmental_conservation_matters",
@@ -3856,7 +4734,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "planning_and_promotion_of_settlement_events",
@@ -3867,7 +4748,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "settlement_welfare_and_health",
@@ -3878,7 +4762,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "renewable_energy_matters",
@@ -3889,7 +4776,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "local_resources",
@@ -3900,7 +4790,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "local_resource_conservation",
@@ -3911,7 +4804,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "agricultural_land",
@@ -3922,7 +4818,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "forest_resource",
@@ -3933,7 +4832,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "irrigation_pond_or_lake",
@@ -3944,7 +4846,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "river_or_waterway",
@@ -3955,7 +4860,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "agricultural_irrigation_and_drainage_channel",
@@ -3966,7 +4874,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "community_revitalization_activity",
@@ -3977,7 +4888,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "preservation_of_traditional_festivals_culture_and_arts",
@@ -3988,7 +4902,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "community_event_holding",
@@ -3999,7 +4916,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "welfare_activities_for_elderly",
@@ -4010,7 +4930,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "landscape_and_nature_conservation_activity",
@@ -4021,7 +4944,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "green_tourism_activity",
@@ -4032,7 +4958,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "sixth_sector_industrialization_activity",
@@ -4043,7 +4972,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "settlement_promotion_activity",
@@ -4054,7 +4986,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "renewable_energy_activity",
@@ -4065,7 +5000,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "collaboration_with_urban_residents",
@@ -4076,7 +5014,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "collaboration_with_npo_schools_and_companies",
@@ -4087,7 +5028,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "settlement_center_elevation",
@@ -4098,7 +5042,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "terrain",
@@ -4109,7 +5056,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "flatland",
@@ -4120,7 +5070,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "basin",
@@ -4131,7 +5084,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "plateau",
@@ -4142,7 +5098,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "foothill",
@@ -4153,7 +5112,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "mountain_area",
@@ -4164,7 +5126,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "gorge",
@@ -4175,7 +5140,10 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 1
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
   },
   {
     "id": "unconnectable_settlement_data",
@@ -4186,6 +5154,1201 @@
     "examples": [],
     "relatedTerms": [],
     "category": "農林業センサス",
-    "difficulty": 2
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00500209"
+    ]
+  },
+  {
+    "id": "labour_force_survey_age",
+    "term": "年齢",
+    "aliases": [],
+    "shortDescription": "調査月末現在の満年齢です。",
+    "description": "労働力調査では、調査月の末日現在における満年齢を用います。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "労働力調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200531"
+    ]
+  },
+  {
+    "id": "labour_force_survey_marital_status",
+    "term": "配偶関係",
+    "aliases": [],
+    "shortDescription": "届出の有無ではなく、調査時点の実際の状態による区分です。",
+    "description": "戸籍上の届出があるかどうかにかかわらず、調査時点での実際の配偶関係に基づいて区分します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "労働力調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200531"
+    ]
+  },
+  {
+    "id": "labour_force_survey_relationship_to_household_head",
+    "term": "世帯主との続き柄",
+    "aliases": [],
+    "shortDescription": "世帯員と世帯主との関係を示す区分です。",
+    "description": "世帯員を世帯主との関係によって区分し、世帯主の配偶者と、それ以外の親族世帯員などを識別します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "労働力調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200531"
+    ]
+  },
+  {
+    "id": "labour_force_survey_spouse_of_household_head",
+    "term": "世帯主の配偶者",
+    "aliases": [],
+    "shortDescription": "世帯主の妻または夫です。",
+    "description": "世帯主との続き柄が、世帯主の妻または夫である者を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "労働力調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200531"
+    ]
+  },
+  {
+    "id": "labour_force_survey_other_family_member",
+    "term": "その他の家族",
+    "aliases": [],
+    "shortDescription": "世帯主の配偶者以外の親族世帯員です。",
+    "description": "世帯主の配偶者を除く親族世帯員を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "労働力調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200531"
+    ]
+  },
+  {
+    "id": "labour_force_survey_education",
+    "term": "教育",
+    "aliases": [],
+    "shortDescription": "在学状況と学校段階による区分です。",
+    "description": "調査日現在の状態を在学中、卒業、在学経験なしに分け、在学中と卒業について学校段階をさらに区分します。同等の入学資格・在学年数を持ち、相当する卒業資格が得られる学校も対応する区分に含みます。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "労働力調査",
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00200531"
+    ]
+  },
+  {
+    "id": "labour_force_survey_employment_status",
+    "term": "就業状態",
+    "aliases": [],
+    "shortDescription": "15歳以上人口を調査週間中の活動状態で分けた区分です。",
+    "description": "15歳以上人口を、調査週間中の活動状態に基づき、ILO基準に従って就業者、完全失業者、非労働力人口などに区分します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "労働力調査",
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00200531"
+    ]
+  },
+  {
+    "id": "labour_force_population",
+    "term": "労働力人口",
+    "aliases": [],
+    "shortDescription": "15歳以上人口のうち、就業者と完全失業者を合わせた人口です。",
+    "description": "15歳以上人口に含まれる就業者と完全失業者の合計を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "労働力調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200531"
+    ]
+  },
+  {
+    "id": "labour_force_survey_employed_person",
+    "term": "就業者",
+    "aliases": [],
+    "shortDescription": "従業者と休業者を合わせた人です。",
+    "description": "調査週間中に仕事をした従業者と、仕事を持ちながら仕事をしなかった一定の休業者を合わせた者を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "労働力調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200531"
+    ]
+  },
+  {
+    "id": "labour_force_survey_person_at_work",
+    "term": "従業者",
+    "aliases": [],
+    "shortDescription": "調査週間中に収入を伴う仕事を1時間以上した人です。",
+    "description": "調査週間中に、賃金、給料、諸手当、内職収入などの収入を伴う仕事を1時間以上した者です。家族従業者は、無給であっても仕事をしていれば従業者に含みます。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "労働力調査",
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00200531"
+    ]
+  },
+  {
+    "id": "labour_force_survey_person_not_at_work",
+    "term": "休業者",
+    "aliases": [],
+    "shortDescription": "仕事を持ちながら調査週間中に全く仕事をしなかった一定の人です。",
+    "description": "仕事を持ちながら調査週間中に全く仕事をしなかった者のうち、賃金の支払を受ける雇用者など、または事業を維持したまま休み始めて30日未満の自営業主を指します。一定の育児・介護休業給付を受ける場合も含みますが、仕事をしなかった家族従業者は含みません。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "労働力調査",
+    "difficulty": 3,
+    "officialStatisticsCodes": [
+      "00200531"
+    ]
+  },
+  {
+    "id": "labour_force_survey_unemployed_person",
+    "term": "完全失業者",
+    "aliases": [],
+    "shortDescription": "仕事がなく、すぐ就業でき、求職活動をしていた人です。",
+    "description": "調査週間中に仕事をせず、仕事があればすぐ就くことができ、仕事探しまたは事業開始の準備をしていた者です。過去の求職活動の結果を待っている場合も含みます。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "労働力調査",
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00200531"
+    ]
+  },
+  {
+    "id": "labour_force_survey_not_in_labour_force",
+    "term": "非労働力人口",
+    "aliases": [],
+    "shortDescription": "15歳以上人口のうち、就業者でも完全失業者でもない人です。",
+    "description": "15歳以上人口から就業者と完全失業者を除いた者を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "労働力調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200531"
+    ]
+  },
+  {
+    "id": "labour_force_population_ratio",
+    "term": "労働力人口比率",
+    "aliases": [],
+    "shortDescription": "15歳以上人口に占める労働力人口の割合です。",
+    "description": "15歳以上人口を分母、労働力人口を分子として算出する割合です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "労働力調査",
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00200531"
+    ]
+  },
+  {
+    "id": "labour_force_survey_employment_rate",
+    "term": "就業率",
+    "aliases": [],
+    "shortDescription": "15歳以上人口に占める就業者の割合です。",
+    "description": "15歳以上人口を分母、就業者を分子として算出する割合です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "労働力調査",
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00200531"
+    ]
+  },
+  {
+    "id": "labour_force_survey_unemployment_rate",
+    "term": "完全失業率",
+    "aliases": [],
+    "shortDescription": "労働力人口に占める完全失業者の割合です。",
+    "description": "労働力人口を分母、完全失業者を分子として算出する割合です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "労働力調査",
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00200531"
+    ]
+  },
+  {
+    "id": "labour_force_survey_status_in_employment",
+    "term": "従業上の地位",
+    "aliases": [],
+    "shortDescription": "就業者を自営業主、家族従業者、雇用者などに分けた区分です。",
+    "description": "就業者を、自営業主、家族従業者、雇用者などに分け、雇用の有無や契約期間などによってさらに分類します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "労働力調査",
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00200531"
+    ]
+  },
+  {
+    "id": "labour_force_survey_self_employed_worker",
+    "term": "自営業主",
+    "aliases": [],
+    "shortDescription": "個人経営の事業を営む人です。",
+    "description": "個人経営の事業を営んでいる者を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "労働力調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200531"
+    ]
+  },
+  {
+    "id": "labour_force_survey_self_employed_with_employees",
+    "term": "雇有業主",
+    "aliases": [],
+    "shortDescription": "有給の従業者を1人以上雇う自営業主です。",
+    "description": "1人以上の有給従業者を雇って個人経営の事業を営む者を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "労働力調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200531"
+    ]
+  },
+  {
+    "id": "labour_force_survey_self_employed_without_employees",
+    "term": "雇無業主",
+    "aliases": [],
+    "shortDescription": "従業者を雇わず、本人または家族だけで事業を営む人です。",
+    "description": "従業者を雇用せず、自分だけ、または自分と家族だけで個人経営の事業を営む者を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "労働力調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200531"
+    ]
+  },
+  {
+    "id": "labour_force_survey_general_self_employed_without_employees",
+    "term": "一般雇無業主",
+    "aliases": [],
+    "shortDescription": "雇無業主のうち内職者を除いた人です。",
+    "description": "雇無業主から内職者を除いた者を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "労働力調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200531"
+    ]
+  },
+  {
+    "id": "labour_force_survey_home_worker",
+    "term": "内職者",
+    "aliases": [],
+    "shortDescription": "自宅で内職や賃仕事をしている人です。",
+    "description": "自宅で内職、すなわち賃仕事をしている者を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "労働力調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200531"
+    ]
+  },
+  {
+    "id": "labour_force_survey_family_worker",
+    "term": "家族従業者",
+    "aliases": [],
+    "shortDescription": "自営業主の事業に無給で従事する家族です。",
+    "description": "自営業主の家族で、その自営業主が営む事業に無給で従事している者を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "労働力調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200531"
+    ]
+  },
+  {
+    "id": "labour_force_survey_employee",
+    "term": "雇用者",
+    "aliases": [],
+    "shortDescription": "会社や官公庁などに雇われて賃金を得る人と会社・団体の役員です。",
+    "description": "会社、団体、官公庁、自営業主または個人家庭に雇われて給料・賃金を得ている者、および会社や団体の役員を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "労働力調査",
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00200531"
+    ]
+  },
+  {
+    "id": "labour_force_survey_regular_employee",
+    "term": "常雇",
+    "aliases": [],
+    "shortDescription": "役員と一般常雇を合わせた区分です。",
+    "description": "会社・団体などの役員と一般常雇の合計を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "労働力調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200531"
+    ]
+  },
+  {
+    "id": "labour_force_survey_executive",
+    "term": "役員",
+    "aliases": [],
+    "shortDescription": "会社、団体、公社などの役員です。",
+    "description": "会社、団体、公社などの役員を指し、会社組織となっている商店などの経営者も含みます。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "労働力調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200531"
+    ]
+  },
+  {
+    "id": "labour_force_survey_general_regular_employee",
+    "term": "一般常雇",
+    "aliases": [],
+    "shortDescription": "1年を超える契約または期間を定めない契約で雇われる、役員以外の人です。",
+    "description": "雇用期間が1年を超える契約、または期間を定めない契約で雇われている者のうち、役員を除いた者を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "労働力調査",
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00200531"
+    ]
+  },
+  {
+    "id": "labour_force_survey_indefinite_contract",
+    "term": "無期の契約",
+    "aliases": [],
+    "shortDescription": "一般常雇のうち雇用期間の定めがない契約です。",
+    "description": "一般常雇のうち、定年までの契約を含め、雇用契約期間を定めていないものを指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "労働力調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200531"
+    ]
+  },
+  {
+    "id": "labour_force_survey_fixed_term_contract_over_one_year",
+    "term": "有期の契約",
+    "aliases": [],
+    "shortDescription": "一般常雇のうち雇用期間が1年を超える契約です。",
+    "description": "一般常雇のうち、雇用契約期間が1年を超えるものを指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "労働力調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200531"
+    ]
+  },
+  {
+    "id": "labour_force_survey_temporary_employee",
+    "term": "臨時雇",
+    "aliases": [],
+    "shortDescription": "1か月以上1年以内の期間を定めて雇われる人です。",
+    "description": "雇用期間を1か月以上1年以内と定めた契約で雇われている者を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "労働力調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200531"
+    ]
+  },
+  {
+    "id": "labour_force_survey_daily_employee",
+    "term": "日雇",
+    "aliases": [],
+    "shortDescription": "日々または1か月未満の契約で雇われる人です。",
+    "description": "日々の契約、または1か月未満の契約で雇われている者を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "労働力調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200531"
+    ]
+  },
+  {
+    "id": "labour_force_survey_form_of_employment",
+    "term": "雇用形態",
+    "aliases": [],
+    "shortDescription": "役員を除く雇用者を勤め先での呼称により分類したものです。",
+    "description": "会社・団体などの役員を除く雇用者を、正規の職員・従業員、パート、アルバイト、派遣社員、契約社員、嘱託、その他の7区分に分類します。正規以外の6区分は非正規の職員・従業員として表章します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "労働力調査",
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00200531"
+    ]
+  },
+  {
+    "id": "days_worked_in_last_week",
+    "term": "月末１週間の就業日数",
+    "aliases": [],
+    "shortDescription": "調査週間中に実際に仕事をした日数です。",
+    "description": "本業・副業を問わず、調査週間中に実際に仕事へ従事した日数です。休業者は0日とします。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "労働力調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200531"
+    ]
+  },
+  {
+    "id": "average_weekly_days_worked",
+    "term": "平均週間就業日数",
+    "aliases": [],
+    "shortDescription": "従業者1人当たりの月末1週間の就業日数です。",
+    "description": "就業日数が不詳の者を除き、従業者の月末1週間の就業日数総数を従業者数で割って算出します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "労働力調査",
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00200531"
+    ]
+  },
+  {
+    "id": "weekly_hours_worked",
+    "term": "月末１週間の就業時間（週間就業時間）",
+    "aliases": [
+      "週間就業時間"
+    ],
+    "shortDescription": "調査週間中に実際に仕事をした時間です。",
+    "description": "調査週間中に実際に仕事へ従事した時間です。複数の仕事をした場合は合計し、休業者は0時間とします。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "労働力調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200531"
+    ]
+  },
+  {
+    "id": "aggregate_weekly_hours_worked",
+    "term": "延週間就業時間",
+    "aliases": [],
+    "shortDescription": "従業者の週間就業時間の合計です。",
+    "description": "従業者全員の週間就業時間を合計した値です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "労働力調査",
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00200531"
+    ]
+  },
+  {
+    "id": "average_weekly_hours_worked",
+    "term": "平均週間就業時間",
+    "aliases": [],
+    "shortDescription": "従業者1人当たりの週間就業時間です。",
+    "description": "週間就業時間が不詳の者を除き、延週間就業時間を従業者数で割って算出します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "労働力調査",
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00200531"
+    ]
+  },
+  {
+    "id": "monthly_days_worked",
+    "term": "月間就業日数",
+    "aliases": [],
+    "shortDescription": "調査月に実際に仕事をした日数です。",
+    "description": "調査月の1か月間に実際に仕事へ従事した日数です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "労働力調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200531"
+    ]
+  },
+  {
+    "id": "average_monthly_days_worked",
+    "term": "平均月間就業日数",
+    "aliases": [],
+    "shortDescription": "従業者1人当たりの月間就業日数です。",
+    "description": "月間就業日数が不詳の者を除き、従業者の月間就業日数総数を従業者数で割って算出します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "労働力調査",
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00200531"
+    ]
+  },
+  {
+    "id": "monthly_hours_worked",
+    "term": "月間就業時間",
+    "aliases": [],
+    "shortDescription": "週間就業時間と月間就業日数から推計する月間の就業時間です。",
+    "description": "従業者について、週間就業時間を月末1週間の就業日数で割り、その値に月間就業日数を掛けて算出します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "労働力調査",
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00200531"
+    ]
+  },
+  {
+    "id": "average_monthly_hours_worked",
+    "term": "平均月間就業時間",
+    "aliases": [],
+    "shortDescription": "従業者1人当たりの月間就業時間です。",
+    "description": "月間就業時間が不詳の者を除き、従業者の月間就業時間総数を従業者数で割って算出します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "労働力調査",
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00200531"
+    ]
+  },
+  {
+    "id": "average_annual_days_worked",
+    "term": "平均年間就業日数",
+    "aliases": [],
+    "shortDescription": "月間就業日数から算出する年平均の1か月当たり就業日数です。",
+    "description": "月間就業日数が不詳の者を除き、月間就業日数総数の年間合計を従業者数で割った値の年平均を、1か月当たりで示します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "労働力調査",
+    "difficulty": 3,
+    "officialStatisticsCodes": [
+      "00200531"
+    ]
+  },
+  {
+    "id": "average_annual_hours_worked",
+    "term": "平均年間就業時間",
+    "aliases": [],
+    "shortDescription": "月間就業時間から算出する年平均の1か月当たり就業時間です。",
+    "description": "月間就業時間が不詳の者を除き、月間就業時間総数の年間合計を従業者数で割った値の年平均を、1か月当たりで示します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "労働力調査",
+    "difficulty": 3,
+    "officialStatisticsCodes": [
+      "00200531"
+    ]
+  },
+  {
+    "id": "labour_force_survey_industry",
+    "term": "産業",
+    "aliases": [],
+    "shortDescription": "就業者の勤め先・業主の主な事業を分類したものです。",
+    "description": "調査週間中に実際に仕事をした勤め先または業主の主な事業を、日本標準産業分類に基づいて分類します。派遣社員は派遣先の事業を用います。非農林業には分類不能の産業も便宜上含めます。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "労働力調査",
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00200531"
+    ]
+  },
+  {
+    "id": "labour_force_survey_occupation",
+    "term": "職業",
+    "aliases": [],
+    "shortDescription": "就業者が実際に行っていた仕事の種類です。",
+    "description": "調査週間中に実際に行っていた仕事を日本標準職業分類に基づいて分類します。派遣社員は派遣先で実際に行っていた仕事を用います。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "労働力調査",
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00200531"
+    ]
+  },
+  {
+    "id": "labour_force_survey_enterprise_size",
+    "term": "従業者規模",
+    "aliases": [],
+    "shortDescription": "勤務先企業全体の従業者数による規模区分です。",
+    "description": "勤務先事業所が属する企業全体の通常の従業者数で区分します。派遣社員は派遣先企業の規模を用い、官公庁や国公営事業所、独立行政法人、国立大学法人などは人数で分けず官公とします。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "労働力調査",
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00200531"
+    ]
+  },
+  {
+    "id": "labour_force_survey_legal_organization",
+    "term": "経営組織",
+    "aliases": [],
+    "shortDescription": "勤務先を個人、会社、団体、官公に分けた区分です。",
+    "description": "経営組織を個人、会社、団体、官公に分類します。会社には株式会社、合名・合資・合同会社、相互会社など、団体には学校法人や医療法人など、官公には官公庁、国公営事業所、独立行政法人、国立大学法人などを含みます。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "労働力調査",
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00200531"
+    ]
+  },
+  {
+    "id": "tenure_in_present_job",
+    "term": "在職期間",
+    "aliases": [],
+    "shortDescription": "現在の仕事に従事している期間です。",
+    "description": "現在行っている仕事に従事した期間を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "労働力調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200531"
+    ]
+  },
+  {
+    "id": "employment_mobility",
+    "term": "就業異動",
+    "aliases": [],
+    "shortDescription": "過去1年間の離職や新たな就業による就業者の異動です。",
+    "description": "就業者について、過去1年間の離職経験や新たな就業の有無を捉える区分です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "労働力調査",
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00200531"
+    ]
+  },
+  {
+    "id": "job_changer",
+    "term": "転職者",
+    "aliases": [],
+    "shortDescription": "前職があり、過去1年間に離職した就業者です。",
+    "description": "就業者のうち前職があり、過去1年間に離職を経験した者を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "労働力調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200531"
+    ]
+  },
+  {
+    "id": "newly_employed_person",
+    "term": "新規就業者",
+    "aliases": [],
+    "shortDescription": "過去1年間に新たに仕事へ就いた就業者です。",
+    "description": "就業者のうち、過去1年間に新たに仕事へ就いた者を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "労働力調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200531"
+    ]
+  },
+  {
+    "id": "job_changer_ratio",
+    "term": "転職者比率",
+    "aliases": [],
+    "shortDescription": "就業者に占める転職者の割合です。",
+    "description": "就業者を分母、転職者を分子として算出する割合です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "労働力調査",
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00200531"
+    ]
+  },
+  {
+    "id": "desire_to_change_or_add_job",
+    "term": "転職等希望者",
+    "aliases": [],
+    "shortDescription": "転職または追加就業を希望する就業者です。",
+    "description": "現在の仕事を辞めて別の仕事へ変わること、または現在の仕事に加えて別の仕事もすることを希望する者です。雇用者の転職は勤め先企業が変わる場合を指し、同じ企業内の勤務地・職種変更は含みません。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "労働力調査",
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00200531"
+    ]
+  },
+  {
+    "id": "job_seeker_among_employed",
+    "term": "求職者（仕事を探している）",
+    "aliases": [],
+    "shortDescription": "転職等希望者のうち実際に仕事探しや準備をしている人です。",
+    "description": "転職等希望者のうち、希望する仕事について実際に探す活動または準備をしている者を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "労働力調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200531"
+    ]
+  },
+  {
+    "id": "non_job_seeker_among_employed",
+    "term": "非求職者（仕事を探していない）",
+    "aliases": [],
+    "shortDescription": "転職等希望者のうち求職者ではない人です。",
+    "description": "転職等希望者のうち、実際の仕事探しや準備をしている求職者に該当しない者を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "労働力調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200531"
+    ]
+  },
+  {
+    "id": "no_desire_to_change_or_add_job",
+    "term": "転職等非希望者",
+    "aliases": [],
+    "shortDescription": "転職も追加就業も希望しない就業者です。",
+    "description": "転職と追加的な就業のどちらも希望していない就業者を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "労働力調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200531"
+    ]
+  },
+  {
+    "id": "desire_for_more_working_hours",
+    "term": "時間数増加希望者",
+    "aliases": [],
+    "shortDescription": "現在の仕事を続けながら就業時間を増やしたい人です。",
+    "description": "現在の仕事を継続しつつ、就業時間数を増やすことを希望している者を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "労働力調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200531"
+    ]
+  },
+  {
+    "id": "desire_for_fewer_working_hours",
+    "term": "時間数減少希望者",
+    "aliases": [],
+    "shortDescription": "現在の仕事を続けながら就業時間を減らしたい人です。",
+    "description": "現在の仕事を継続しつつ、就業時間数を減らすことを希望している者を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "労働力調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200531"
+    ]
+  },
+  {
+    "id": "reason_for_seeking_work",
+    "term": "求職理由",
+    "aliases": [],
+    "shortDescription": "完全失業者が仕事探しを始めた理由です。",
+    "description": "完全失業者について、離職、自発性、学校卒業、収入の必要など、仕事を探し始めた理由により分類します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "労働力調査",
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00200531"
+    ]
+  },
+  {
+    "id": "seeking_work_after_leaving_job",
+    "term": "仕事をやめたため求職",
+    "aliases": [],
+    "shortDescription": "離職を理由に求職した人の区分です。",
+    "description": "非自発的な離職と自発的な離職を合わせた区分です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "労働力調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200531"
+    ]
+  },
+  {
+    "id": "involuntary_job_separation",
+    "term": "非自発的な離職",
+    "aliases": [],
+    "shortDescription": "定年・契約満了または勤め先都合による離職です。",
+    "description": "定年もしくは雇用契約満了による離職と、倒産・人員整理など勤め先や事業の都合による離職を合わせた区分です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "労働力調査",
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00200531"
+    ]
+  },
+  {
+    "id": "retirement_or_contract_expiry_separation",
+    "term": "定年又は雇用契約の満了による離職",
+    "aliases": [],
+    "shortDescription": "定年または雇用期間満了による離職です。",
+    "description": "定年、または雇用契約期間の満了を理由として離職した完全失業者を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "労働力調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200531"
+    ]
+  },
+  {
+    "id": "employer_initiated_separation",
+    "term": "勤め先や事業の都合による離職",
+    "aliases": [],
+    "shortDescription": "倒産や人員整理など勤め先側の都合による離職です。",
+    "description": "倒産、人員整理など、勤め先または事業側の事情を理由として離職した完全失業者を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "労働力調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200531"
+    ]
+  },
+  {
+    "id": "voluntary_job_separation",
+    "term": "自発的な離職（自己都合）",
+    "aliases": [],
+    "shortDescription": "本人または家族の都合による離職です。",
+    "description": "自分自身または家族の都合を理由として離職した完全失業者を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "労働力調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200531"
+    ]
+  },
+  {
+    "id": "newly_seeking_work",
+    "term": "新たに求職",
+    "aliases": [],
+    "shortDescription": "離職以外の理由から新たに仕事を探し始めた区分です。",
+    "description": "学卒未就職、収入を得る必要が生じた場合、その他の理由により新たに求職した者を合わせた区分です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "労働力調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200531"
+    ]
+  },
+  {
+    "id": "school_graduate_not_yet_employed",
+    "term": "学卒未就職",
+    "aliases": [],
+    "shortDescription": "卒業後の就職に向けて新たに求職した人です。",
+    "description": "学校を卒業して仕事に就くため、新たに仕事を探し始めた者を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "労働力調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200531"
+    ]
+  },
+  {
+    "id": "seeking_work_due_to_income_need",
+    "term": "収入を得る必要が生じたから",
+    "aliases": [],
+    "shortDescription": "収入が必要になり新たに求職した人です。",
+    "description": "収入を得る必要が生じたため、新たに仕事を探し始めた者を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "労働力調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200531"
+    ]
+  },
+  {
+    "id": "other_reason_for_new_job_search",
+    "term": "その他",
+    "aliases": [],
+    "shortDescription": "所定の理由に当てはまらず新たに求職した人です。",
+    "description": "学卒未就職や収入を得る必要など、ほかの区分に該当しない理由で新たに仕事を探し始めた者を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "労働力調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200531"
+    ]
+  },
+  {
+    "id": "job_search_method",
+    "term": "求職方法",
+    "aliases": [],
+    "shortDescription": "仕事を探すために利用した方法です。",
+    "description": "2種類以上の方法で求職している場合はすべての方法を調査し、そのうち主な方法を1つ特定します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "労働力調査",
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00200531"
+    ]
+  },
+  {
+    "id": "duration_of_unemployment",
+    "term": "失業期間",
+    "aliases": [],
+    "shortDescription": "仕事探しや事業開始準備を始めてからの期間です。",
+    "description": "仕事がない状態で、仕事探しまたは事業開始の準備を始めてから経過した期間を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "労働力調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200531"
+    ]
+  },
+  {
+    "id": "timing_of_job_search_activity",
+    "term": "求職活動時期",
+    "aliases": [],
+    "shortDescription": "直近1か月に求職活動や事業開始準備をしたかどうかです。",
+    "description": "調査日までの1か月間に、仕事探しまたは事業開始の準備を行ったか否かを示します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "労働力調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200531"
+    ]
+  },
+  {
+    "id": "unemployed_person_after_job_separation",
+    "term": "離職した完全失業者",
+    "aliases": [],
+    "shortDescription": "前職を辞めたことを理由に求職する完全失業者です。",
+    "description": "前職がある完全失業者のうち、前職を辞めたことを理由として求職している者を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "労働力調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200531"
+    ]
+  },
+  {
+    "id": "desire_for_work",
+    "term": "就業希望の有無",
+    "aliases": [],
+    "shortDescription": "非労働力人口を就業希望の状態で分けた区分です。",
+    "description": "非労働力人口について、仕事をしたいか、既に仕事が決まっているか、仕事を希望しないかによって区分します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "労働力調査",
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00200531"
+    ]
+  },
+  {
+    "id": "person_wishing_to_work",
+    "term": "就業希望者",
+    "aliases": [],
+    "shortDescription": "就業を希望している人です。",
+    "description": "非労働力人口のうち、仕事に就くことを希望している者を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "労働力調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200531"
+    ]
+  },
+  {
+    "id": "person_with_job_offer",
+    "term": "就業内定者",
+    "aliases": [],
+    "shortDescription": "既に仕事が決まっている人です。",
+    "description": "非労働力人口のうち、既に就く仕事が決まっている者を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "労働力調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200531"
+    ]
+  },
+  {
+    "id": "person_not_wishing_to_work",
+    "term": "就業非希望者",
+    "aliases": [],
+    "shortDescription": "就業を希望していない人です。",
+    "description": "非労働力人口のうち、仕事に就くことを希望していない者を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "労働力調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200531"
+    ]
+  },
+  {
+    "id": "timing_of_previous_job_separation",
+    "term": "前職の離職時期",
+    "aliases": [],
+    "shortDescription": "前職を離職してからの経過期間による区分です。",
+    "description": "離職者を、3年超前、1年超3年以内、過去1年間の離職に区分します。前職の属性に関する一部集計は過去3年以内の離職者だけを対象とします。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "労働力調査",
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00200531"
+    ]
+  },
+  {
+    "id": "labour_force_survey_household_type",
+    "term": "世帯の種類",
+    "aliases": [],
+    "shortDescription": "世帯を2人以上の世帯と単身世帯に分ける区分です。",
+    "description": "住居と生計を共にする人数や居住形態により、2人以上の世帯と単身世帯に区分します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "労働力調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200531"
+    ]
+  },
+  {
+    "id": "two_or_more_person_household",
+    "term": "２人以上の世帯",
+    "aliases": [],
+    "shortDescription": "住居と生計を共にする2人以上の人の集まりです。",
+    "description": "住居と生計を共にしている2人以上の人から成る世帯を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "労働力調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200531"
+    ]
+  },
+  {
+    "id": "labour_force_survey_one_person_household",
+    "term": "単身世帯",
+    "aliases": [],
+    "shortDescription": "1人で生活する人を1世帯として扱う区分です。",
+    "description": "1人で一戸を構える者、単身の間借り人、寮・寄宿舎・下宿屋などの単身者をそれぞれ1世帯とします。一定の社会福祉施設入所者や3か月以上の入院者も原則として1人1世帯とし、夫婦同室の場合は夫婦を1世帯とします。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "労働力調査",
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00200531"
+    ]
+  },
+  {
+    "id": "related_household",
+    "term": "親族世帯",
+    "aliases": [],
+    "shortDescription": "世帯主以外に親族世帯員が少なくとも1人いる世帯です。",
+    "description": "世帯主のほかに、少なくとも1人の親族世帯員がいる世帯を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "労働力調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200531"
+    ]
+  },
+  {
+    "id": "nuclear_family_household",
+    "term": "核家族世帯",
+    "aliases": [],
+    "shortDescription": "夫婦のみ、または親子関係にある人だけで構成される親族世帯です。",
+    "description": "親族世帯のうち、世帯主とその配偶者だけ、または親と子供の関係にある者だけで構成される世帯を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "労働力調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200531"
+    ]
+  },
+  {
+    "id": "household_with_married_couple",
+    "term": "夫婦のいる世帯",
+    "aliases": [],
+    "shortDescription": "最も若い夫婦を基準として所定の家族構成に分類される世帯です。",
+    "description": "2人以上で世帯主と親族世帯員だけから成る世帯のうち、夫婦のみ、夫婦と親、夫婦と子供、夫婦・子供・親のいずれかで構成される世帯です。複数の夫婦がいる場合は夫の年齢が最も若い夫婦を基準とし、子供は未婚者に限ります。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "労働力調査",
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00200531"
+    ]
+  },
+  {
+    "id": "labour_force_survey_mother_child_household",
+    "term": "母子世帯",
+    "aliases": [],
+    "shortDescription": "母親と20歳未満の未婚の子供だけから成る世帯です。",
+    "description": "母親と、その20歳未満の未婚の子供だけで構成される世帯を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "労働力調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200531"
+    ]
+  },
+  {
+    "id": "elderly_household",
+    "term": "高齢者世帯",
+    "aliases": [],
+    "shortDescription": "所定の年齢以上の人だけで構成される世帯です。",
+    "description": "男性65歳以上・女性60歳以上の者だけから成る2人以上の世帯、男性65歳以上だけの世帯、女性60歳以上だけで少なくとも1人が65歳以上の世帯、または65歳以上の単身世帯を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "労働力調査",
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00200531"
+    ]
   }
 ]
