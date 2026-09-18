@@ -3,6 +3,7 @@
   const toggle = document.querySelector('#mode-toggle');
   const count = document.querySelector('#term-count');
   const notice = document.querySelector('#notice');
+  const startTour = document.querySelector('#start-tour');
   const activeTab = async () => (await chrome.tabs.query({ active: true, currentWindow: true }))[0];
 
   async function refreshStatus() {
@@ -28,6 +29,19 @@
     await chrome.storage.sync.set({ beginnerModeEnabled: toggle.checked });
     notice.textContent = toggle.checked ? '初心者モードをONにしました。' : '初心者モードをOFFにしました。';
     setTimeout(refreshStatus, 150);
+  });
+  startTour.addEventListener('click', async () => {
+    const tab = await activeTab();
+    if (!tab?.url?.startsWith('https://www.e-stat.go.jp/')) {
+      notice.textContent = 'e-Statのページを開いてから開始してください。';
+      return;
+    }
+    try {
+      await chrome.tabs.sendMessage(tab.id, { type: 'ESTAT_BEGINNER_START_TOUR' });
+      window.close();
+    } catch {
+      notice.textContent = 'ページを再読み込みしてからお試しください。';
+    }
   });
   refreshStatus();
 })();

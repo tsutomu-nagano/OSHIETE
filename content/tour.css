@@ -1,0 +1,17 @@
+.driver-popover.estat-driver-popover {
+  max-width: min(360px, calc(100vw - 24px));
+  border-radius: 12px;
+  color: #374957;
+  font-family: "Hiragino Maru Gothic ProN", "BIZ UDPGothic", "Yu Gothic", "Meiryo", sans-serif;
+  box-shadow: 0 12px 40px rgb(14 47 68 / 28%);
+}
+.estat-driver-popover .driver-popover-title { color: #174f72; font-size: 18px; line-height: 1.45; }
+.estat-driver-popover .driver-popover-description { font-size: 14px; line-height: 1.75; }
+.estat-driver-popover .driver-popover-progress-text { color: #667985; font-size: 12px; }
+.estat-driver-popover button { border: 1px solid #2676a6; border-radius: 999px; color: #245f86; background: #fff; font-family: inherit; font-size: 13px; font-weight: 700; text-shadow: none; }
+.estat-driver-popover button:hover, .estat-driver-popover button:focus-visible { color: #fff; background: #2676a6; }
+.estat-driver-popover .driver-popover-next-btn { color: #fff; background: #2676a6; }
+.estat-driver-popover .driver-popover-close-btn { color: #667985; border: 0; background: transparent; }
+@media (prefers-reduced-motion: reduce) {
+  .driver-overlay, .driver-popover { transition: none !important; animation: none !important; }
+}

@@ -8,11 +8,17 @@
 
 *, *::before, *::after { box-sizing: border-box; }
 
-.mode-control {
+.floating-controls {
   position: fixed;
   z-index: 2147483645;
   top: 16px;
   right: 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.mode-control {
   display: flex;
   align-items: center;
   gap: 8px;
@@ -24,6 +30,30 @@
   box-shadow: 0 3px 14px rgb(36 70 94 / 20%);
   cursor: pointer;
   user-select: none;
+}
+
+.tour-launch {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  min-height: 44px;
+  padding: 8px 14px;
+  border: 0;
+  border-radius: 999px;
+  color: #fff;
+  background: #2676a6;
+  box-shadow: 0 3px 14px rgb(36 70 94 / 20%);
+  cursor: pointer;
+  font: inherit;
+  font-size: 13px;
+  font-weight: 700;
+}
+.tour-launch:hover { background: #1c638e; }
+.tour-launch:focus-visible { outline: 3px solid #f4b942; outline-offset: 2px; }
+
+@media (max-width: 640px) {
+  .floating-controls { align-items: flex-end; flex-direction: column-reverse; }
+  .tour-launch { min-height: 40px; }
 }
 
 .mode-icon {

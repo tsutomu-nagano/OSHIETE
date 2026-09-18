@@ -17,3 +17,6 @@ input:focus-visible + .slider { outline: 2px solid #1769aa; outline-offset: 2px;
 .count { margin: 18px 0 0; padding-top: 14px; border-top: 1px solid #e4e8eb; font-size: 13px; }
 .count strong { color: #1769aa; font-size: 18px; }
 .notice { min-height: 18px; margin: 8px 0 0; color: #68737d; font-size: 11px; }
+.tour-button { width: 100%; margin-top: 14px; padding: 10px 12px; border: 0; border-radius: 8px; color: #fff; background: #1769aa; cursor: pointer; font: inherit; font-size: 13px; font-weight: 700; }
+.tour-button:hover { background: #0f578f; }
+.tour-button:focus-visible { outline: 3px solid #f4b942; outline-offset: 2px; }

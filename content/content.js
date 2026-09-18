@@ -4,6 +4,7 @@
   let marker = null;
   let ui = null;
   let observer = null;
+  let tour = null;
   let enabled = false;
   let operation = Promise.resolve();
 
@@ -38,9 +39,22 @@
     ui = new app.BeginnerUI(
       (id) => marker?.getTerm(id),
       (nextEnabled) => chrome.storage.sync.set({ beginnerModeEnabled: nextEnabled }),
-      (label) => marker?.findTermByLabel(label)
+      (label) => marker?.findTermByLabel(label),
+      () => startTour()
     );
     await ui.mount();
+  }
+
+  async function ensureTour() {
+    if (tour) return;
+    tour = new app.EstatTour();
+    await tour.load();
+  }
+
+  async function startTour() {
+    await ensureUI();
+    await ensureTour();
+    return tour.start();
   }
 
   async function ensureMarker() {
@@ -94,6 +108,14 @@
   chrome.runtime.onMessage.addListener((message, _sender, sendResponse) => {
     if (message?.type === 'ESTAT_BEGINNER_GET_STATUS') {
       sendResponse({ enabled, count: marker?.count || 0 });
+    } else if (message?.type === 'ESTAT_BEGINNER_START_TOUR') {
+      startTour()
+        .then((started) => sendResponse({ started }))
+        .catch((error) => {
+          console.warn('[e-Stat初心者モード] ツアーを開始できませんでした。', error);
+          sendResponse({ started: false });
+        });
+      return true;
     }
   });
 })();

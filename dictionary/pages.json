@@ -1,16 +1,77 @@
 [
   {
-    "urlPattern": "/stat-search/",
+    "urlPattern": "^/$",
+    "name": "e-Stat はじめてツアー",
     "elements": [
       {
-        "selector": "#search-button",
-        "title": "検索ボタン",
-        "description": "設定した条件で統計表を検索します。"
+        "title": "e-Statへようこそ",
+        "description": "政府が公開する統計データを、検索・閲覧・ダウンロードできるサイトです。まずは基本的な探し方を見てみましょう。"
       },
       {
-        "selector": ".stats-list",
-        "title": "検索結果",
-        "description": "条件に一致した統計表が表示されます。"
+        "selectors": ["input[type='search']", "input[name*='keyword']", "input[placeholder*='国勢調査']"],
+        "title": "キーワードで探す",
+        "description": "「人口」「国勢調査」など、知りたいテーマや統計名を入力します。迷ったときは短い言葉から始めるのがおすすめです。",
+        "side": "bottom"
+      },
+      {
+        "selectors": ["a[href='/stat-search/']", "a[href^='/stat-search/?']", "a[href*='/stat-search/index']"],
+        "title": "条件を指定して探す",
+        "description": "分野、作成した組織、データの種類などを指定して、目的の統計を絞り込めます。"
+      },
+      {
+        "text": { "selector": "h2, h3", "includes": "統計データを活用" },
+        "title": "見つけたデータを活用する",
+        "description": "グラフ、時系列表、地図など、数値を分かりやすく見るための機能も用意されています。"
+      },
+      {
+        "title": "準備完了です",
+        "description": "画面右上の「使い方ツアー」から、いつでもこの案内を見直せます。用語の点線に触れると、やさしい解説も表示されます。"
+      }
+    ]
+  },
+  {
+    "urlPattern": "^/stat-search/",
+    "name": "統計データ検索ツアー",
+    "elements": [
+      {
+        "title": "統計データを探しましょう",
+        "description": "この画面では、キーワードと絞り込み条件を組み合わせて統計表を探せます。"
+      },
+      {
+        "selectors": ["input[type='search']", "input[name*='keyword']", "input[id*='keyword']", "input[placeholder*='キーワード']"],
+        "title": "キーワードを入力",
+        "description": "調査名が分からなくても、「人口」「物価」のようなテーマで検索できます。"
+      },
+      {
+        "selectors": [".stat-filter-list", ".search-filter", "aside", "[class*='filter']"],
+        "title": "条件で絞り込む",
+        "description": "分野、組織、調査年などを選ぶと、候補を効率よく絞り込めます。",
+        "side": "right"
+      },
+      {
+        "selectors": ["#search-button", "button[type='submit']", "input[type='submit']"],
+        "title": "検索を実行",
+        "description": "条件を決めたら検索します。条件は後から何度でも変更できます。"
+      },
+      {
+        "selectors": [".stats-list", ".search-result", "[class*='result']", "main"],
+        "title": "検索結果を確認",
+        "description": "統計名、作成組織、更新日などを確認し、目的に合う統計表を開きます。"
+      }
+    ]
+  },
+  {
+    "urlPattern": ".*",
+    "name": "e-Stat 画面ガイド",
+    "elements": [
+      {
+        "title": "この画面の見方",
+        "description": "e-Statでは、統計表の閲覧、条件変更、ダウンロードなどができます。画面内の主な操作を確認しましょう。"
+      },
+      {
+        "selectors": ["main", "#main", "[role='main']"],
+        "title": "メインエリア",
+        "description": "現在選んでいる統計や検索結果が表示されます。点線の付いた統計用語には、OSHIETEの解説があります。"
       }
     ]
   }

@@ -3,10 +3,11 @@
   const app = globalThis.EstatBeginner = globalThis.EstatBeginner || {};
 
   class BeginnerUI {
-    constructor(getTerm, onModeChange, findTermByLabel) {
+    constructor(getTerm, onModeChange, findTermByLabel, onStartTour) {
       this.getTerm = getTerm;
       this.onModeChange = onModeChange;
       this.findTermByLabel = findTermByLabel;
+      this.onStartTour = onStartTour;
       this.host = null;
       this.shadow = null;
       this.tooltip = null;
@@ -34,6 +35,10 @@
 
       const shell = document.createElement('div');
       shell.innerHTML = `
+        <div class="floating-controls">
+        <button class="tour-launch" type="button" aria-label="e-Statの使い方ツアーを開始">
+          <span aria-hidden="true">▶</span><span>使い方ツアー</span>
+        </button>
         <label class="mode-control">
           <span class="mode-icon" aria-hidden="true">
             <svg viewBox="0 0 24 24" focusable="false">
@@ -47,7 +52,7 @@
             <input type="checkbox" role="switch" aria-label="教えてモード">
             <span class="mode-slider" aria-hidden="true"></span>
           </span>
-        </label>
+        </label></div>
         <div class="tooltip" role="tooltip" hidden></div>
         <aside class="drawer" aria-label="用語解説" aria-hidden="true">
           <header>
@@ -65,6 +70,7 @@
       this.tooltip = this.shadow.querySelector('.tooltip');
       this.drawer = this.shadow.querySelector('.drawer');
       this.modeToggle = this.shadow.querySelector('.mode-control input');
+      this.shadow.querySelector('.tour-launch').addEventListener('click', () => this.onStartTour?.());
       this.modeToggle.addEventListener('change', () => {
         this.onModeChange?.(this.modeToggle.checked);
       });

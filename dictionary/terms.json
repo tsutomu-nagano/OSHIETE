@@ -2,11 +2,19 @@
   {
     "id": "statistical_table",
     "term": "統計表",
-    "aliases": ["統計表一覧"],
+    "aliases": [
+      "統計表一覧"
+    ],
     "shortDescription": "統計調査の結果を表形式でまとめたものです。",
     "description": "統計調査の結果を、分類、地域、時間などの軸によって表形式で整理したものです。",
-    "examples": ["人口統計表", "事業所数の統計表"],
-    "relatedTerms": ["統計調査", "表章項目"],
+    "examples": [
+      "人口統計表",
+      "事業所数の統計表"
+    ],
+    "relatedTerms": [
+      "統計調査",
+      "表章項目"
+    ],
     "category": "基本用語",
     "difficulty": 1
   },
@@ -16,8 +24,14 @@
     "aliases": [],
     "shortDescription": "社会や経済の状態を数値で把握するための調査です。",
     "description": "国や地方公共団体などが、対象となる人や事業所から情報を集め、社会・経済の状態を明らかにする調査です。",
-    "examples": ["国勢調査", "経済センサス"],
-    "relatedTerms": ["政府統計", "調査票情報"],
+    "examples": [
+      "国勢調査",
+      "経済センサス"
+    ],
+    "relatedTerms": [
+      "政府統計",
+      "調査票情報"
+    ],
     "category": "基本用語",
     "difficulty": 1
   },
@@ -27,8 +41,14 @@
     "aliases": [],
     "shortDescription": "行政機関などが作成する公的な統計です。",
     "description": "国の行政機関、地方公共団体などが作成する、社会や経済を把握するための公的な統計です。",
-    "examples": ["国勢調査の結果", "人口動態統計"],
-    "relatedTerms": ["統計調査", "政府統計コード"],
+    "examples": [
+      "国勢調査の結果",
+      "人口動態統計"
+    ],
+    "relatedTerms": [
+      "統計調査",
+      "政府統計コード"
+    ],
     "category": "基本用語",
     "difficulty": 1
   },
@@ -39,18 +59,29 @@
     "shortDescription": "政府統計を識別するためのコードです。",
     "description": "e-Statで各政府統計を重複なく識別するために付けられたコードです。",
     "examples": [],
-    "relatedTerms": ["政府統計"],
+    "relatedTerms": [
+      "政府統計"
+    ],
     "category": "識別情報",
     "difficulty": 2
   },
   {
     "id": "display_item",
     "term": "表章項目",
-    "aliases": ["表章事項"],
+    "aliases": [
+      "表章事項"
+    ],
     "shortDescription": "統計表で表示される数値の種類です。",
     "description": "統計表の中で集計・表示対象となる項目を表します。",
-    "examples": ["人口", "世帯数", "平均年齢"],
-    "relatedTerms": ["分類事項", "時間軸"],
+    "examples": [
+      "人口",
+      "世帯数",
+      "平均年齢"
+    ],
+    "relatedTerms": [
+      "分類事項",
+      "時間軸"
+    ],
     "category": "統計表",
     "difficulty": 2
   },
@@ -60,8 +91,15 @@
     "aliases": [],
     "shortDescription": "統計値をグループ分けするための観点です。",
     "description": "性別、年齢、産業など、統計値を分類して比較するために使う項目です。",
-    "examples": ["男女", "年齢階級", "産業分類"],
-    "relatedTerms": ["表章項目", "地域区分"],
+    "examples": [
+      "男女",
+      "年齢階級",
+      "産業分類"
+    ],
+    "relatedTerms": [
+      "表章項目",
+      "地域区分"
+    ],
     "category": "統計表",
     "difficulty": 2
   },
@@ -71,8 +109,13 @@
     "aliases": [],
     "shortDescription": "統計値がいつの時点・期間のものかを示す軸です。",
     "description": "年、四半期、月など、統計値の時点または対象期間を表す項目です。",
-    "examples": ["2025年", "2026年4月"],
-    "relatedTerms": ["表章項目"],
+    "examples": [
+      "2025年",
+      "2026年4月"
+    ],
+    "relatedTerms": [
+      "表章項目"
+    ],
     "category": "統計表",
     "difficulty": 1
   },
@@ -82,8 +125,14 @@
     "aliases": [],
     "shortDescription": "統計値を地域ごとに分ける単位です。",
     "description": "全国、都道府県、市区町村など、統計値を地域別に表示・比較するための区分です。",
-    "examples": ["全国", "東京都", "市区町村"],
-    "relatedTerms": ["分類事項"],
+    "examples": [
+      "全国",
+      "東京都",
+      "市区町村"
+    ],
+    "relatedTerms": [
+      "分類事項"
+    ],
     "category": "統計表",
     "difficulty": 1
   },
@@ -94,18 +143,28 @@
     "shortDescription": "ひとまとまりとして扱われるデータです。",
     "description": "特定の目的やテーマに沿って収集・整理され、ひとまとまりとして提供されるデータです。",
     "examples": [],
-    "relatedTerms": ["メタ情報"],
+    "relatedTerms": [
+      "メタ情報"
+    ],
     "category": "データ",
     "difficulty": 1
   },
   {
     "id": "metadata",
     "term": "メタ情報",
-    "aliases": ["メタデータ"],
+    "aliases": [
+      "メタデータ"
+    ],
     "shortDescription": "データの内容や条件を説明する情報です。",
     "description": "データの名称、作成者、作成時期、単位、分類など、データを正しく理解して利用するための情報です。",
-    "examples": ["単位", "更新日", "調査名"],
-    "relatedTerms": ["データセット"],
+    "examples": [
+      "単位",
+      "更新日",
+      "調査名"
+    ],
+    "relatedTerms": [
+      "データセット"
+    ],
     "category": "データ",
     "difficulty": 2
   },
@@ -116,18 +175,28 @@
     "shortDescription": "調査票から得られた回答単位の情報です。",
     "description": "統計調査で集めた個々の調査票の回答をもとにした情報です。利用には所定の手続きが必要な場合があります。",
     "examples": [],
-    "relatedTerms": ["統計調査"],
+    "relatedTerms": [
+      "統計調査"
+    ],
     "category": "データ",
     "difficulty": 3
   },
   {
     "id": "population",
     "term": "人口",
-    "aliases": ["常住人口"],
+    "aliases": [
+      "常住人口"
+    ],
     "shortDescription": "国勢調査では、ふだん住んでいる場所で数えた人の数です。",
     "description": "国勢調査の人口は、調査時にその場所に3か月以上住んでいる人、または3か月以上住むことになっている人を、ふだん住んでいる場所で数えた常住人口です。",
-    "examples": ["市区町村別人口", "都道府県別人口"],
-    "relatedTerms": ["世帯人員", "夜間人口"],
+    "examples": [
+      "市区町村別人口",
+      "都道府県別人口"
+    ],
+    "relatedTerms": [
+      "世帯人員",
+      "夜間人口"
+    ],
     "category": "人口の基本属性",
     "difficulty": 1
   },
@@ -137,8 +206,14 @@
     "aliases": [],
     "shortDescription": "地域の全人口が同じ重さを持つと考えたときの、人口分布の釣り合う点です。",
     "description": "人口の一人一人が同じ重さを持つと仮定し、地域内の人口全体が平衡を保つことのできる地点です。",
-    "examples": ["全国の人口重心", "都道府県の人口重心"],
-    "relatedTerms": ["人口", "基本単位区"],
+    "examples": [
+      "全国の人口重心",
+      "都道府県の人口重心"
+    ],
+    "relatedTerms": [
+      "人口",
+      "基本単位区"
+    ],
     "category": "人口の基本属性",
     "difficulty": 2
   },
@@ -148,8 +223,12 @@
     "aliases": [],
     "shortDescription": "地域が占める広さです。",
     "description": "国勢調査の統計表では、原則として国土地理院の全国都道府県市区町村別面積調による地域の広さを用います。",
-    "examples": ["市区町村の面積"],
-    "relatedTerms": ["人口密度"],
+    "examples": [
+      "市区町村の面積"
+    ],
+    "relatedTerms": [
+      "人口密度"
+    ],
     "category": "人口の基本属性",
     "difficulty": 1
   },
@@ -159,30 +238,50 @@
     "aliases": [],
     "shortDescription": "一定の面積当たりに住む人口を示します。",
     "description": "地域の人口をその面積で割って求める、人口の集中度を示す指標です。国勢調査では調査対象外地域の面積を除いて算出します。",
-    "examples": ["1平方キロメートル当たり4,000人"],
-    "relatedTerms": ["人口", "面積", "人口集中地区"],
+    "examples": [
+      "1平方キロメートル当たり4,000人"
+    ],
+    "relatedTerms": [
+      "人口",
+      "面積",
+      "人口集中地区"
+    ],
     "category": "人口の基本属性",
     "difficulty": 1
   },
   {
     "id": "sex_ratio",
     "term": "人口性比",
-    "aliases": ["性比"],
+    "aliases": [
+      "性比"
+    ],
     "shortDescription": "女性100人に対する男性の数です。",
     "description": "人口の男女構成を表すため、女性100人に対する男性の人数として示す指標です。",
-    "examples": ["人口性比95"],
-    "relatedTerms": ["人口"],
+    "examples": [
+      "人口性比95"
+    ],
+    "relatedTerms": [
+      "人口"
+    ],
     "category": "人口の基本属性",
     "difficulty": 2
   },
   {
     "id": "age",
     "term": "年齢",
-    "aliases": ["満年齢"],
+    "aliases": [
+      "満年齢"
+    ],
     "shortDescription": "国勢調査では、原則として調査日前日の満年齢です。",
     "description": "昭和40年以降の国勢調査では、調査日前日の9月30日現在の満年齢を基に集計します。",
-    "examples": ["0歳", "65歳以上"],
-    "relatedTerms": ["平均年齢", "年齢中位数"],
+    "examples": [
+      "0歳",
+      "65歳以上"
+    ],
+    "relatedTerms": [
+      "平均年齢",
+      "年齢中位数"
+    ],
     "category": "人口の基本属性",
     "difficulty": 1
   },
@@ -192,19 +291,29 @@
     "aliases": [],
     "shortDescription": "人口全体の年齢を平均した値です。",
     "description": "各人の満年齢を用いて求める平均で、国勢調査では満年齢内の日数のばらつきを考慮して0.5歳を加えて算出します。",
-    "examples": ["平均年齢45.2歳"],
-    "relatedTerms": ["年齢", "年齢中位数"],
+    "examples": [
+      "平均年齢45.2歳"
+    ],
+    "relatedTerms": [
+      "年齢",
+      "年齢中位数"
+    ],
     "category": "人口の基本属性",
     "difficulty": 2
   },
   {
     "id": "median_age",
     "term": "年齢中位数",
-    "aliases": ["年齢中央値"],
+    "aliases": [
+      "年齢中央値"
+    ],
     "shortDescription": "人口を年齢順に並べたとき、中央に位置する年齢です。",
     "description": "人口を年齢の低い順に並べたとき、その中央で人口を二等分する境界点にある年齢です。",
     "examples": [],
-    "relatedTerms": ["年齢", "平均年齢"],
+    "relatedTerms": [
+      "年齢",
+      "平均年齢"
+    ],
     "category": "人口の基本属性",
     "difficulty": 2
   },
@@ -214,8 +323,15 @@
     "aliases": [],
     "shortDescription": "結婚に関する実際の状態を示す区分です。",
     "description": "届出の有無にかかわらず、実際の状態によって未婚、有配偶、死別、離別に区分したものです。",
-    "examples": ["未婚", "有配偶", "死別", "離別"],
-    "relatedTerms": ["世帯の家族類型"],
+    "examples": [
+      "未婚",
+      "有配偶",
+      "死別",
+      "離別"
+    ],
+    "relatedTerms": [
+      "世帯の家族類型"
+    ],
     "category": "人口の基本属性",
     "difficulty": 1
   },
@@ -225,8 +341,14 @@
     "aliases": [],
     "shortDescription": "在学状況や卒業した学校の種類に関する区分です。",
     "description": "国勢調査では、在学しているかどうか、最終卒業学校の種類、在学学校や未就学の種類などを区分します。大規模調査で調べる項目です。",
-    "examples": ["在学者", "卒業者", "未就学者"],
-    "relatedTerms": ["通学地"],
+    "examples": [
+      "在学者",
+      "卒業者",
+      "未就学者"
+    ],
+    "relatedTerms": [
+      "通学地"
+    ],
     "category": "人口の基本属性",
     "difficulty": 1
   },
@@ -236,8 +358,14 @@
     "aliases": [],
     "shortDescription": "その人が属する国を示す区分です。",
     "description": "国勢調査では日本国籍と外国籍を区分し、外国籍は国や地域別に集計します。複数国籍の場合には調査上の取扱いが定められています。",
-    "examples": ["日本", "中国", "アメリカ"],
-    "relatedTerms": ["人口"],
+    "examples": [
+      "日本",
+      "中国",
+      "アメリカ"
+    ],
+    "relatedTerms": [
+      "人口"
+    ],
     "category": "人口の基本属性",
     "difficulty": 1
   },
@@ -247,8 +375,14 @@
     "aliases": [],
     "shortDescription": "世帯を生活のしかたや施設への居住状況で分けた区分です。",
     "description": "国勢調査では、住居と生計を共にする人などから成る一般世帯と、寮、病院、社会施設などで生活する人の集まりである施設等の世帯に区分します。",
-    "examples": ["一般世帯", "施設等の世帯"],
-    "relatedTerms": ["世帯主", "世帯人員"],
+    "examples": [
+      "一般世帯",
+      "施設等の世帯"
+    ],
+    "relatedTerms": [
+      "世帯主",
+      "世帯人員"
+    ],
     "category": "世帯・家族",
     "difficulty": 1
   },
@@ -259,40 +393,65 @@
     "shortDescription": "各世帯が世帯の代表として判断した人です。",
     "description": "国勢調査では、収入の多さや住民基本台帳の届出に関係なく、各世帯の判断によって世帯主を定めます。",
     "examples": [],
-    "relatedTerms": ["世帯人員", "世帯の種類"],
+    "relatedTerms": [
+      "世帯人員",
+      "世帯の種類"
+    ],
     "category": "世帯・家族",
     "difficulty": 1
   },
   {
     "id": "household_members",
     "term": "世帯人員",
-    "aliases": ["世帯員数"],
+    "aliases": [
+      "世帯員数"
+    ],
     "shortDescription": "一つの世帯を構成する人の数です。",
     "description": "世帯を構成する各人（世帯員）を合わせた人数です。",
-    "examples": ["1世帯当たり人員"],
-    "relatedTerms": ["世帯主", "世帯の種類"],
+    "examples": [
+      "1世帯当たり人員"
+    ],
+    "relatedTerms": [
+      "世帯主",
+      "世帯の種類"
+    ],
     "category": "世帯・家族",
     "difficulty": 1
   },
   {
     "id": "family_type",
     "term": "世帯の家族類型",
-    "aliases": ["家族類型"],
+    "aliases": [
+      "家族類型"
+    ],
     "shortDescription": "世帯員と世帯主との続き柄で世帯を分けた分類です。",
     "description": "一般世帯を、世帯員の世帯主との続き柄によって、親族のみの世帯、非親族を含む世帯、単独世帯などに分類したものです。",
-    "examples": ["核家族世帯", "単独世帯"],
-    "relatedTerms": ["世帯主", "3世代世帯"],
+    "examples": [
+      "核家族世帯",
+      "単独世帯"
+    ],
+    "relatedTerms": [
+      "世帯主",
+      "3世代世帯"
+    ],
     "category": "世帯・家族",
     "difficulty": 2
   },
   {
     "id": "three_generation_household",
     "term": "3世代世帯",
-    "aliases": ["３世代世帯", "三世代世帯"],
+    "aliases": [
+      "３世代世帯",
+      "三世代世帯"
+    ],
     "shortDescription": "直系の三つ以上の世代が同居している世帯です。",
     "description": "祖父母、父母、本人、子、孫という直系世代のうち、三つ以上の世代が同居していると判定できる世帯です。4世代以上も含みます。",
-    "examples": ["祖父母・親・子の世帯"],
-    "relatedTerms": ["世帯の家族類型"],
+    "examples": [
+      "祖父母・親・子の世帯"
+    ],
+    "relatedTerms": [
+      "世帯の家族類型"
+    ],
     "category": "世帯・家族",
     "difficulty": 1
   },
@@ -303,7 +462,10 @@
     "shortDescription": "女親と未婚の20歳未満の子供だけから成る一般世帯です。",
     "description": "未婚、死別または離別の女親と、その未婚の20歳未満の子供のみから成る一般世帯です。",
     "examples": [],
-    "relatedTerms": ["父子世帯", "一般世帯"],
+    "relatedTerms": [
+      "父子世帯",
+      "一般世帯"
+    ],
     "category": "世帯・家族",
     "difficulty": 1
   },
@@ -314,7 +476,10 @@
     "shortDescription": "男親と未婚の20歳未満の子供だけから成る一般世帯です。",
     "description": "未婚、死別または離別の男親と、その未婚の20歳未満の子供のみから成る一般世帯です。",
     "examples": [],
-    "relatedTerms": ["母子世帯", "一般世帯"],
+    "relatedTerms": [
+      "母子世帯",
+      "一般世帯"
+    ],
     "category": "世帯・家族",
     "difficulty": 1
   },
@@ -325,7 +490,9 @@
     "shortDescription": "65歳以上の人一人だけの一般世帯です。",
     "description": "65歳以上の人一人のみで構成される一般世帯です。過去の調査では年齢基準が異なる場合があります。",
     "examples": [],
-    "relatedTerms": ["高齢夫婦世帯"],
+    "relatedTerms": [
+      "高齢夫婦世帯"
+    ],
     "category": "世帯・家族",
     "difficulty": 1
   },
@@ -336,7 +503,9 @@
     "shortDescription": "夫65歳以上、妻60歳以上の夫婦一組だけの一般世帯です。",
     "description": "夫が65歳以上、妻が60歳以上で、その夫婦一組のみから成る一般世帯です。過去の調査では基準が異なる場合があります。",
     "examples": [],
-    "relatedTerms": ["高齢単身世帯"],
+    "relatedTerms": [
+      "高齢単身世帯"
+    ],
     "category": "世帯・家族",
     "difficulty": 1
   },
@@ -346,8 +515,15 @@
     "aliases": [],
     "shortDescription": "世帯の主な就業者の働き方などで世帯を分けた分類です。",
     "description": "一般世帯を、世帯の主な就業者とその親族の労働力状態、従業上の地位、産業によって分類したものです。",
-    "examples": ["農林漁業就業者世帯", "非就業者世帯"],
-    "relatedTerms": ["労働力状態", "従業上の地位", "産業"],
+    "examples": [
+      "農林漁業就業者世帯",
+      "非就業者世帯"
+    ],
+    "relatedTerms": [
+      "労働力状態",
+      "従業上の地位",
+      "産業"
+    ],
     "category": "世帯・家族",
     "difficulty": 3
   },
@@ -357,30 +533,50 @@
     "aliases": [],
     "shortDescription": "住居を住宅か住宅以外かで分けた区分です。",
     "description": "一般世帯の住居を、独立して家庭生活を営める住宅と、寮や病院などを含む住宅以外に区分したものです。",
-    "examples": ["住宅", "住宅以外"],
-    "relatedTerms": ["住宅の所有の関係", "住宅の建て方"],
+    "examples": [
+      "住宅",
+      "住宅以外"
+    ],
+    "relatedTerms": [
+      "住宅の所有の関係",
+      "住宅の建て方"
+    ],
     "category": "住宅・居住地",
     "difficulty": 1
   },
   {
     "id": "housing_tenure",
     "term": "住宅の所有の関係",
-    "aliases": ["住宅の所有関係"],
+    "aliases": [
+      "住宅の所有関係"
+    ],
     "shortDescription": "住んでいる住宅を持ち家や借家などに分けた区分です。",
     "description": "住宅に住む一般世帯を、持ち家、公営の借家、民営の借家、給与住宅、間借りなど、住宅の所有・賃借関係で区分したものです。",
-    "examples": ["持ち家", "民営の借家", "間借り"],
-    "relatedTerms": ["住居の種類"],
+    "examples": [
+      "持ち家",
+      "民営の借家",
+      "間借り"
+    ],
+    "relatedTerms": [
+      "住居の種類"
+    ],
     "category": "住宅・居住地",
     "difficulty": 1
   },
   {
     "id": "total_floor_area",
     "term": "延べ面積",
-    "aliases": ["住宅の延べ面積"],
+    "aliases": [
+      "住宅の延べ面積"
+    ],
     "shortDescription": "住宅内の居住室や玄関、台所などの床面積の合計です。",
     "description": "居住室に加え、住宅内の玄関、台所、廊下、便所、浴室、押し入れなどを含めた床面積の合計です。営業用部分や共同住宅の共用部分は含みません。",
-    "examples": ["延べ面積100平方メートル"],
-    "relatedTerms": ["住居の種類"],
+    "examples": [
+      "延べ面積100平方メートル"
+    ],
+    "relatedTerms": [
+      "住居の種類"
+    ],
     "category": "住宅・居住地",
     "difficulty": 1
   },
@@ -390,8 +586,14 @@
     "aliases": [],
     "shortDescription": "住宅を建物の形態によって分けた区分です。",
     "description": "各世帯が住む住宅を、一戸建、長屋建、共同住宅、その他に区分したものです。",
-    "examples": ["一戸建", "共同住宅", "長屋建"],
-    "relatedTerms": ["住居の種類"],
+    "examples": [
+      "一戸建",
+      "共同住宅",
+      "長屋建"
+    ],
+    "relatedTerms": [
+      "住居の種類"
+    ],
     "category": "住宅・居住地",
     "difficulty": 1
   },
@@ -401,8 +603,15 @@
     "aliases": [],
     "shortDescription": "15歳以上の人を、調査週間に仕事をしたかどうかで分けた区分です。",
     "description": "15歳以上の人について、調査週間中の就業状況により、就業者、完全失業者、非労働力人口などに区分したものです。",
-    "examples": ["就業者", "完全失業者", "非労働力人口"],
-    "relatedTerms": ["労働力率", "従業上の地位"],
+    "examples": [
+      "就業者",
+      "完全失業者",
+      "非労働力人口"
+    ],
+    "relatedTerms": [
+      "労働力率",
+      "従業上の地位"
+    ],
     "category": "労働・就業",
     "difficulty": 2
   },
@@ -412,8 +621,13 @@
     "aliases": [],
     "shortDescription": "15歳以上人口に占める労働力人口の割合です。",
     "description": "労働力状態が不詳の人を除く15歳以上人口に対して、就業者と完全失業者を合わせた労働力人口が占める割合です。",
-    "examples": ["労働力率60％"],
-    "relatedTerms": ["労働力状態", "労働力人口"],
+    "examples": [
+      "労働力率60％"
+    ],
+    "relatedTerms": [
+      "労働力状態",
+      "労働力人口"
+    ],
     "category": "労働・就業",
     "difficulty": 2
   },
@@ -423,30 +637,56 @@
     "aliases": [],
     "shortDescription": "仕事をしている事業所での立場を示す区分です。",
     "description": "就業者を、雇用者、役員、雇人のある業主、雇人のない業主、家族従業者、家庭内職者などに区分したものです。",
-    "examples": ["雇用者", "役員", "家族従業者"],
-    "relatedTerms": ["労働力状態", "産業", "職業"],
+    "examples": [
+      "雇用者",
+      "役員",
+      "家族従業者"
+    ],
+    "relatedTerms": [
+      "労働力状態",
+      "産業",
+      "職業"
+    ],
     "category": "労働・就業",
     "difficulty": 2
   },
   {
     "id": "industry",
     "term": "産業",
-    "aliases": ["産業分類"],
+    "aliases": [
+      "産業分類"
+    ],
     "shortDescription": "勤め先の事業所が主に行っている事業の種類です。",
     "description": "就業者について、実際に仕事をしていた事業所の主な事業の種類により分類したものです。国勢調査用の産業分類は日本標準産業分類を基に編成されます。",
-    "examples": ["製造業", "情報通信業", "医療・福祉"],
-    "relatedTerms": ["職業", "従業上の地位"],
+    "examples": [
+      "製造業",
+      "情報通信業",
+      "医療・福祉"
+    ],
+    "relatedTerms": [
+      "職業",
+      "従業上の地位"
+    ],
     "category": "労働・就業",
     "difficulty": 2
   },
   {
     "id": "occupation",
     "term": "職業",
-    "aliases": ["職業分類"],
+    "aliases": [
+      "職業分類"
+    ],
     "shortDescription": "その人が実際に行っている仕事の種類です。",
     "description": "就業者について、調査週間中に実際に従事していた仕事の種類により分類したものです。二つ以上の仕事がある場合は主な仕事を用います。",
-    "examples": ["事務職", "販売職", "技術職"],
-    "relatedTerms": ["産業", "従業上の地位"],
+    "examples": [
+      "事務職",
+      "販売職",
+      "技術職"
+    ],
+    "relatedTerms": [
+      "産業",
+      "従業上の地位"
+    ],
     "category": "労働・就業",
     "difficulty": 2
   },
@@ -456,8 +696,16 @@
     "aliases": [],
     "shortDescription": "人口を社会的・経済的な特徴で分けた分類です。",
     "description": "全人口を年齢と労働力状態で分け、就業者についてはさらに職業と従業上の地位を踏まえて分類したものです。",
-    "examples": ["農林漁業者", "管理職", "学生生徒"],
-    "relatedTerms": ["労働力状態", "職業", "従業上の地位"],
+    "examples": [
+      "農林漁業者",
+      "管理職",
+      "学生生徒"
+    ],
+    "relatedTerms": [
+      "労働力状態",
+      "職業",
+      "従業上の地位"
+    ],
     "category": "労働・就業",
     "difficulty": 3
   },
@@ -467,19 +715,33 @@
     "aliases": [],
     "shortDescription": "現在の場所に住んでいる期間です。",
     "description": "世帯員が現在の場所に住んでいる期間を、出生時から、1年未満、1年以上5年未満などに区分したものです。大規模調査で調べます。",
-    "examples": ["1年未満", "20年以上"],
-    "relatedTerms": ["5年前の常住地"],
+    "examples": [
+      "1年未満",
+      "20年以上"
+    ],
+    "relatedTerms": [
+      "5年前の常住地"
+    ],
     "category": "人口移動",
     "difficulty": 1
   },
   {
     "id": "residence_five_years_ago",
     "term": "5年前の常住地",
-    "aliases": ["５年前の常住地"],
+    "aliases": [
+      "５年前の常住地"
+    ],
     "shortDescription": "その人が5年前にふだん住んでいた市区町村です。",
     "description": "世帯員が5年前にふだん居住していた市区町村を示し、現住所、自市区町村内、県内他市区町村、他県、国外などに区分します。",
-    "examples": ["現住所", "他県", "国外からの転入"],
-    "relatedTerms": ["居住期間", "世帯の移動類型"],
+    "examples": [
+      "現住所",
+      "他県",
+      "国外からの転入"
+    ],
+    "relatedTerms": [
+      "居住期間",
+      "世帯の移動類型"
+    ],
     "category": "人口移動",
     "difficulty": 1
   },
@@ -489,8 +751,13 @@
     "aliases": [],
     "shortDescription": "5年前からの世帯員の移動状況で世帯を分けた分類です。",
     "description": "一般世帯を、全世帯員が移動した世帯、一部世帯員が移動した世帯、移動者がいない世帯などに区分したものです。",
-    "examples": ["全世帯員が移動の世帯", "世帯員の移動者がない世帯"],
-    "relatedTerms": ["5年前の常住地"],
+    "examples": [
+      "全世帯員が移動の世帯",
+      "世帯員の移動者がない世帯"
+    ],
+    "relatedTerms": [
+      "5年前の常住地"
+    ],
     "category": "人口移動",
     "difficulty": 2
   },
@@ -500,30 +767,48 @@
     "aliases": [],
     "shortDescription": "就業者が働いている場所、または通学者が通っている場所です。",
     "description": "就業者の従業場所または通学者の通学場所を、常住地と同じ市区町村か、他の市区町村かなどで区分したものです。",
-    "examples": ["自市区町村で従業・通学", "他県で従業・通学"],
-    "relatedTerms": ["夜間人口", "昼間人口"],
+    "examples": [
+      "自市区町村で従業・通学",
+      "他県で従業・通学"
+    ],
+    "relatedTerms": [
+      "夜間人口",
+      "昼間人口"
+    ],
     "category": "従業地・通学地",
     "difficulty": 1
   },
   {
     "id": "nighttime_population",
     "term": "夜間人口",
-    "aliases": ["常住地による人口"],
+    "aliases": [
+      "常住地による人口"
+    ],
     "shortDescription": "その地域にふだん住んでいる人口です。",
     "description": "調査時にその地域に常住している人口で、常住地による人口ともいいます。",
     "examples": [],
-    "relatedTerms": ["昼間人口", "人口"],
+    "relatedTerms": [
+      "昼間人口",
+      "人口"
+    ],
     "category": "従業地・通学地",
     "difficulty": 1
   },
   {
     "id": "daytime_population",
     "term": "昼間人口",
-    "aliases": ["従業地・通学地による人口"],
+    "aliases": [
+      "従業地・通学地による人口"
+    ],
     "shortDescription": "通勤・通学による流入と流出を反映した地域の人口です。",
     "description": "夜間人口から地域外への流出人口を引き、地域内への流入人口を加えて算出します。買物客などの一時的な移動は含みません。",
-    "examples": ["夜間人口－流出人口＋流入人口"],
-    "relatedTerms": ["夜間人口", "従業地・通学地"],
+    "examples": [
+      "夜間人口－流出人口＋流入人口"
+    ],
+    "relatedTerms": [
+      "夜間人口",
+      "従業地・通学地"
+    ],
     "category": "従業地・通学地",
     "difficulty": 2
   },
@@ -533,8 +818,14 @@
     "aliases": [],
     "shortDescription": "通勤・通学にふだん利用する交通手段です。",
     "description": "従業地や通学地へ行くために通常利用する手段を、徒歩、鉄道、バス、自家用車、自転車などに区分したものです。複数利用する場合はすべて集計します。",
-    "examples": ["鉄道・電車", "乗合バス", "自家用車"],
-    "relatedTerms": ["従業地・通学地"],
+    "examples": [
+      "鉄道・電車",
+      "乗合バス",
+      "自家用車"
+    ],
+    "relatedTerms": [
+      "従業地・通学地"
+    ],
     "category": "従業地・通学地",
     "difficulty": 1
   },
@@ -544,8 +835,12 @@
     "aliases": [],
     "shortDescription": "世帯員が通勤・通学に出た後の世帯の状態を示す分類です。",
     "description": "一般世帯を世帯員の従業・通学状況により、通勤・通学者のみの世帯とその他の世帯などに区分したものです。",
-    "examples": ["通勤・通学者のみの世帯"],
-    "relatedTerms": ["従業地・通学地"],
+    "examples": [
+      "通勤・通学者のみの世帯"
+    ],
+    "relatedTerms": [
+      "従業地・通学地"
+    ],
     "category": "従業地・通学地",
     "difficulty": 2
   },
@@ -555,8 +850,14 @@
     "aliases": [],
     "shortDescription": "国勢調査実施日現在の境界による都道府県の区域です。",
     "description": "国勢調査では、調査実施日の10月1日現在の境界による各都道府県の区域を用います。",
-    "examples": ["東京都", "大阪府"],
-    "relatedTerms": ["市区町村", "地域区分"],
+    "examples": [
+      "東京都",
+      "大阪府"
+    ],
+    "relatedTerms": [
+      "市区町村",
+      "地域区分"
+    ],
     "category": "地域区分",
     "difficulty": 1
   },
@@ -566,8 +867,14 @@
     "aliases": [],
     "shortDescription": "市、町、村、特別区、政令指定都市の区をまとめた地域単位です。",
     "description": "国勢調査実施日現在の境界による各市町村、東京都特別区部の各区、政令指定都市の各区の区域です。",
-    "examples": ["横浜市", "新宿区"],
-    "relatedTerms": ["都道府県", "旧市町村"],
+    "examples": [
+      "横浜市",
+      "新宿区"
+    ],
+    "relatedTerms": [
+      "都道府県",
+      "旧市町村"
+    ],
     "category": "地域区分",
     "difficulty": 1
   },
@@ -577,8 +884,12 @@
     "aliases": [],
     "shortDescription": "過去の時点の境界に合わせた市区町村の区域です。",
     "description": "市町村合併前後の結果を比較できるよう、過去の基準日時点の都道府県・市区町村の境域に合わせて組み替えた地域区分です。",
-    "examples": ["平成12年10月1日現在の市区町村"],
-    "relatedTerms": ["市区町村"],
+    "examples": [
+      "平成12年10月1日現在の市区町村"
+    ],
+    "relatedTerms": [
+      "市区町村"
+    ],
     "category": "地域区分",
     "difficulty": 2
   },
@@ -588,8 +899,14 @@
     "aliases": [],
     "shortDescription": "市と東京都特別区部の区域を合わせた地域です。",
     "description": "全国または都道府県について、市の区域と東京都特別区部をすべて合わせた地域です。",
-    "examples": ["全国の市部", "県の市部"],
-    "relatedTerms": ["郡部", "市区町村"],
+    "examples": [
+      "全国の市部",
+      "県の市部"
+    ],
+    "relatedTerms": [
+      "郡部",
+      "市区町村"
+    ],
     "category": "地域区分",
     "difficulty": 2
   },
@@ -599,8 +916,13 @@
     "aliases": [],
     "shortDescription": "町村の区域をすべて合わせた地域です。",
     "description": "全国または都道府県について、町と村の区域をすべて合わせた地域です。",
-    "examples": ["県の郡部"],
-    "relatedTerms": ["市部", "市区町村"],
+    "examples": [
+      "県の郡部"
+    ],
+    "relatedTerms": [
+      "市部",
+      "市区町村"
+    ],
     "category": "地域区分",
     "difficulty": 2
   },
@@ -610,19 +932,30 @@
     "aliases": [],
     "shortDescription": "政令指定都市と東京都特別区部のことです。",
     "description": "国勢調査の地域区分では、政令指定都市および東京都特別区部を大都市と呼びます。",
-    "examples": ["横浜市", "東京都特別区部"],
-    "relatedTerms": ["大都市圏", "市区町村"],
+    "examples": [
+      "横浜市",
+      "東京都特別区部"
+    ],
+    "relatedTerms": [
+      "大都市圏",
+      "市区町村"
+    ],
     "category": "地域区分",
     "difficulty": 1
   },
   {
     "id": "densely_inhabited_district",
     "term": "人口集中地区",
-    "aliases": ["DID"],
+    "aliases": [
+      "DID"
+    ],
     "shortDescription": "人口密度が高い基本単位区が連なり、人口5,000人以上となる地域です。",
     "description": "原則として1平方キロメートル当たり4,000人以上の基本単位区が隣接し、その区域内の人口が合計5,000人以上となる地域です。",
     "examples": [],
-    "relatedTerms": ["人口密度", "基本単位区"],
+    "relatedTerms": [
+      "人口密度",
+      "基本単位区"
+    ],
     "category": "地域区分",
     "difficulty": 2
   },
@@ -633,7 +966,10 @@
     "shortDescription": "人口密度が高い基本単位区が連なり、人口3,000人以上5,000人未満となる地域です。",
     "description": "人口集中地区と同じ人口密度基準を満たす基本単位区が隣接し、その区域内の人口が3,000人以上5,000人未満となる地域です。",
     "examples": [],
-    "relatedTerms": ["人口集中地区", "基本単位区"],
+    "relatedTerms": [
+      "人口集中地区",
+      "基本単位区"
+    ],
     "category": "地域区分",
     "difficulty": 2
   },
@@ -644,7 +980,10 @@
     "shortDescription": "大都市の区境をまたいで連接する人口集中地区をまとめた地域です。",
     "description": "大都市の各区にある人口集中地区のうち、区の境界を挟んで地理的に連接しているものを、一つの地域単位とみなした地域です。",
     "examples": [],
-    "relatedTerms": ["人口集中地区", "大都市"],
+    "relatedTerms": [
+      "人口集中地区",
+      "大都市"
+    ],
     "category": "地域区分",
     "difficulty": 3
   },
@@ -654,8 +993,15 @@
     "aliases": [],
     "shortDescription": "中心市と、社会・経済的につながる周辺市町村から成る広域的な地域です。",
     "description": "行政区域を越えて設定される統計上の地域区分で、東京都特別区部や政令指定都市などの中心市と、通勤・通学などで結び付く周辺市町村から構成されます。",
-    "examples": ["関東大都市圏", "中京大都市圏"],
-    "relatedTerms": ["都市圏", "中心市", "周辺市町村"],
+    "examples": [
+      "関東大都市圏",
+      "中京大都市圏"
+    ],
+    "relatedTerms": [
+      "都市圏",
+      "中心市",
+      "周辺市町村"
+    ],
     "category": "地域区分",
     "difficulty": 2
   },
@@ -665,8 +1011,15 @@
     "aliases": [],
     "shortDescription": "中心市と周辺市町村から成る、行政区域を越えた都市地域です。",
     "description": "大都市圏に含まれない人口50万以上の中心市と、通勤・通学などで社会・経済的に結び付く周辺市町村から成る統計上の地域区分です。",
-    "examples": ["宇都宮都市圏", "熊本都市圏"],
-    "relatedTerms": ["大都市圏", "中心市", "周辺市町村"],
+    "examples": [
+      "宇都宮都市圏",
+      "熊本都市圏"
+    ],
+    "relatedTerms": [
+      "大都市圏",
+      "中心市",
+      "周辺市町村"
+    ],
     "category": "地域区分",
     "difficulty": 2
   },
@@ -676,8 +1029,15 @@
     "aliases": [],
     "shortDescription": "大都市圏や都市圏の中心となる市です。",
     "description": "大都市圏では東京都特別区部と政令指定都市、都市圏では大都市圏に含まれない人口50万以上の市を中心市とします。",
-    "examples": ["札幌市", "熊本市"],
-    "relatedTerms": ["大都市圏", "都市圏", "周辺市町村"],
+    "examples": [
+      "札幌市",
+      "熊本市"
+    ],
+    "relatedTerms": [
+      "大都市圏",
+      "都市圏",
+      "周辺市町村"
+    ],
     "category": "地域区分",
     "difficulty": 2
   },
@@ -688,18 +1048,30 @@
     "shortDescription": "中心市への通勤・通学などで強く結び付く市町村です。",
     "description": "中心市への15歳以上通勤・通学者の割合が常住人口の1.5％以上で、原則として中心市に接している市町村です。",
     "examples": [],
-    "relatedTerms": ["中心市", "大都市圏", "都市圏"],
+    "relatedTerms": [
+      "中心市",
+      "大都市圏",
+      "都市圏"
+    ],
     "category": "地域区分",
     "difficulty": 2
   },
   {
     "id": "distance_zone",
     "term": "キロ圏・距離帯",
-    "aliases": ["距離帯", "キロ圏"],
+    "aliases": [
+      "距離帯",
+      "キロ圏"
+    ],
     "shortDescription": "主要都市の中心からの距離で地域を分けた区分です。",
     "description": "東京、大阪、名古屋の所定の中心点から一定半径内の地域をキロ圏とし、さらに10キロメートル幅の同心円状の距離帯に区分したものです。",
-    "examples": ["東京70キロ圏", "0～10キロ距離帯"],
-    "relatedTerms": ["町丁・字等"],
+    "examples": [
+      "東京70キロ圏",
+      "0～10キロ距離帯"
+    ],
+    "relatedTerms": [
+      "町丁・字等"
+    ],
     "category": "地域区分",
     "difficulty": 2
   },
@@ -709,30 +1081,51 @@
     "aliases": [],
     "shortDescription": "市区町村を細かく分けた、国勢調査の基本的な地域単位です。",
     "description": "学校区や町丁・字等などの小地域結果を利用できるよう平成2年調査から導入された地域単位で、道路や河川など明瞭な施設で区切られます。",
-    "examples": ["一つの街区"],
-    "relatedTerms": ["町丁・字等", "人口集中地区"],
+    "examples": [
+      "一つの街区"
+    ],
+    "relatedTerms": [
+      "町丁・字等",
+      "人口集中地区"
+    ],
     "category": "地域区分",
     "difficulty": 2
   },
   {
     "id": "cho_aza",
     "term": "町丁・字等",
-    "aliases": ["町丁字等"],
+    "aliases": [
+      "町丁字等"
+    ],
     "shortDescription": "町、丁目、字などにおおむね対応する小地域単位です。",
     "description": "同じ市区町村内で、9桁の基本単位区コードの先頭6桁が同じ基本単位区をまとめた地域です。",
-    "examples": ["△△町", "〇〇2丁目", "字□□"],
-    "relatedTerms": ["基本単位区", "市区町村"],
+    "examples": [
+      "△△町",
+      "〇〇2丁目",
+      "字□□"
+    ],
+    "relatedTerms": [
+      "基本単位区",
+      "市区町村"
+    ],
     "category": "地域区分",
     "difficulty": 2
   },
   {
     "id": "regional_mesh",
     "term": "地域メッシュ",
-    "aliases": ["標準地域メッシュ"],
+    "aliases": [
+      "標準地域メッシュ"
+    ],
     "shortDescription": "日本の国土を緯線と経線で網の目状に分けた地域区画です。",
     "description": "行政区域に関係なく、ほぼ同じ大きさと形の区画に分ける地域単位です。国勢調査では約1キロメートル四方の基準地域メッシュなどを用います。",
-    "examples": ["基準地域メッシュ", "2分の1地域メッシュ"],
-    "relatedTerms": ["地域区分"],
+    "examples": [
+      "基準地域メッシュ",
+      "2分の1地域メッシュ"
+    ],
+    "relatedTerms": [
+      "地域区分"
+    ],
     "category": "地域区分",
     "difficulty": 2
   },
@@ -742,8 +1135,14 @@
     "aliases": [],
     "shortDescription": "都市計画で定められた土地利用などの区域区分です。",
     "description": "都市計画法などに基づく区域を使い、調査区を市街化区域、用途地域、市街化調整区域などに区分したものです。",
-    "examples": ["市街化区域", "工業地域", "市街化調整区域"],
-    "relatedTerms": ["地域区分"],
+    "examples": [
+      "市街化区域",
+      "工業地域",
+      "市街化調整区域"
+    ],
+    "relatedTerms": [
+      "地域区分"
+    ],
     "category": "地域区分",
     "difficulty": 3
   },
@@ -753,8 +1152,16 @@
     "aliases": [],
     "shortDescription": "一定の場所で、継続して経済活動を行う単位です。",
     "description": "原則として、一つの区画を占め、単一の経営主体のもとで、従業者と設備を備えて物の生産・販売やサービスの提供を継続的に行う場所をいいます。",
-    "examples": ["店舗", "工場", "営業所"],
-    "relatedTerms": ["従業者", "企業等", "事業所の産業分類"],
+    "examples": [
+      "店舗",
+      "工場",
+      "営業所"
+    ],
+    "relatedTerms": [
+      "従業者",
+      "企業等",
+      "事業所の産業分類"
+    ],
     "category": "事業所・企業",
     "difficulty": 1
   },
@@ -764,8 +1171,15 @@
     "aliases": [],
     "shortDescription": "事業所を存続、新規把握、休業、廃業などの状態で分けたものです。",
     "description": "調査日時点の経済活動の状況や、前回調査からの変化により、事業所を存続事業所、新規把握事業所、休業事業所、廃業事業所などに区分したものです。調査年や調査区分により対象となる区分は異なります。",
-    "examples": ["存続事業所", "新規把握事業所", "休業事業所", "廃業事業所"],
-    "relatedTerms": ["事業所"],
+    "examples": [
+      "存続事業所",
+      "新規把握事業所",
+      "休業事業所",
+      "廃業事業所"
+    ],
+    "relatedTerms": [
+      "事業所"
+    ],
     "category": "事業所・企業",
     "difficulty": 2
   },
@@ -775,19 +1189,37 @@
     "aliases": [],
     "shortDescription": "調査日に、その事業所に所属して働いている全ての人です。",
     "description": "調査日現在、その事業所に所属して働く全ての人をいいます。他の事業所へ出向・派遣中の人を含み、別経営の事業所から来て働く人は含みません。個人経営の家族従業者は、無給でも含まれます。",
-    "examples": ["個人業主", "無給の家族従業者", "有給役員", "常用雇用者", "臨時雇用者"],
-    "relatedTerms": ["事業所", "他からの出向・派遣従業者", "事業従事者数"],
+    "examples": [
+      "個人業主",
+      "無給の家族従業者",
+      "有給役員",
+      "常用雇用者",
+      "臨時雇用者"
+    ],
+    "relatedTerms": [
+      "事業所",
+      "他からの出向・派遣従業者",
+      "事業従事者数"
+    ],
     "category": "従業者",
     "difficulty": 1
   },
   {
     "id": "employees_dispatched_from_other_establishments",
     "term": "他からの出向・派遣従業者",
-    "aliases": ["他からの出向・派遣従業者数"],
+    "aliases": [
+      "他からの出向・派遣従業者数"
+    ],
     "shortDescription": "別の経営主体に籍を置き、その事業所に来て働いている人です。",
     "description": "労働者派遣法上の派遣労働者や在籍出向者など、別経営の出向元に籍を置きながら、調査対象の事業所に来て働いている人をいいます。",
-    "examples": ["派遣労働者", "在籍出向者"],
-    "relatedTerms": ["従業者", "事業従事者数"],
+    "examples": [
+      "派遣労働者",
+      "在籍出向者"
+    ],
+    "relatedTerms": [
+      "従業者",
+      "事業従事者数"
+    ],
     "category": "従業者",
     "difficulty": 2
   },
@@ -797,8 +1229,13 @@
     "aliases": [],
     "shortDescription": "国や地方公共団体の事業所に、民間事業所から派遣されている人です。",
     "description": "国または地方公共団体の事業所で働く人のうち、民間の事業所から派遣されている人をいいます。指定管理や清掃・警備など、委託業務に従事する民間の人は含みません。",
-    "examples": ["行政機関に派遣された民間事業所の従業者"],
-    "relatedTerms": ["事業所", "従業者"],
+    "examples": [
+      "行政機関に派遣された民間事業所の従業者"
+    ],
+    "relatedTerms": [
+      "事業所",
+      "従業者"
+    ],
     "category": "従業者",
     "difficulty": 2
   },
@@ -808,8 +1245,13 @@
     "aliases": [],
     "shortDescription": "その事業所で実際に働いている人の数です。",
     "description": "従業者数から他の事業所へ出向・派遣している従業者数を除き、他の事業所から来ている出向・派遣従業者数を加えて算出します。",
-    "examples": ["従業者数－他への出向・派遣従業者数＋他からの出向・派遣従業者数"],
-    "relatedTerms": ["従業者", "他からの出向・派遣従業者"],
+    "examples": [
+      "従業者数－他への出向・派遣従業者数＋他からの出向・派遣従業者数"
+    ],
+    "relatedTerms": [
+      "従業者",
+      "他からの出向・派遣従業者"
+    ],
     "category": "従業者",
     "difficulty": 2
   },
@@ -819,19 +1261,34 @@
     "aliases": [],
     "shortDescription": "事業所を主な事業内容に基づいて分けた産業分類です。",
     "description": "事業所の主な事業内容により、日本標準産業分類に基づいて分類したものです。令和元年経済センサス‐基礎調査では平成25年10月改定の分類を用いています。",
-    "examples": ["製造業", "卸売業，小売業", "サービス業"],
-    "relatedTerms": ["事業所", "企業産業分類", "産業"],
+    "examples": [
+      "製造業",
+      "卸売業，小売業",
+      "サービス業"
+    ],
+    "relatedTerms": [
+      "事業所",
+      "企業産業分類",
+      "産業"
+    ],
     "category": "産業分類",
     "difficulty": 2
   },
   {
     "id": "establishment_opening_period",
     "term": "事業所の開設時期",
-    "aliases": ["開設時期"],
+    "aliases": [
+      "開設時期"
+    ],
     "shortDescription": "事業所が現在の場所で事業を始めた時期です。",
     "description": "会社や企業の創業時期ではなく、その事業所が現在の場所で事業を始めた時期です。経営権の譲渡、組織変更、新設合併、会社分割、事業譲渡などでは、その変更時期を開設時期とします。",
-    "examples": ["現在地で営業を開始した年月"],
-    "relatedTerms": ["事業所", "経営組織"],
+    "examples": [
+      "現在地で営業を開始した年月"
+    ],
+    "relatedTerms": [
+      "事業所",
+      "経営組織"
+    ],
     "category": "事業所・企業",
     "difficulty": 2
   },
@@ -841,30 +1298,58 @@
     "aliases": [],
     "shortDescription": "事業所を、経営主体の法的な形態などで分けた区分です。",
     "description": "事業所の経営主体を、国・地方公共団体、個人経営、会社、会社以外の法人、法人でない団体などに区分したものです。",
-    "examples": ["個人経営", "会社", "会社以外の法人", "法人でない団体"],
-    "relatedTerms": ["事業所", "企業等", "会社企業"],
+    "examples": [
+      "個人経営",
+      "会社",
+      "会社以外の法人",
+      "法人でない団体"
+    ],
+    "relatedTerms": [
+      "事業所",
+      "企業等",
+      "会社企業"
+    ],
     "category": "事業所・企業",
     "difficulty": 1
   },
   {
     "id": "head_branch_status",
     "term": "単独・本所・支所の別",
-    "aliases": ["単独・本所・支所別"],
+    "aliases": [
+      "単独・本所・支所別"
+    ],
     "shortDescription": "事業所を、単独事業所、本所、支所に分けた区分です。",
     "description": "同一経営の他の事業所との関係により、他に本所や支所を持たない単独事業所、全ての支所を統括する本所、本所の統括を受ける支所に区分したものです。",
-    "examples": ["単独事業所", "本所（本社・本店）", "支所（支社・支店）"],
-    "relatedTerms": ["事業所", "本所の所在地", "企業等"],
+    "examples": [
+      "単独事業所",
+      "本所（本社・本店）",
+      "支所（支社・支店）"
+    ],
+    "relatedTerms": [
+      "事業所",
+      "本所の所在地",
+      "企業等"
+    ],
     "category": "事業所・企業",
     "difficulty": 2
   },
   {
     "id": "head_office_location",
     "term": "本所の所在地",
-    "aliases": ["本社の所在地", "本店の所在地"],
+    "aliases": [
+      "本社の所在地",
+      "本店の所在地"
+    ],
     "shortDescription": "支所を統括する本所が所在する地域です。",
     "description": "支所である事業所について、本所が支所と同じ都道府県にあるか、別の都道府県にあるかを示す区分です。",
-    "examples": ["同一都道府県", "他の都道府県"],
-    "relatedTerms": ["単独・本所・支所の別", "都道府県"],
+    "examples": [
+      "同一都道府県",
+      "他の都道府県"
+    ],
+    "relatedTerms": [
+      "単独・本所・支所の別",
+      "都道府県"
+    ],
     "category": "事業所・企業",
     "difficulty": 1
   },
@@ -874,8 +1359,15 @@
     "aliases": [],
     "shortDescription": "法人や個人経営の事業所を、経営主体ごとにまとめた単位です。",
     "description": "事業・活動を行う法人（外国の会社を除く）と個人経営の事業所をいいます。同じ経営者が複数の事業所を経営する場合は、本所と支所を含めて一つの企業等とします。",
-    "examples": ["本所と複数の支所からなる企業", "単独事業所"],
-    "relatedTerms": ["事業所", "会社企業", "経営組織"],
+    "examples": [
+      "本所と複数の支所からなる企業",
+      "単独事業所"
+    ],
+    "relatedTerms": [
+      "事業所",
+      "会社企業",
+      "経営組織"
+    ],
     "category": "事業所・企業",
     "difficulty": 2
   },
@@ -885,8 +1377,16 @@
     "aliases": [],
     "shortDescription": "会社形態で経営される、本所と支所を含む企業全体です。",
     "description": "経営組織が株式会社、有限会社、相互会社、合名会社、合資会社または合同会社である企業を、本所と支所を含めて一つの単位としたものです。単独事業所は、その事業所だけで会社企業となります。",
-    "examples": ["株式会社", "合同会社", "相互会社"],
-    "relatedTerms": ["企業等", "経営組織", "単独・本所・支所の別"],
+    "examples": [
+      "株式会社",
+      "合同会社",
+      "相互会社"
+    ],
+    "relatedTerms": [
+      "企業等",
+      "経営組織",
+      "単独・本所・支所の別"
+    ],
     "category": "事業所・企業",
     "difficulty": 2
   },
@@ -896,31 +1396,2796 @@
     "aliases": [],
     "shortDescription": "企業全体を主な事業内容に基づいて分けた産業分類です。",
     "description": "本所や支所を含む組織全体の主な事業内容により、日本標準産業分類に基づいて分類したものです。令和元年経済センサス‐基礎調査では平成25年10月改定の分類を用いています。",
-    "examples": ["製造業", "情報通信業", "医療，福祉"],
-    "relatedTerms": ["企業等", "事業所の産業分類", "産業"],
+    "examples": [
+      "製造業",
+      "情報通信業",
+      "医療，福祉"
+    ],
+    "relatedTerms": [
+      "企業等",
+      "事業所の産業分類",
+      "産業"
+    ],
     "category": "産業分類",
     "difficulty": 2
   },
   {
     "id": "capital_amount",
     "term": "資本金額",
-    "aliases": ["資本金の額"],
+    "aliases": [
+      "資本金の額"
+    ],
     "shortDescription": "会社の形態に応じた資本金、出資金または基金の額です。",
     "description": "株式会社・有限会社では資本金、合名会社・合資会社・合同会社では出資金、相互会社では基金の額をいいます。",
-    "examples": ["資本金1,000万円", "出資金500万円"],
-    "relatedTerms": ["会社企業", "経営組織"],
+    "examples": [
+      "資本金1,000万円",
+      "出資金500万円"
+    ],
+    "relatedTerms": [
+      "会社企業",
+      "経営組織"
+    ],
     "category": "企業の経理",
     "difficulty": 1
   },
   {
     "id": "sales_revenue_amount",
     "term": "売上（収入）金額",
-    "aliases": ["売上金額", "収入金額", "売上高", "営業収益", "完成工事高"],
+    "aliases": [
+      "売上金額",
+      "収入金額",
+      "売上高",
+      "営業収益",
+      "完成工事高"
+    ],
     "shortDescription": "商品販売やサービス提供など、通常の事業活動で得た収入額です。",
     "description": "商品などの販売やサービスの提供によって得た売上高、営業収益、完成工事高などをいいます。土地・建物や機械などの財産を売却して得た収入は含みません。一部の企業・法人・団体では経常収益を用います。",
-    "examples": ["商品の販売額", "サービスの提供による収入", "完成工事高"],
-    "relatedTerms": ["企業等", "会社企業", "資本金額"],
+    "examples": [
+      "商品の販売額",
+      "サービスの提供による収入",
+      "完成工事高"
+    ],
+    "relatedTerms": [
+      "企業等",
+      "会社企業",
+      "資本金額"
+    ],
     "category": "企業の経理",
     "difficulty": 1
+  },
+  {
+    "id": "school_basic_survey_closed_school",
+    "term": "休校（休園）等",
+    "aliases": [],
+    "shortDescription": "調査基準日の5月1日時点で在学者がいない学校です。",
+    "description": "学校基本調査の基準日である5月1日現在に、在学者が一人もいない学校を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "学校基本調査",
+    "difficulty": 1
+  },
+  {
+    "id": "school_basic_survey_regular_staff",
+    "term": "本務者",
+    "aliases": [],
+    "shortDescription": "その学校を本務とする専任の教職員です。",
+    "description": "当該学校の専任の教職員を指します。原則として辞令により判定し、辞令などがない場合は待遇や実際の勤務状況によって判定します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "学校基本調査",
+    "difficulty": 1
+  },
+  {
+    "id": "school_basic_survey_concurrent_staff",
+    "term": "兼務者",
+    "aliases": [],
+    "shortDescription": "本務者以外の教職員で、学校ごとの延べ数として把握されます。",
+    "description": "本務者以外の教職員を指します。学校基本調査では実人数ではなく、勤務する学校ごとの延べ数として計上します。",
+    "examples": [
+      "1校で非常勤講師をする人は、その学校の兼務者1人として計上します。",
+      "本務校とは別の学校でも非常勤講師をする人は、本務校で本務者1人、別の学校で兼務者1人として計上します。",
+      "2校で非常勤講師をする人は、各校で兼務者1人、合計2人として計上します。"
+    ],
+    "relatedTerms": [],
+    "category": "学校基本調査",
+    "difficulty": 2
+  },
+  {
+    "id": "school_basic_survey_educational_assistant",
+    "term": "教育補助員",
+    "aliases": [],
+    "shortDescription": "幼稚園で教育活動を補助する、所定の教員職以外の職員です。",
+    "description": "幼稚園において教育活動を補助する者のうち、園長、副園長、教頭、主幹教諭、指導教諭、教諭、助教諭、講師、養護教諭、養護助教諭、栄養教諭のいずれにも該当しない者を指します。教員免許状の有無は問いません。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "学校基本調査",
+    "difficulty": 2
+  },
+  {
+    "id": "school_basic_survey_long_term_absentees",
+    "term": "理由別長期欠席者数",
+    "aliases": [],
+    "shortDescription": "前年度中に通算30日以上欠席した人の数です。",
+    "description": "前年度の期間中に30日以上欠席した者の数を指します。30日間の欠席が連続している必要はありません。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "学校基本調査",
+    "difficulty": 1
+  },
+  {
+    "id": "school_basic_survey_long_absence_illness",
+    "term": "病気",
+    "aliases": [],
+    "shortDescription": "病気やけがによる入院・通院・自宅療養を理由とする長期欠席です。",
+    "description": "心身の故障やけがなどにより、入院、通院または自宅療養を行うために長期欠席した者を指します。自宅療養は原則として医師の指示や診断書の有無で判定しますが、本人の周囲の者が適切と判断した場合も含みます。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "学校基本調査",
+    "difficulty": 2
+  },
+  {
+    "id": "school_basic_survey_long_absence_economic_reason",
+    "term": "経済的理由",
+    "aliases": [],
+    "shortDescription": "家計上の事情を理由とする長期欠席です。",
+    "description": "家計が苦しく教育費を負担できない、または本人が働いて家計を支えるなどの経済的な理由により長期欠席した者を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "学校基本調査",
+    "difficulty": 2
+  },
+  {
+    "id": "school_basic_survey_long_absence_nonattendance",
+    "term": "不登校",
+    "aliases": [],
+    "shortDescription": "病気や経済的理由以外で、登校しない、または登校できないことによる長期欠席です。",
+    "description": "病気または経済的理由ではない何らかの事情により、登校しない、あるいは登校できないため長期欠席した者を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "学校基本調査",
+    "difficulty": 2
+  },
+  {
+    "id": "school_basic_survey_long_absence_other_reason",
+    "term": "その他",
+    "aliases": [],
+    "shortDescription": "病気、経済的理由、不登校のいずれにも当てはまらない長期欠席です。",
+    "description": "病気、経済的理由、不登校のいずれにも該当しない理由で長期欠席した者を指します。家庭の事情、国内外への長期滞在や旅行、または複数の欠席理由があって主な理由を特定できない場合などが含まれます。",
+    "examples": [
+      "保護者の教育に対する考え方、無理解、無関心などの家庭事情",
+      "外国での長期滞在や国内外への旅行",
+      "病気と不登校など複数の理由があり、主な理由を特定できない場合"
+    ],
+    "relatedTerms": [],
+    "category": "学校基本調査",
+    "difficulty": 2
+  },
+  {
+    "id": "school_basic_survey_foreign_national",
+    "term": "外国人",
+    "aliases": [],
+    "shortDescription": "日本国籍を持たない人です。二重国籍者は日本人として扱います。",
+    "description": "日本国籍を持っていない者を指します。日本国籍を含む二重国籍者は外国人ではなく、日本人として計上します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "学校基本調査",
+    "difficulty": 1
+  },
+  {
+    "id": "school_basic_survey_multigrade_class",
+    "term": "複式学級",
+    "aliases": [],
+    "shortDescription": "小学校や中学校で、複数の学年の在学者から構成される学級です。",
+    "description": "小学校または中学校において、1年生と2年生の在学者で構成される学級のように、二つ以上の学年の在学者で構成される学級を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "学校基本調査",
+    "difficulty": 1
+  },
+  {
+    "id": "school_basic_survey_secondary_integrated_school",
+    "term": "中高一貫教育を行う学校",
+    "aliases": [],
+    "shortDescription": "正式な手続きを経て中高一貫教育を行う学校です。",
+    "description": "学則の変更などの正式な手続きを経て、中高一貫教育を行っている学校を指します。実態として中高一貫教育を行っていても、正式な手続きを経ていなければ、学校基本調査上の中高一貫教育校には計上しません。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "学校基本調査",
+    "difficulty": 2
+  },
+  {
+    "id": "school_basic_survey_public_vocational_training_facilities",
+    "term": "公共職業能力開発支援施設等",
+    "aliases": [],
+    "shortDescription": "職業能力開発促進法に基づく施設など、所定の職業・看護人材養成施設です。",
+    "description": "職業能力開発大学校、職業能力開発短期大学校、職業能力開発促進センターなど、職業能力開発促進法に基づいて設置された施設、および学校として認可されていない厚生労働省所管の看護師養成施設などを指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "学校基本調査",
+    "difficulty": 2
+  },
+  {
+    "id": "school_basic_survey_self_employed_etc",
+    "term": "自営業主等",
+    "aliases": [],
+    "shortDescription": "個人事業を営む人、または家族の事業を本業として継続的に手伝う人です。",
+    "description": "個人経営の事業を営む者、および家族が営む事業に継続して本業として従事する者を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "学校基本調査",
+    "difficulty": 1
+  },
+  {
+    "id": "school_basic_survey_regular_employee",
+    "term": "常用労働者",
+    "aliases": [],
+    "shortDescription": "無期雇用者や、契約期間が1か月以上の有期雇用者などです。",
+    "description": "雇用契約期間に定めのない労働者、および雇用契約期間が1か月以上の有期雇用労働者などを指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "学校基本調査",
+    "difficulty": 1
+  },
+  {
+    "id": "school_basic_survey_indefinite_term_employee",
+    "term": "無期雇用労働者",
+    "aliases": [],
+    "shortDescription": "雇用契約期間の定めがない者として就職した人です。",
+    "description": "雇用契約期間に定めのない者として就職した者を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "学校基本調査",
+    "difficulty": 1
+  },
+  {
+    "id": "school_basic_survey_fixed_term_employee_one_month_or_more",
+    "term": "有期雇用労働者（雇用契約期間が一か月以上の者）",
+    "aliases": [],
+    "shortDescription": "1か月以上の期間を定めた雇用契約で働く人です。",
+    "description": "雇用契約期間が1か月以上で、契約期間に定めのある者を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "学校基本調査",
+    "difficulty": 1
+  },
+  {
+    "id": "school_basic_survey_temporary_employee",
+    "term": "臨時労働者",
+    "aliases": [],
+    "shortDescription": "1か月未満の期間を定めた雇用契約で働く人です。",
+    "description": "雇用契約期間が1か月未満で、契約期間に定めのある者を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "学校基本調査",
+    "difficulty": 1
+  },
+  {
+    "id": "school_basic_survey_other_postgraduation_status",
+    "term": "左記以外の者",
+    "aliases": [],
+    "shortDescription": "卒業後、進学にも就職にも該当しないことが明らかな人です。",
+    "description": "卒業後の状況が、進学でも就職でもないことが明らかな者を指します。予備校などに所属せず受験準備をしている者、就職活動中の者、家事手伝いをしている者などが含まれます。",
+    "examples": [
+      "予備校などに所属せず受験の準備をしている者",
+      "就職活動中の者",
+      "家事手伝いをしている者"
+    ],
+    "relatedTerms": [],
+    "category": "学校基本調査",
+    "difficulty": 2
+  },
+  {
+    "id": "school_basic_survey_deceased_or_unknown_postgraduation_status",
+    "term": "死亡・不詳の者",
+    "aliases": [],
+    "shortDescription": "卒業後、5月1日までに死亡した人、または卒業後の状況を学校が全く把握できない人です。",
+    "description": "卒業後、調査期日の5月1日までに死亡した者、および学校が卒業後の状況を全く把握できていない者を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "学校基本調査",
+    "difficulty": 2
+  },
+  {
+    "id": "fundamental_statistical_survey",
+    "term": "基幹統計調査",
+    "aliases": [],
+    "shortDescription": "行政機関等が行う統計調査で、基幹統計の作成を目的とし、統計法（平成19年法律第53号）の規定により総務大臣の承認を得たものを基幹統計調査とされています。",
+    "description": "行政機関等が行う統計調査で、基幹統計の作成を目的とし、統計法（平成19年法律第53号）の規定により総務大臣の承認を得たものを基幹統計調査とされています。行政機関の長は、あらかじめ総務大臣に申請書を提出し、その内容の審査を受けて、その承認を得なければならない。調査を中止し又は承認を得た事項を変更する場合も承認を要する。また、統計法において、次のいずれかに該当する統計を「基幹統計」とされています。(1)国勢統計(2)国民経済計算(3)行政機関が作成し、又は作成すべき統計であって、次のいずれかに該当するものとして総務大臣が指定するものア全国的な政策を企画立案し、又はこれを実施する上において特に重要な統計イ民間における意思決定又は研究活動のために広く利用されると見込まれる統計ウ国際条約又は国際機関が作成する計画において作成が求められている統計、その他国際比較を行う上において特に重要な統計基幹統計調査には以下のような規定を置いている。(1)統計調査員基幹統計調査の実施のため必要があるときは、統計調査員を置くことができる。(2)地方公共団体が処理する事務基幹統計調査に関する事務の一部は、政令で定めるところにより、地方公共団体の長又は教育委員会が行うことができる。(3)基幹統計の公表等行政機関の長は、基幹統計を作成したときは、速やかに、当該基幹統計及び基幹統計に関し政令で定める事項を、インターネットの利用その他の適切な方法により公表しなければならない。公表をしようとするときは、あらかじめ、当該基幹統計の公表期日及び公表方法を定め、インターネットの利用、その他の適切な方法により公表するものとする。また、国民が基幹統計に関する情報を常に容易に入手することができるよう、当該情報の長期的かつ体系的な保存その他の適切な措置を講ずるものとする。(4)その他統計法は、基幹統計調査について、以上に述べたもののほか、措置要求、報告義務、立入検査等、基幹統計調査と誤認させる調査の禁止、命令への委任についての規定を置いている。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 3
+  },
+  {
+    "id": "general_statistical_survey",
+    "term": "一般統計調査",
+    "aliases": [],
+    "shortDescription": "行政機関等が行う統計調査のうち基幹統計調査以外のものを指します。",
+    "description": "行政機関等が行う統計調査のうち基幹統計調査以外のものを指します。調査の実施や変更・中止に関しては、基幹統計調査と同じく総務大臣の承認が必要である。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "local_government_or_independent_agency_statistical_survey",
+    "term": "地方公共団体又は独立行政法人等が行う統計調査",
+    "aliases": [],
+    "shortDescription": "地方公共団体（地方公共団体の規模を勘案して政令で定めるものに限る。",
+    "description": "地方公共団体（地方公共団体の規模を勘案して政令で定めるものに限る。）又は独立行政法人等（その業務の内容その他の事情を勘案して大規模な統計調査を行うことが想定されるものとして政令で定めるものに限る。）が行う統計調査のことであり、総務大臣への届け出により統計調査を行うことができる。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 2
+  },
+  {
+    "id": "census_survey_method",
+    "term": "全数調査",
+    "aliases": [
+      "全部調査"
+    ],
+    "shortDescription": "全部調査ともいい、国勢調査や農林業センサスのように文字どおり調査単位のすべてを調査する方法である。",
+    "description": "全部調査ともいい、国勢調査や農林業センサスのように文字どおり調査単位のすべてを調査する方法である。調査対象者のリストが完全であり、各調査対象から真に正確な値を聞き取ることができれば完全な調査である。しかし、調査の規模が大きいため、調査労力や費用がかさみ、集計期間が長く、公表まで長期間を要するなどの短所がある。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 2
+  },
+  {
+    "id": "sample_survey_method",
+    "term": "標本調査",
+    "aliases": [
+      "抽出調査"
+    ],
+    "shortDescription": "抽出調査ともいい、調査単位の一部を抽出し、取り出された標本を調査してその結果から全体についての値を推定する方法である。",
+    "description": "抽出調査ともいい、調査単位の一部を抽出し、取り出された標本を調査してその結果から全体についての値を推定する方法である。この方法は、一部の標本についてのみ調査することから全体とは完全に一致することはありえないため代表性が問題となり、使用に耐えうる精度を確保する必要がある。しかし、①少ない費用で行える、②速やかに公表しうるなどの長所をもっている。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 2
+  },
+  {
+    "id": "enumerator_completed_survey",
+    "term": "他計申告調査",
+    "aliases": [
+      "面接調査"
+    ],
+    "shortDescription": "対人調査の一つであり、面接調査ともいう。",
+    "description": "対人調査の一つであり、面接調査ともいう。調査員が被調査者と対面し、定められた調査票に従って質問し、その回答を調査員が記入する方法である。この方法は、調査項目の定義の統一が確保され、調査票の回収率が極めて高いなどの長所がある。しかし、調査員が被調査者に対面するための費用がかかること、調査員の良否が結果に影響を与えることなどの短所がある。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 2
+  },
+  {
+    "id": "respondent_completed_survey",
+    "term": "自計申告調査",
+    "aliases": [],
+    "shortDescription": "被調査者が自ら回答を調査票に記入する方法である。",
+    "description": "被調査者が自ら回答を調査票に記入する方法である。この方法は費用が少なくてすむが、面接調査と異なり定義などの統一が難しいこと、調査内容が難しいものは正確さが期待できないという制約がある。なお、この方法は郵送調査と併用することが多い。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 2
+  },
+  {
+    "id": "survey_candidate_list",
+    "term": "調査客体候補名簿",
+    "aliases": [],
+    "shortDescription": "調査対象となる客体の住所・氏名等を整理した名簿で、調査員が事前に記載された住所を訪問し、客体候補者への聞き取り調査を行い、調査客体となるかどうかの判定をするためのもの。",
+    "description": "調査対象となる客体の住所・氏名等を整理した名簿で、調査員が事前に記載された住所を訪問し、客体候補者への聞き取り調査を行い、調査客体となるかどうかの判定をするためのもの。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 2
+  },
+  {
+    "id": "agricultural_and_forestry_management_entity",
+    "term": "農林業経営体",
+    "aliases": [],
+    "shortDescription": "農林産物の生産を行うか又は委託を受けて農林業作業を行い、生産又は作業に係る面積・頭数が、次の規定のいずれかに該当する事業を行う者を指します。",
+    "description": "農林産物の生産を行うか又は委託を受けて農林業作業を行い、生産又は作業に係る面積・頭数が、次の規定のいずれかに該当する事業を行う者を指します。(1)経営耕地面積が30ａ以上の規模の農業(2)農作物の作付面積又は栽培面積、家畜の飼養頭羽数又は出荷羽数、その他の事業の規模が次の農林業経営体の基準以上の農業①露地野菜作付面積15ａ②施設野菜栽培面積350㎡③果樹栽培面積10ａ④露地花き栽培面積10ａ⑤施設花き栽培面積250㎡⑥搾乳牛飼養頭数1頭⑦肥育牛飼養頭数1頭⑧豚飼養頭数15頭⑨採卵鶏飼養羽数150羽⑩ブロイラー年間出荷羽数1,000羽⑪その他調査期日前１年間における農業生産物の総販売額50万円に相当する事業の規模(3)権原に基づいて育林又は伐採（立木竹のみを譲り受けてする伐採を除きます。）を行うことができる山林（以下「保有山林」とされています。）の面積が３ha以上の規模の林業（調査実施年を計画期間に含む「森林経営計画」若しくは「森林施業計画」を策定している者又は調査期日前５年間に継続して林業を行い、育林若しくは伐採を実施した者に限る。）(4)農作業の受託の事業(5)委託を受けて行う育林若しくは素材生産又は立木を購入して行う素材生産の事業（ただし、素材生産については、調査期日前１年間に200㎥以上の素材を生産した者に限る。）",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 3
+  },
+  {
+    "id": "agricultural_management_entity",
+    "term": "農業経営体",
+    "aliases": [],
+    "shortDescription": "農林業経営体のうち、(1)、(2)又は(4)のいずれかに該当する事業を行う者を指します。",
+    "description": "農林業経営体のうち、(1)、(2)又は(4)のいずれかに該当する事業を行う者を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "forestry_management_entity",
+    "term": "林業経営体",
+    "aliases": [],
+    "shortDescription": "農林業経営体のうち、(3)又は(5)のいずれかに該当する事業を行う者を指します。",
+    "description": "農林業経営体のうち、(3)又は(5)のいずれかに該当する事業を行う者を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "family_management_entity",
+    "term": "家族経営体",
+    "aliases": [],
+    "shortDescription": "１世帯（雇用者の有無は問わない。",
+    "description": "１世帯（雇用者の有無は問わない。）で事業を行う者を指します。なお、農家が法人化した形態である一戸一法人を含みます。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "organization_management_entity",
+    "term": "組織経営体",
+    "aliases": [],
+    "shortDescription": "世帯で事業を行わない者（家族経営体でない経営体）を指します。",
+    "description": "世帯で事業を行わない者（家族経営体でない経営体）を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "non_farm_agricultural_business_for_sales",
+    "term": "農家以外の農業事業体（販売目的）",
+    "aliases": [],
+    "shortDescription": "農業経営体のうち、調査期日現在で10ａ以上の経営耕地を有するか、あるいは経営耕地面積が10ａ未満であっても、調査期日前１年間における農産物販売金額が15万円以上であり、かつ、農産物の販売により農業収入を得るこなどを指します。",
+    "description": "農業経営体のうち、調査期日現在で10ａ以上の経営耕地を有するか、あるいは経営耕地面積が10ａ未満であっても、調査期日前１年間における農産物販売金額が15万円以上であり、かつ、農産物の販売により農業収入を得ることを直接の目的とする組織経営体を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 2
+  },
+  {
+    "id": "incorporated_management_entity",
+    "term": "法人化している（法人経営体）",
+    "aliases": [],
+    "shortDescription": "農林業経営体のうち、法人化して事業を行う者をいう（一戸一法人を含みます。",
+    "description": "農林業経営体のうち、法人化して事業を行う者をいう（一戸一法人を含みます。）。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "agricultural_producers_cooperative_corporation",
+    "term": "農事組合法人",
+    "aliases": [],
+    "shortDescription": "農業協同組合法（昭和22年法律第132号）に基づき農業生産について協業を図ることにより、共同の利益を増進することを目的として設立された法人を指します。",
+    "description": "農業協同組合法（昭和22年法律第132号）に基づき農業生産について協業を図ることにより、共同の利益を増進することを目的として設立された法人を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "company",
+    "term": "会社",
+    "aliases": [],
+    "shortDescription": "次のいずれかに該当するものを指します。",
+    "description": "次のいずれかに該当するものを指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "stock_company",
+    "term": "株式会社",
+    "aliases": [],
+    "shortDescription": "会社法（平成17年法律第86号）に基づき、株式会社の組織形態をとっているものを指します。",
+    "description": "会社法（平成17年法律第86号）に基づき、株式会社の組織形態をとっているものを指します。なお、会社法の施行に伴う関係法律の整備等に関する法律（平成17年法律第87号）に定める特例有限会社の組織形態をとっているものを含みます。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 2
+  },
+  {
+    "id": "general_or_limited_partnership_company",
+    "term": "合名・合資会社",
+    "aliases": [],
+    "shortDescription": "会社法に基づき、合名会社又は合資会社の組織形態をとっているものを指します。",
+    "description": "会社法に基づき、合名会社又は合資会社の組織形態をとっているものを指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "limited_liability_company",
+    "term": "合同会社",
+    "aliases": [],
+    "shortDescription": "会社法に基づき、合同会社の組織形態をとっているものを指します。",
+    "description": "会社法に基づき、合同会社の組織形態をとっているものを指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "various_organizations",
+    "term": "各種団体",
+    "aliases": [],
+    "shortDescription": "次のいずれかに該当するものを指します。",
+    "description": "次のいずれかに該当するものを指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "agricultural_cooperative",
+    "term": "農協",
+    "aliases": [],
+    "shortDescription": "農業協同組合法に基づき組織された組合で、農業協同組合、農業協同組合の連合組織（経済連等）が該当します。",
+    "description": "農業協同組合法に基づき組織された組合で、農業協同組合、農業協同組合の連合組織（経済連等）が該当します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "forestry_cooperative",
+    "term": "森林組合",
+    "aliases": [],
+    "shortDescription": "森林組合法（昭和53年法律第36号）に基づき組織された組合で、森林組合、生産森林組合、森林組合連合会が該当します。",
+    "description": "森林組合法（昭和53年法律第36号）に基づき組織された組合で、森林組合、生産森林組合、森林組合連合会が該当します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "other_organizations",
+    "term": "その他の各種団体",
+    "aliases": [],
+    "shortDescription": "農業災害補償法（昭和22年法律第185号）に基づき組織された農業共済組合や農業関係団体、又は森林組合以外の組合、愛林組合、林業研究グループ等の団体が該当します。",
+    "description": "農業災害補償法（昭和22年法律第185号）に基づき組織された農業共済組合や農業関係団体、又は森林組合以外の組合、愛林組合、林業研究グループ等の団体が該当します。林業公社（第３セクター）もここに含める。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 2
+  },
+  {
+    "id": "other_corporation",
+    "term": "その他の法人",
+    "aliases": [],
+    "shortDescription": "農事組合法人、会社及び各種団体以外の法人で、特例民法法人、一般社団法人、一般財団法人、宗教法人、医療法人などが該当します。",
+    "description": "農事組合法人、会社及び各種団体以外の法人で、特例民法法人、一般社団法人、一般財団法人、宗教法人、医療法人などが該当します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "local_government_or_property_ward",
+    "term": "地方公共団体・財産区",
+    "aliases": [],
+    "shortDescription": "地方公共団体とは、都道府県及び市区町村を指します。",
+    "description": "地方公共団体とは、都道府県及び市区町村を指します。財産区とは、地方自治法（昭和22年法律第67号）に基づき、市区町村の一部を財産として所有するために設けられた特別区を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 2
+  },
+  {
+    "id": "single_farming_management_entity",
+    "term": "単一経営経営体",
+    "aliases": [],
+    "shortDescription": "農産物販売金額のうち、主位部門の販売金額が８割以上の経営体を指します。",
+    "description": "農産物販売金額のうち、主位部門の販売金額が８割以上の経営体を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "quasi_single_mixed_farming_management_entity",
+    "term": "準単一複合経営経営体",
+    "aliases": [],
+    "shortDescription": "単一経営経営体以外で、農産物販売金額のうち、主位部門の販売金額が６割以上８割未満の経営体を指します。",
+    "description": "単一経営経営体以外で、農産物販売金額のうち、主位部門の販売金額が６割以上８割未満の経営体を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "mixed_farming_management_entity",
+    "term": "複合経営経営体",
+    "aliases": [],
+    "shortDescription": "単一経営経営体以外で、農産物販売金額のうち、主位部門の販売金額が６割未満（販売のなかった経営体を除きます。",
+    "description": "単一経営経営体以外で、農産物販売金額のうち、主位部門の販売金額が６割未満（販売のなかった経営体を除きます。）の経営体を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "managed_farmland",
+    "term": "経営耕地",
+    "aliases": [],
+    "shortDescription": "調査期日現在で農林業経営体が経営している耕地（けい畔を含む田、樹園地及び畑）をいい、自ら所有し耕作している耕地（自作地）と、他から借りて耕作している耕地（借入耕地）の合計である。",
+    "description": "調査期日現在で農林業経営体が経営している耕地（けい畔を含む田、樹園地及び畑）をいい、自ら所有し耕作している耕地（自作地）と、他から借りて耕作している耕地（借入耕地）の合計である。土地台帳の地目や面積に関係なく、実際の地目別の面積とした。経営耕地＝所有地(田、畑、樹園地)－貸付耕地－耕作放棄地＋借入耕地経営耕地の取扱い方(1)他から借りている耕地は、届出の有無に関係なく、また、口頭の賃借契約によるものも、全て借り受けている者の経営耕地（借入耕地）とした。(2)請負耕作や委託耕作などと呼ばれるものであっても、実際は一般の借入れと同じと考えられる場合は、その耕作を借り受けて耕作している者の経営耕地（借入耕地）とした。(3)耕起又は稲刈り等のそれぞれの作業を単位として、作業を請け負う者に委託している場合は、その耕地は委託者の経営耕地とした。(4)委託者が、収穫物の全てをもらい受ける契約で、作物の栽培一切を人に任せ、その代わりあらかじめ決めてある一定の耕作料を相手に支払う場合は、その耕地は委託者の経営耕地とした。(5)調査期日前１年間に１作しか行われなかった耕地で、その１作の期間を人に貸し付けていた場合は、貸し付けた者の経営耕地とはせず、貸付耕地（借り受けた側の経営耕地）とした。なお、「また小作」している耕地も、「また小作している農家」の経営耕地（借入耕地）とした。(6)共有の耕地を割地として各戸で耕作している場合や、河川敷、官公有地内で耕作している場合も経営耕地（借入耕地）とした。(7)協業で経営している耕地は、自分の土地であっても、自らの経営耕地とはせず、協業経営体の経営耕地とした。(8)他の市区町村や他の都道府県に通って耕作（出作）している耕地でも、全てその農林業経営体の経営耕地とした。したがって、○○県や○○町の経営耕地面積として計上されているものは、その県や町に居住している農林業経営体が経営している経営耕地の面積であり、いわゆる属人統計であることに留意する必要がある。耕地の取扱い方(1)耕地面積には、けい畔を含めます。棚田などでけい畔がかなり広い面積を占める場合には、本地面積の２割に当たる部分だけを田の面積に入れ（斜面の面積ではなく、水平面積を入れる。）、残りの部分については耕地以外の土地とした。(2)災害や労力の都合などで調査期日前１年間作物を栽培していなくても、ここ数年の間に再び耕作する意思のある土地は耕地とした。しかし、ここ数年の間に再び耕作する意思のない土地は耕地とはせず耕作放棄地とした。(3)新しく開墾した土地は、は種できるように整地した状態になっていても、調査期日までに１回も作付けしていなければ耕地とはしなかった。(4)宅地内でも１ａ以上まとまった土地に農作物を栽培している場合は耕地とした。(5)ハウス、ガラス室などの敷地は耕地とした。ただし、コンクリート床などで地表から植物体が遮断されている場合や、きのこ栽培専門のものの敷地は耕地とはしなかった。(6)普通畑に牧草を作っている場合は耕地とした。また、林野を耕起して作った牧草地（いわゆる造成草地）も耕地とした。なお、施肥・補はんなどの肥培管理をしている牧草栽培地は、は種後何年経過していても耕地とし、肥培管理をやめていて近く更新することが確定していないものは耕地以外の土地とした。(7)堤防と河川・湖沼との間にある土地に作物を栽培している場合は耕地とした。(8)植林用苗木を栽培している土地は耕地とした。(9)肥培管理を行っているたけのこ、くり、くるみ、山茶、こうぞ、みつまた、はぜ、こりやなぎ、油桐、あべまき、うるし、つばきなどの栽培地は耕地とした（刈敷程度は肥培管理とみなさない。）。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 3
+  },
+  {
+    "id": "managed_paddy_field",
+    "term": "田",
+    "aliases": [],
+    "shortDescription": "耕地のうち、水をたたえるためのけい畔のある土地を指します。",
+    "description": "耕地のうち、水をたたえるためのけい畔のある土地を指します。水をたたえるということは、人工かんがいによるものだけではなく、自然に耕地がかんがいされるようなものも含めます。したがって、天水田、湧水田なども田とした。(1)陸田（もとは畑であったが、現在はけい畔を作り水をたたえるようにしてある土地やたん水のためビニールを張り水稲を作っている土地）も田とした。(2)ただし、もとは田であってけい畔が残っていても、果樹・桑・茶など永年性の木本性周年植物を栽培している耕地は田とせず樹園地とした。また、同様にさとうきびを栽培していれば普通畑とした。なお、水をたたえるためのけい畔を作らず畑地にかんがいしている土地は、たとえ水稲を作っていても畑とした。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 2
+  },
+  {
+    "id": "paddy_field_planted_with_rice",
+    "term": "稲を作った田",
+    "aliases": [],
+    "shortDescription": "食用又は飼料用の稲を作った田を指します。",
+    "description": "食用又は飼料用の稲を作った田を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "food_use_rice_paddy",
+    "term": "食用",
+    "aliases": [],
+    "shortDescription": "稲を作った田のうち、食用（主食用米、加工用米及び米粉用米）の稲を作った田を指します。",
+    "description": "稲を作った田のうち、食用（主食用米、加工用米及び米粉用米）の稲を作った田を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "feed_use_rice_paddy",
+    "term": "飼料用",
+    "aliases": [],
+    "shortDescription": "稲を作った田のうち、飼料用（ホールクロップサイレージ（ＷＣＳ）用稲、飼料用米、飼料用の青刈り稲など）の稲を作った田を指します。",
+    "description": "稲を作った田のうち、飼料用（ホールクロップサイレージ（ＷＣＳ）用稲、飼料用米、飼料用の青刈り稲など）の稲を作った田を指します。なお、飼料用以外の青刈り稲は稲以外の作物に含めます。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 2
+  },
+  {
+    "id": "double_cropped_rice_paddy",
+    "term": "二毛作した田",
+    "aliases": [],
+    "shortDescription": "食用又は飼料用の稲を作った田のうち、二毛作（裏作）をした田を指します。",
+    "description": "食用又は飼料用の稲を作った田のうち、二毛作（裏作）をした田を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "paddy_field_only_non_rice_crops",
+    "term": "稲以外の作物だけを作った田",
+    "aliases": [],
+    "shortDescription": "稲以外の作物だけを作った田を指します。",
+    "description": "稲以外の作物だけを作った田を指します。なお、飼料用以外の青刈り稲等、食用と飼料用以外の用途で稲を作った田はここに含めます。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "unplanted_paddy_field",
+    "term": "何も作らなかった田",
+    "aliases": [],
+    "shortDescription": "災害や労働力不足、転作などの理由で、過去１年間全く作付けしなかったが、ここ数年の間に再び耕作する意思のある田を指します。",
+    "description": "災害や労働力不足、転作などの理由で、過去１年間全く作付けしなかったが、ここ数年の間に再び耕作する意思のある田を指します。なお、ここ数年の間に再び耕作する意思のない土地は耕作放棄地として、ここには含みません。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 2
+  },
+  {
+    "id": "managed_upland_field",
+    "term": "畑",
+    "aliases": [],
+    "shortDescription": "耕地のうち田と樹園地を除いた耕地を指します。",
+    "description": "耕地のうち田と樹園地を除いた耕地を指します。なお、焼畑、切替畑（林野で抜根せず、火入れにより作物を栽培する畑及び畑と山林を輪番し、切り替えて利用する畑）など不安定な土地も畑とした。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 2
+  },
+  {
+    "id": "upland_field_with_ordinary_crops",
+    "term": "普通作物を作った畑",
+    "aliases": [],
+    "shortDescription": "畑のうち、飼料用作物だけを作った畑、牧草専用地及び何も作らなかった畑を除く全てのもので、通常、草本性作物又は苗木等を栽培することを常態とするものを指します。",
+    "description": "畑のうち、飼料用作物だけを作った畑、牧草専用地及び何も作らなかった畑を除く全てのもので、通常、草本性作物又は苗木等を栽培することを常態とするものを指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "upland_field_with_feed_crops",
+    "term": "飼料用作物だけを作った畑",
+    "aliases": [],
+    "shortDescription": "飼料用作物や牧草のみを栽培した畑を指します。",
+    "description": "飼料用作物や牧草のみを栽培した畑を指します。なお、牧草と輪作している畑はここに含め、牧草だけを継続して作った畑は「牧草専用地」とした。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "permanent_grassland",
+    "term": "牧草専用地",
+    "aliases": [],
+    "shortDescription": "牧草だけを継続的に栽培している土地を指します。",
+    "description": "牧草だけを継続的に栽培している土地を指します。(1)牧草のは種後何年経過していても、施肥及び補はんなどの肥培管理をしていればここに含めます。(2)草地造成により造成した牧草地はここに含めた（この場合の造成草地とは、牧草のは種を完了したものを指します。）。ただし、共有及び公有の造成草地で割地されていないものは除いた。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 2
+  },
+  {
+    "id": "unplanted_upland_field",
+    "term": "何も作らなかった畑",
+    "aliases": [],
+    "shortDescription": "災害や労働力不足などの理由で、過去１年間全く作付けしなかったが、ここ数年の間に再び耕作する意思のある畑を指します。",
+    "description": "災害や労働力不足などの理由で、過去１年間全く作付けしなかったが、ここ数年の間に再び耕作する意思のある畑を指します。なお、ここ数年の間に再び耕作する意思のない土地は耕作放棄地として、ここには含みません。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 2
+  },
+  {
+    "id": "managed_orchard",
+    "term": "樹園地",
+    "aliases": [],
+    "shortDescription": "木本性周年作物を規則的又は連続的に栽培している土地で果樹、茶、桑などが１ａ以上まとまっているもの（一定の畝幅及び株間を持ち、前後左右に連続して栽培されていることを指します。",
+    "description": "木本性周年作物を規則的又は連続的に栽培している土地で果樹、茶、桑などが１ａ以上まとまっているもの（一定の畝幅及び株間を持ち、前後左右に連続して栽培されていることを指します。）で肥培管理している土地を指します。花木類などを５年以上栽培している土地もここに含めます。なお、樹園地に間作している場合は、利用面積により普通畑と樹園地に分けて計上した。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 2
+  },
+  {
+    "id": "owned_farmland",
+    "term": "所有耕地",
+    "aliases": [],
+    "shortDescription": "所有耕地＝所有地（田、畑、樹園地）－耕作放棄地",
+    "description": "所有耕地＝所有地（田、畑、樹園地）－耕作放棄地",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "rented_in_farmland",
+    "term": "借入耕地",
+    "aliases": [],
+    "shortDescription": "他人から耕作を目的に借り入れている耕地を指します。",
+    "description": "他人から耕作を目的に借り入れている耕地を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "rented_out_farmland",
+    "term": "貸付耕地",
+    "aliases": [],
+    "shortDescription": "他人に貸し付けている自己所有耕地を指します。",
+    "description": "他人に貸し付けている自己所有耕地を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "abandoned_cultivated_land",
+    "term": "耕作放棄地",
+    "aliases": [],
+    "shortDescription": "以前耕作していた土地で、過去１年以上作物を作付け（栽培）せず、この数年の間に再び作付け（栽培）する意思のない土地を指します。",
+    "description": "以前耕作していた土地で、過去１年以上作物を作付け（栽培）せず、この数年の間に再び作付け（栽培）する意思のない土地を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "non_farmland_used_for_hay_or_grazing",
+    "term": "耕地以外で採草地・放牧地として利用した土地",
+    "aliases": [],
+    "shortDescription": "保有又は借り入れている山林、原野、耕作放棄地等で、過去１年間に飼料用や肥料用に採草したり、放牧又はけい牧地として利用した土地のことを指します。",
+    "description": "保有又は借り入れている山林、原野、耕作放棄地等で、過去１年間に飼料用や肥料用に採草したり、放牧又はけい牧地として利用した土地のことを指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "crops_for_sale",
+    "term": "販売目的の作物",
+    "aliases": [],
+    "shortDescription": "販売を目的で作付け（栽培）した作物であり、自給用のみを作付け（栽培）した場合は含めない。",
+    "description": "販売を目的で作付け（栽培）した作物であり、自給用のみを作付け（栽培）した場合は含めない。また、販売目的で作付け（栽培）したものを、たまたまその一部を自給向けにした場合は含めます。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 2
+  },
+  {
+    "id": "planted_area",
+    "term": "作付面積",
+    "aliases": [],
+    "shortDescription": "は種又は植付けしてからおおむね１年以内に収穫され、複数年にわたる収穫ができない非永年性作物を作付けた面積を指します。",
+    "description": "は種又は植付けしてからおおむね１年以内に収穫され、複数年にわたる収穫ができない非永年性作物を作付けた面積を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "cultivated_area",
+    "term": "栽培面積",
+    "aliases": [],
+    "shortDescription": "一度のは種又は植付け後、数年にわたって収穫を行うことができる永年性作物を栽培した面積を指します。",
+    "description": "一度のは種又は植付け後、数年にわたって収穫を行うことができる永年性作物を栽培した面積を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "dairy_cattle",
+    "term": "乳用牛",
+    "aliases": [],
+    "shortDescription": "現在搾乳中の牛（乾乳中の牛を含みます。",
+    "description": "現在搾乳中の牛（乾乳中の牛を含みます。）のほか、将来搾乳する目的で飼っている牛、種牛（種牛候補を含みます。）及びと殺前に一時肥育している乳廃牛を指します。なお、肉用として肥育している未経産牛や肉用のおす牛、産後すぐ（１週間程度）に肉用として売る予定の子牛は、ここには含めずに肉用牛に含めます。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 2
+  },
+  {
+    "id": "beef_cattle",
+    "term": "肉用牛",
+    "aliases": [],
+    "shortDescription": "肉用を目的として飼養している乳用牛以外の牛を指します。",
+    "description": "肉用を目的として飼養している乳用牛以外の牛を指します。乳用牛、肉用牛の区分は、品種区分ではなく、利用目的によって区分しており、乳用種のおすばかりでなく、子取り用のめす牛や未経産のめす牛も肥育を目的として飼養している場合は肉用牛とした。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 2
+  },
+  {
+    "id": "beef_dairy_crossbred_cattle",
+    "term": "和牛と乳用種の交雑種",
+    "aliases": [],
+    "shortDescription": "乳用種のめすに肉用種のおすを交配し生産された、いわゆるＦ１牛を指します。",
+    "description": "乳用種のめすに肉用種のおすを交配し生産された、いわゆるＦ１牛を指します。なお、Ｆ１牛のめすに肉用種のおすを交配し生産されたＦ１クロス牛も含みます。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "pigs",
+    "term": "豚",
+    "aliases": [],
+    "shortDescription": "自ら肥育し、肉用として販売することを目的に飼養している豚及び子取り用に飼養している６か月齢以上のめす豚を指します。",
+    "description": "自ら肥育し、肉用として販売することを目的に飼養している豚及び子取り用に飼養している６か月齢以上のめす豚を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "laying_hens",
+    "term": "採卵鶏",
+    "aliases": [],
+    "shortDescription": "卵の販売目的で飼養している鶏（ひなどりを含みます。",
+    "description": "卵の販売目的で飼養している鶏（ひなどりを含みます。）を指します。種鶏やブロイラー、愛玩用の東天紅・尾長鳥・ちゃぼなどは含みません。なお、廃鶏も調査期日現在でまだ飼養していれば、便宜上ここに含めます。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 2
+  },
+  {
+    "id": "broilers",
+    "term": "ブロイラー",
+    "aliases": [],
+    "shortDescription": "当初から食用に供する目的で飼養し、原則としてふ化後３か月未満で肉用として出荷した鶏を指します。",
+    "description": "当初から食用に供する目的で飼養し、原則としてふ化後３か月未満で肉用として出荷した鶏を指します。肉用種、卵用種は問わない。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "agricultural_product_sales",
+    "term": "農産物販売金額",
+    "aliases": [],
+    "shortDescription": "肥料代、農薬代、飼料代等の諸経費を差引く前の売上金額（消費税を含みます。",
+    "description": "肥料代、農薬代、飼料代等の諸経費を差引く前の売上金額（消費税を含みます。）を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "agricultural_managers_and_officers",
+    "term": "経営者・役員等",
+    "aliases": [],
+    "shortDescription": "その農業経営に責任を持つ者をいい、農産物の生産又は委託を受けて行う農作業の時期の決定や、作物及び家畜の出荷（販売）時期の決定といった、日常の農業経営における管理運営の中心となっている者を指します。",
+    "description": "その農業経営に責任を持つ者をいい、農産物の生産又は委託を受けて行う農作業の時期の決定や、作物及び家畜の出荷（販売）時期の決定といった、日常の農業経営における管理運営の中心となっている者を指します。会社等における経営の責任者や役員、集落営農や協業経営の場合は構成員等をいうが、農業経営に対する出資のみを行っていて、実際の仕事に従事していない者は含みません。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 2
+  },
+  {
+    "id": "agricultural_employees",
+    "term": "雇用者",
+    "aliases": [],
+    "shortDescription": "農業経営のために雇った「常雇い」及び「臨時雇い」（手間替え・ゆい（労働交換）、手伝い（金品の授受を伴わない無償の受け入れ労働）を含みます。",
+    "description": "農業経営のために雇った「常雇い」及び「臨時雇い」（手間替え・ゆい（労働交換）、手伝い（金品の授受を伴わない無償の受け入れ労働）を含みます。）の合計を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "regular_agricultural_employees",
+    "term": "常雇い",
+    "aliases": [],
+    "shortDescription": "主として農業経営のために雇った人で、雇用契約（口頭の契約でもかまわない。",
+    "description": "主として農業経営のために雇った人で、雇用契約（口頭の契約でもかまわない。）に際し、あらかじめ７か月以上の期間を定めて雇った人（期間を定めずに雇った人を含みます。）のことを指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 2
+  },
+  {
+    "id": "temporary_agricultural_employees",
+    "term": "臨時雇い",
+    "aliases": [],
+    "shortDescription": "日雇い、季節雇いなど農業経営のために臨時雇いした人で、手間替え・ゆい（労働交換）、手伝い（金品の授受を伴わない無償の受け入れ労働）を含みます。",
+    "description": "日雇い、季節雇いなど農業経営のために臨時雇いした人で、手間替え・ゆい（労働交換）、手伝い（金品の授受を伴わない無償の受け入れ労働）を含みます。なお、農作業を委託した場合の労働は含みません。また、主に農業経営以外の仕事のために雇っている人が農繁期などに農業経営のための農作業に従事した場合や、７か月以上の契約で雇った人がそれ未満で辞めた場合を含みます。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 2
+  },
+  {
+    "id": "contracted_agricultural_work",
+    "term": "農作業の受託",
+    "aliases": [],
+    "shortDescription": "自分の持っている機械（借入れを含みます。",
+    "description": "自分の持っている機械（借入れを含みます。）を使って他者の農作業を個人的に請け負ったものと、複数の農家の組織活動として請け負ったものの両方を含みます。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "contracted_rice_farming_work",
+    "term": "水稲作作業の受託",
+    "aliases": [],
+    "shortDescription": "全作業受託とは、同一の世帯又は組織から水稲作の育苗から乾燥・調製までの全作業を受託したことをいい、経営を委託されたものは含みません。",
+    "description": "全作業受託とは、同一の世帯又は組織から水稲作の育苗から乾燥・調製までの全作業を受託したことをいい、経営を委託されたものは含みません。部分作業受託とは、水稲作の育苗、耕起・代かき、田植、防除、稲刈り・脱穀、乾燥・調製のうち、１種類以上の作業について受託したことを指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 2
+  },
+  {
+    "id": "contracted_sugarcane_farming_work",
+    "term": "さとうきび作作業の受託",
+    "aliases": [],
+    "shortDescription": "全作業受託とは、同一の世帯又は組織からさとうきび作の耕起・整地から収穫までの全作業を受託したことをいい、経営を委託されたものは含みません。",
+    "description": "全作業受託とは、同一の世帯又は組織からさとうきび作の耕起・整地から収穫までの全作業を受託したことをいい、経営を委託されたものは含みません。部分作業受託とは、さとうきび作の耕起・整地、植付け、中耕・培土、防除及び収穫のうち、１種類以上の作業について受託したことを指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 2
+  },
+  {
+    "id": "agricultural_machine_units_owned",
+    "term": "所有台数",
+    "aliases": [],
+    "shortDescription": "機械の購入者ではなく、実際に機械を管理している者をその機械を所有している者とみなした。",
+    "description": "機械の購入者ではなく、実際に機械を管理している者をその機械を所有している者とみなした。また、数戸で共有している機械で、現在、調査客体が保管・管理している機械も含めます。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 2
+  },
+  {
+    "id": "agriculture_related_business",
+    "term": "農業生産関連事業",
+    "aliases": [],
+    "shortDescription": "「農産物の加工」、「消費者に直接販売」、「観光農園」、「農家民宿」等の農業生産に関連した事業を指します。",
+    "description": "「農産物の加工」、「消費者に直接販売」、「観光農園」、「農家民宿」等の農業生産に関連した事業を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "agricultural_product_processing",
+    "term": "農産物の加工",
+    "aliases": [],
+    "shortDescription": "販売を目的として、自ら生産した農産物をその使用割合の多寡にかかわらず用いて加工していることを指します。",
+    "description": "販売を目的として、自ら生産した農産物をその使用割合の多寡にかかわらず用いて加工していることを指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "direct_sales_to_consumers",
+    "term": "消費者に直接販売",
+    "aliases": [],
+    "shortDescription": "自ら生産した農産物やその加工品を直接消費者に販売している（インターネット販売を含みます。",
+    "description": "自ら生産した農産物やその加工品を直接消費者に販売している（インターネット販売を含みます。）場合や、消費者と販売契約して直送しているものを指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "allotment_or_experience_farm",
+    "term": "貸農園・体験農園等",
+    "aliases": [],
+    "shortDescription": "所有又は借り入れている農地を、第三者を経由せず、農園利用方式等により非農業者に利用させ、使用料を得ているものを指します。",
+    "description": "所有又は借り入れている農地を、第三者を経由せず、農園利用方式等により非農業者に利用させ、使用料を得ているものを指します。なお、自己所有耕地を地方公共団体・農協が経営する市民農園に有償で貸与しているものは含みません。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 2
+  },
+  {
+    "id": "tourist_farm",
+    "term": "観光農園",
+    "aliases": [],
+    "shortDescription": "農業を営む者が、観光客等に、ほ場において、自ら生産した農産物の収穫等の一部農作業を体験させ又は観賞させ代金を得ている事業を指します。",
+    "description": "農業を営む者が、観光客等に、ほ場において、自ら生産した農産物の収穫等の一部農作業を体験させ又は観賞させ代金を得ている事業を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "farm_inn",
+    "term": "農家民宿",
+    "aliases": [],
+    "shortDescription": "農業を営む者が、旅館業法（昭和23年法律第138号）に基づき都道府県知事の許可を得て、観光客等を宿泊させ、自ら生産した農産物や地域の食材をその使用割合の多寡にかかわらず用いた料理を提供し料金を得ている事業を指します。",
+    "description": "農業を営む者が、旅館業法（昭和23年法律第138号）に基づき都道府県知事の許可を得て、観光客等を宿泊させ、自ら生産した農産物や地域の食材をその使用割合の多寡にかかわらず用いた料理を提供し料金を得ている事業を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 2
+  },
+  {
+    "id": "farm_restaurant",
+    "term": "農家レストラン",
+    "aliases": [],
+    "shortDescription": "農業を営む者が、食品衛生法（昭和22年法律第233号）に基づき都道府県知事の許可を得て、不特定の者に自ら生産した農産物や地域の食材をその使用割合の多寡にかかわらず用いた料理を提供し代金を得ている事業を指します。",
+    "description": "農業を営む者が、食品衛生法（昭和22年法律第233号）に基づき都道府県知事の許可を得て、不特定の者に自ら生産した農産物や地域の食材をその使用割合の多寡にかかわらず用いた料理を提供し代金を得ている事業を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 2
+  },
+  {
+    "id": "agricultural_exports",
+    "term": "海外への輸出",
+    "aliases": [],
+    "shortDescription": "農業を営む者が、農産物を輸出しているものを指します。",
+    "description": "農業を営む者が、農産物を輸出しているものを指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "agriculture_related_business_income",
+    "term": "農業生産関連事業収入",
+    "aliases": [],
+    "shortDescription": "農業生産に関連した事業における諸経費を差し引く前の売上合計金額（消費税を含みます。",
+    "description": "農業生産に関連した事業における諸経費を差し引く前の売上合計金額（消費税を含みます。）を指します。なお、消費者に直接販売した売上高は含みません。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "environmentally_friendly_agriculture",
+    "term": "環境保全型農業",
+    "aliases": [],
+    "shortDescription": "地域の慣行（地域で従来から行われている方法を指します。",
+    "description": "地域の慣行（地域で従来から行われている方法を指します。以下同じ。）に比べて農薬や化学肥料の使用量を減らしたり、堆肥による土作りを行うなど、環境に配慮した農業を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 2
+  },
+  {
+    "id": "reduced_chemical_fertilizer_use",
+    "term": "化学肥料の低減",
+    "aliases": [],
+    "shortDescription": "化学肥料を使用しない、又は地域の慣行と比較して、化学肥料の投入量や回数の低減に取り組んだ場合を指します。",
+    "description": "化学肥料を使用しない、又は地域の慣行と比較して、化学肥料の投入量や回数の低減に取り組んだ場合を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "reduced_pesticide_use",
+    "term": "農薬の低減",
+    "aliases": [],
+    "shortDescription": "農薬を使用しない、又は地域の慣行と比較して、農薬の投入量や回数の低減に取り組んだ場合を指します。",
+    "description": "農薬を使用しない、又は地域の慣行と比較して、農薬の投入量や回数の低減に取り組んだ場合を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "soil_improvement_with_compost",
+    "term": "堆肥による土作り",
+    "aliases": [],
+    "shortDescription": "堆肥を耕地に還元して土作りを行った場合を指します。",
+    "description": "堆肥を耕地に還元して土作りを行った場合を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "non_agricultural_capital_investment",
+    "term": "農業以外の業種からの資本金・出資金の提供を受けている",
+    "aliases": [],
+    "shortDescription": "農業組合法人又は会社法人の農業経営体が、農業以外の業種から資本金や出資金の提供を受けている場合を指します。",
+    "description": "農業組合法人又は会社法人の農業経営体が、農業以外の業種から資本金や出資金の提供を受けている場合を指します。なお、資本金・出資金の提供を外部から受けている場合を含むが、例えば、建設会社が自ら農業経営（農作業の受託のみの場合を含みます。）を行い、建設業と農業経営を併せて行っている場合は含みません。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 2
+  },
+  {
+    "id": "construction_or_transport_industry",
+    "term": "建設業または運輸業",
+    "aliases": [],
+    "shortDescription": "日本標準産業分類の大分類に示す「Ｄ－建設業」又は「Ｈ－運輸業、郵便業」に該当する業種（例えば、土木関係の会社、鉄道会社、運送会社、宅配業者等）を指します。",
+    "description": "日本標準産業分類の大分類に示す「Ｄ－建設業」又は「Ｈ－運輸業、郵便業」に該当する業種（例えば、土木関係の会社、鉄道会社、運送会社、宅配業者等）を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "food_manufacturing_or_service_industry",
+    "term": "飲食料品関連の製造業・サービス業",
+    "aliases": [],
+    "shortDescription": "日本標準産業分類の大分類に示す「Ｅ－製造業」のうち、中分類「09－食料品製造業」（例えば、食品加工会社など）及び中分類「10－飲料・たばこ・飼料製造業」（小分類106飼料・有機質肥料製造業を除きます。",
+    "description": "日本標準産業分類の大分類に示す「Ｅ－製造業」のうち、中分類「09－食料品製造業」（例えば、食品加工会社など）及び中分類「10－飲料・たばこ・飼料製造業」（小分類106飼料・有機質肥料製造業を除きます。）並びに「Ｍ－宿泊業、飲食サービス業」（例えば、旅館、ホテル、飲食店など）に該当する業種を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 2
+  },
+  {
+    "id": "food_wholesale_or_retail_industry",
+    "term": "飲食料品関連の卸売・小売業",
+    "aliases": [],
+    "shortDescription": "日本標準産業分類の大分類に示す「Ｉ－卸売業、小売業」のうち、中分類「50－各種商品卸売業」、「52－飲食料品卸売業」、「56－各種商品小売業」及び「58－飲食料品小売業」を指します。",
+    "description": "日本標準産業分類の大分類に示す「Ｉ－卸売業、小売業」のうち、中分類「50－各種商品卸売業」、「52－飲食料品卸売業」、「56－各種商品小売業」及び「58－飲食料品小売業」（例えば、総合商社、スーパー、コンビニエンスストア、八百屋、魚屋、酒屋など）に該当する業種を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 2
+  },
+  {
+    "id": "non_food_manufacturing_industry",
+    "term": "飲食料品関連以外の製造業",
+    "aliases": [],
+    "shortDescription": "飲食料品関連の製造業に該当しない製造業に該当する業種を指します。",
+    "description": "飲食料品関連の製造業に該当しない製造業に該当する業種を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "non_food_wholesale_or_retail_industry",
+    "term": "飲食料品関連以外の卸売・小売業",
+    "aliases": [],
+    "shortDescription": "飲食料品関連の卸売業及び小売業に該当しない卸売業及び小売業に該当する業種を指します。",
+    "description": "飲食料品関連の卸売業及び小売業に該当しない卸売業及び小売業に該当する業種を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "healthcare_welfare_or_education_industry",
+    "term": "医療・福祉・教育関連",
+    "aliases": [],
+    "shortDescription": "日本標準産業分類の大分類に示す「Ｏ－教育、学習支援業」（例えば、学校、学習塾、図書館、美術館など）及び「Ｐ－医療、福祉」（例えば、病院、整体、鍼灸院、老人ホーム、介護施設、障害者支援施設など）に該当する業種を指します。",
+    "description": "日本標準産業分類の大分類に示す「Ｏ－教育、学習支援業」（例えば、学校、学習塾、図書館、美術館など）及び「Ｐ－医療、福祉」（例えば、病院、整体、鍼灸院、老人ホーム、介護施設、障害者支援施設など）に該当する業種を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 2
+  },
+  {
+    "id": "other_capital_provider_industry",
+    "term": "その他",
+    "aliases": [],
+    "shortDescription": "廃棄物処理業、不動産業、旅行業、建物サービス業及び労働者派遣業など、上述の「建設業または運輸業」から「医療・福祉・教育関連」までの業種以外に該当する全ての業種を指します。",
+    "description": "廃棄物処理業、不動産業、旅行業、建物サービス業及び労働者派遣業など、上述の「建設業または運輸業」から「医療・福祉・教育関連」までの業種以外に該当する全ての業種を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 2
+  },
+  {
+    "id": "principal_farming_household",
+    "term": "主業農家",
+    "aliases": [],
+    "shortDescription": "農業所得が主（農家所得の50％以上が農業所得）で、調査期日前１年間に自営農業に60日以上従事している65歳未満の世帯員がいる農家を指します。",
+    "description": "農業所得が主（農家所得の50％以上が農業所得）で、調査期日前１年間に自営農業に60日以上従事している65歳未満の世帯員がいる農家を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "semi_principal_farming_household",
+    "term": "準主業農家",
+    "aliases": [],
+    "shortDescription": "農外所得が主（農家所得の50％未満が農業所得）で、調査期日前１年間に自営農業に60日以上従事している65歳未満の世帯員がいる農家を指します。",
+    "description": "農外所得が主（農家所得の50％未満が農業所得）で、調査期日前１年間に自営農業に60日以上従事している65歳未満の世帯員がいる農家を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "side_business_farming_household",
+    "term": "副業的農家",
+    "aliases": [],
+    "shortDescription": "調査期日前１年間に自営農業に60日以上従事している65歳未満の世帯員がいない農家（主業農家及び準主業農家以外の農家）を指します。",
+    "description": "調査期日前１年間に自営農業に60日以上従事している65歳未満の世帯員がいない農家（主業農家及び準主業農家以外の農家）を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "full_time_farming_household",
+    "term": "専業農家",
+    "aliases": [],
+    "shortDescription": "世帯員の中に兼業従事者（調査期日前１年間に他に雇用されて仕事に従事した者又は自営農業以外の自営業に従事した者）が１人もいない農家を指します。",
+    "description": "世帯員の中に兼業従事者（調査期日前１年間に他に雇用されて仕事に従事した者又は自営農業以外の自営業に従事した者）が１人もいない農家を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "part_time_farming_household",
+    "term": "兼業農家",
+    "aliases": [],
+    "shortDescription": "世帯員の中に兼業従事者が１人以上いる農家を指します。",
+    "description": "世帯員の中に兼業従事者が１人以上いる農家を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "class_one_part_time_farming_household",
+    "term": "第１種兼業農家",
+    "aliases": [],
+    "shortDescription": "農業所得を主とする兼業農家を指します。",
+    "description": "農業所得を主とする兼業農家を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "class_two_part_time_farming_household",
+    "term": "第２種兼業農家",
+    "aliases": [],
+    "shortDescription": "農業所得を従とする兼業農家を指します。",
+    "description": "農業所得を従とする兼業農家を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "working_age_population",
+    "term": "生産年齢人口",
+    "aliases": [],
+    "shortDescription": "15～64歳の者の人口を指します。",
+    "description": "15～64歳の者の人口を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "agricultural_successor",
+    "term": "農業後継者",
+    "aliases": [],
+    "shortDescription": "15歳以上の者で、次の代でその家の農業経営を継承する者をいう（予定者を含みます。",
+    "description": "15歳以上の者で、次の代でその家の農業経営を継承する者をいう（予定者を含みます。）。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "non_manager_farm_policy_decision_participant",
+    "term": "経営方針の決定参画者（経営者を除く。）",
+    "aliases": [],
+    "shortDescription": "経営者以外で、調査期日前１年間に自営農業に関する次のいずれかの決定に参画した世帯員を指します。",
+    "description": "経営者以外で、調査期日前１年間に自営農業に関する次のいずれかの決定に参画した世帯員を指します。(1)生産品目や飼養する畜種の選定・規模(2)出荷先(3)資金調達(4)機械・施設などへの投資(5)農地借入(6)農作業受託（請負）(7)雇用及びその管理",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 2
+  },
+  {
+    "id": "household_member",
+    "term": "世帯員",
+    "aliases": [],
+    "shortDescription": "原則として住居と生計を共にしている者を指します。",
+    "description": "原則として住居と生計を共にしている者を指します。出稼ぎに出ている人は含むが、通学や就職のためよそに住んでいる子弟は除きます。また、住み込みの雇人も除きます。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "agricultural_worker",
+    "term": "農業従事者",
+    "aliases": [],
+    "shortDescription": "15歳以上の世帯員のうち、調査期日前１年間に自営農業に従事した者を指します。",
+    "description": "15歳以上の世帯員のうち、調査期日前１年間に自営農業に従事した者を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "full_time_agricultural_worker",
+    "term": "農業専従者",
+    "aliases": [],
+    "shortDescription": "農業従事者（自営農業に従事した世帯員）のうち、調査期日前１年間に自営農業に150日以上従事した者を指します。",
+    "description": "農業従事者（自営農業に従事した世帯員）のうち、調査期日前１年間に自営農業に150日以上従事した者を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "agricultural_working_population",
+    "term": "農業就業人口",
+    "aliases": [],
+    "shortDescription": "農業従事者のうち調査期日前１年間に自営農業のみに従事した者、農業とそれ以外の仕事の両方に従事した者のうち自営農業が主の者の人口を指します。",
+    "description": "農業従事者のうち調査期日前１年間に自営農業のみに従事した者、農業とそれ以外の仕事の両方に従事した者のうち自営農業が主の者の人口を指します。（家事や育児が主体の主婦や学生等も含みます。）",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 2
+  },
+  {
+    "id": "core_agricultural_worker",
+    "term": "基幹的農業従事者",
+    "aliases": [],
+    "shortDescription": "農業就業人口（自営農業に主として従事した世帯員）のうち、ふだん仕事として主に自営農業に従事している者を指します。",
+    "description": "農業就業人口（自営農業に主として従事した世帯員）のうち、ふだん仕事として主に自営農業に従事している者を指します。（家事や育児が主体の主婦や学生等は含みません。）",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 2
+  },
+  {
+    "id": "owned_forest",
+    "term": "所有山林",
+    "aliases": [],
+    "shortDescription": "実際に所有している山林を指します。",
+    "description": "実際に所有している山林を指します。なお、登記は済んでいないものの、実際に相続している山林や購入した山林を含みます。また、共有林などのうち、割り替えされない割地（半永久的に利用できる区域）があれば、それも含めます。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 2
+  },
+  {
+    "id": "rented_out_forest",
+    "term": "貸付山林",
+    "aliases": [],
+    "shortDescription": "所有山林のうち、山林として使用するため他者が地上権の設定をした山林、他者に貸し付けている土地又は分収（土地所有者と造林者が異なり、両者で収益を分配するもの）させている山林を指します。",
+    "description": "所有山林のうち、山林として使用するため他者が地上権の設定をした山林、他者に貸し付けている土地又は分収（土地所有者と造林者が異なり、両者で収益を分配するもの）させている山林を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 2
+  },
+  {
+    "id": "rented_in_forest",
+    "term": "借入山林",
+    "aliases": [],
+    "shortDescription": "単独で山林として使用するため地上権を設定した他人の山林、他者から借りている山林又は分収している山林を指します。",
+    "description": "単独で山林として使用するため地上権を設定した他人の山林、他者から借りている山林又は分収している山林を指します。また、共有林などのうち、割り替えされる割地があれば、それも含めます。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 2
+  },
+  {
+    "id": "managed_forest",
+    "term": "保有山林",
+    "aliases": [],
+    "shortDescription": "保有山林＝所有山林－貸付山林＋借入山林",
+    "description": "保有山林＝所有山林－貸付山林＋借入山林",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "forest_managed_by_others",
+    "term": "他に作業・管理を任せている山林",
+    "aliases": [],
+    "shortDescription": "保有山林のうち、一定の期間、一連の林業作業（下刈り、除伐、間伐、主伐等）とその管理を一括して他者に任せている山林を指します。",
+    "description": "保有山林のうち、一定の期間、一連の林業作業（下刈り、除伐、間伐、主伐等）とその管理を一括して他者に任せている山林を指します。ただし、作業ごとに委託した（請け負わせた）場合は含みません。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 2
+  },
+  {
+    "id": "forest_managed_for_others",
+    "term": "他から作業・管理を任されている山林",
+    "aliases": [],
+    "shortDescription": "保有山林以外で、一定の期間、一連の林業作業（下刈り、除伐、間伐、主伐等）とその管理を一括して任されている山林を指します。",
+    "description": "保有山林以外で、一定の期間、一連の林業作業（下刈り、除伐、間伐、主伐等）とその管理を一括して任されている山林を指します。ただし、作業ごとに受託した（請け負った）場合は含みません。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 2
+  },
+  {
+    "id": "forest_products_sold",
+    "term": "林産物の販売を行った",
+    "aliases": [],
+    "shortDescription": "過去１年間において、保有山林から生産・採取された林産物（立木を購入して生産した素材、栽培きのこ類、林業用苗木などを除きます。",
+    "description": "過去１年間において、保有山林から生産・採取された林産物（立木を購入して生産した素材、栽培きのこ類、林業用苗木などを除きます。）を販売し、又は自ら営む製材業などに仕向けた場合を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 2
+  },
+  {
+    "id": "timber",
+    "term": "用材",
+    "aliases": [],
+    "shortDescription": "樹種を問わず、製材用丸太、パルプ用材、合板用材、電柱用材、土木用材、坑木、まくら木、農用等に使われる木材を指します。",
+    "description": "樹種を問わず、製材用丸太、パルプ用材、合板用材、電柱用材、土木用材、坑木、まくら木、農用等に使われる木材を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "standing_timber_sale",
+    "term": "立木で",
+    "aliases": [],
+    "shortDescription": "立木のまま販売したものを指します。",
+    "description": "立木のまま販売したものを指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "log_sale",
+    "term": "素材で",
+    "aliases": [],
+    "shortDescription": "立木を伐倒し、所定の長さに切断した丸太あるいは、切断した後で運搬を容易にするために四面をとった丸太（そま角）にして販売したものを指します。",
+    "description": "立木を伐倒し、所定の長さに切断した丸太あるいは、切断した後で運搬を容易にするために四面をとった丸太（そま角）にして販売したものを指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "mushroom_bed_log",
+    "term": "ほだ木用原木",
+    "aliases": [],
+    "shortDescription": "保有山林からの林木を、しいたけ、なめこなどを生産するほだ木用の原木として販売したものを指します。",
+    "description": "保有山林からの林木を、しいたけ、なめこなどを生産するほだ木用の原木として販売したものを指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "special_forest_products",
+    "term": "特用林産物",
+    "aliases": [],
+    "shortDescription": "保有山林から生産又は採取し販売したもののうち、用材、ほだ木用原木を除く林産物を指します。",
+    "description": "保有山林から生産又は採取し販売したもののうち、用材、ほだ木用原木を除く林産物を指します。主な特用林産物は、薪炭原木、竹材、樹実、樹皮、葉、樹根、天然性のきのこやたけのこなどである。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 2
+  },
+  {
+    "id": "forestry_manager_and_working_household_members",
+    "term": "経営者（林業経営に従事した世帯員を含む。）",
+    "aliases": [],
+    "shortDescription": "経営者（林業経営に責任を持つ者）、役員、山林の共同所有者及び世帯員のうち、実際の林業経営に従事した者を指します。",
+    "description": "経営者（林業経営に責任を持つ者）、役員、山林の共同所有者及び世帯員のうち、実際の林業経営に従事した者を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "forestry_employees",
+    "term": "雇用者",
+    "aliases": [],
+    "shortDescription": "林業経営のために雇った「常雇い」及び「臨時雇い」（手間替え・ゆい（労働交換）、手伝い（金品の授受を伴わない無償の受け入れ労働）を含みます。",
+    "description": "林業経営のために雇った「常雇い」及び「臨時雇い」（手間替え・ゆい（労働交換）、手伝い（金品の授受を伴わない無償の受け入れ労働）を含みます。）の合計を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "regular_forestry_employees",
+    "term": "常雇い",
+    "aliases": [],
+    "shortDescription": "主として林業経営のために雇った人で、雇用契約（口頭の契約でもかまわない。",
+    "description": "主として林業経営のために雇った人で、雇用契約（口頭の契約でもかまわない。）に際し、あらかじめ７か月以上の期間を定めて雇った人（期間を定めずに雇った人を含みます。）のことを指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 2
+  },
+  {
+    "id": "temporary_forestry_employees",
+    "term": "臨時雇い",
+    "aliases": [],
+    "shortDescription": "日雇い、季節雇いなど林業経営のために臨時雇いした人で、手間替え・ゆい（労働交換）、手伝い（金品の授受を伴わない無償の受け入れ労働）を含みます。",
+    "description": "日雇い、季節雇いなど林業経営のために臨時雇いした人で、手間替え・ゆい（労働交換）、手伝い（金品の授受を伴わない無償の受け入れ労働）を含みます。なお、林業作業を委託した場合の労働は含みません。また、主に林業経営以外の仕事のために雇っている人が林業経営のための林業作業に従事した場合や、７か月以上の契約で雇った人がそれ未満でやめた場合を含みます。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 2
+  },
+  {
+    "id": "afforestation",
+    "term": "植林",
+    "aliases": [],
+    "shortDescription": "山林とするために、伐採跡地や山林でなかった土地に苗木の植付け、種子のまき付け、挿し木などをすることを指します。",
+    "description": "山林とするために、伐採跡地や山林でなかった土地に苗木の植付け、種子のまき付け、挿し木などをすることを指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "underbrush_clearing_and_other_tending",
+    "term": "下刈りなど",
+    "aliases": [],
+    "shortDescription": "林木の健全な育成のために行う下刈り、除伐、つる切り、枝打ち、雪起こしなどの植林から間伐までの保育作業を指します。",
+    "description": "林木の健全な育成のために行う下刈り、除伐、つる切り、枝打ち、雪起こしなどの植林から間伐までの保育作業を指します。なお、作業を年２回以上同一区画で行った場合あるいは同一区画で別々の作業を行った場合の面積は、実面積とした。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 2
+  },
+  {
+    "id": "forest_thinning",
+    "term": "間伐",
+    "aliases": [],
+    "shortDescription": "林木を健全に成長させるため、立木密度を調整し、劣勢木、不用木など林木の一部を伐採することを指します。",
+    "description": "林木を健全に成長させるため、立木密度を調整し、劣勢木、不用木など林木の一部を伐採することを指します。このうち、間伐材を林外に運搬し他に利用した場合は利用間伐、間伐材を林内に放置したままにした場合は切捨間伐とした。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 2
+  },
+  {
+    "id": "final_felling",
+    "term": "主伐",
+    "aliases": [],
+    "shortDescription": "一定の林齢に生育した立木を、用材等で販売するために伐採（被害木の伐採は含みません。",
+    "description": "一定の林齢に生育した立木を、用材等で販売するために伐採（被害木の伐採は含みません。）することを指します。なお、主伐には、一度に全面積伐採する皆伐と、区画内の立木を何回かに分けて抜き切りする択伐があるが、択伐の場合であっても、面積は、伐採した全体の区画とした。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 2
+  },
+  {
+    "id": "contracted_forestry_work",
+    "term": "林業作業の受託",
+    "aliases": [],
+    "shortDescription": "他者の林業作業（立木買いによる素材生産を含みます。",
+    "description": "他者の林業作業（立木買いによる素材生産を含みます。）を請け負うことを指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "log_production_volume",
+    "term": "素材生産量",
+    "aliases": [],
+    "shortDescription": "素材とは丸太のことをさし、原木ともいう。",
+    "description": "素材とは丸太のことをさし、原木ともいう。丸太の体積を表し、一般的には立方メートル（㎥）の単位で表示する。なお、立木買いによる素材生産量を含みます。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "log_production_from_purchased_standing_trees",
+    "term": "立木買いによる素材生産",
+    "aliases": [],
+    "shortDescription": "立木を購入し、伐木して素材のまま販売することを指します。",
+    "description": "立木を購入し、伐木して素材のまま販売することを指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "farm_household",
+    "term": "農家",
+    "aliases": [],
+    "shortDescription": "調査期日現在で、経営耕地面積が10ａ以上の農業を営む世帯又は経営耕地面積が10ａ未満であっても、調査期日前１年間における農産物販売金額が15万円以上あった世帯を指します。",
+    "description": "調査期日現在で、経営耕地面積が10ａ以上の農業を営む世帯又は経営耕地面積が10ａ未満であっても、調査期日前１年間における農産物販売金額が15万円以上あった世帯を指します。なお、「農業を営む」とは、営利又は自家消費のために耕種、養畜、養蚕、又は自家生産の農産物を原料とする加工を行うことを指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 2
+  },
+  {
+    "id": "commercial_farm_household",
+    "term": "販売農家",
+    "aliases": [],
+    "shortDescription": "経営耕地面積が30ａ以上又は調査期日前１年間における農産物販売金額が50万円以上の農家を指します。",
+    "description": "経営耕地面積が30ａ以上又は調査期日前１年間における農産物販売金額が50万円以上の農家を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "subsistence_farm_household",
+    "term": "自給的農家",
+    "aliases": [],
+    "shortDescription": "経営耕地面積が30ａ未満かつ調査期日前１年間における農産物販売金額が50万円未満の農家を指します。",
+    "description": "経営耕地面積が30ａ未満かつ調査期日前１年間における農産物販売金額が50万円未満の農家を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "landholding_nonfarm_household",
+    "term": "土地持ち非農家",
+    "aliases": [],
+    "shortDescription": "農家以外で耕地及び耕作放棄地を合計で５ａ以上所有している世帯を指します。",
+    "description": "農家以外で耕地及び耕作放棄地を合計で５ａ以上所有している世帯を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "participation_in_organized_agricultural_production",
+    "term": "農業生産を行う組織経営に参加･従事",
+    "aliases": [],
+    "shortDescription": "集落営農などの農業生産を行う組織経営体（農業サービスを行う組織経営体を除きます。",
+    "description": "集落営農などの農業生産を行う組織経営体（農業サービスを行う組織経営体を除きます。）に参加し、かつ、組織の活動に従事していることを指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "agricultural_production_corporation_as_management_entity",
+    "term": "農業経営体である農業生産法人",
+    "aliases": [],
+    "shortDescription": "農業経営体のうち、農業生産法人に該当する経営体を指します。",
+    "description": "農業経営体のうち、農業生産法人に該当する経営体を指します。なお、平成28年４月１日からの改正法の施行に伴い、農地法（昭和27年法律第229号）第２条第３項に規定する農業経営を行うために農地を取得できる法人の呼称は、「農業生産法人」から「農地所有適格法人」に変更された。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 2
+  },
+  {
+    "id": "organized_agricultural_production_entity",
+    "term": "農業生産等を行う組織経営体",
+    "aliases": [],
+    "shortDescription": "農業経営体のうち、調査期日現在で10ａ以上の経営耕地を有するか、あるいは経営耕地面積が10ａ未満であっても、調査期日前１年間における農産物販売金額が15万円以上（旧農家以外の農業事業体の定義に該当します。",
+    "description": "農業経営体のうち、調査期日現在で10ａ以上の経営耕地を有するか、あるいは経営耕地面積が10ａ未満であっても、調査期日前１年間における農産物販売金額が15万円以上（旧農家以外の農業事業体の定義に該当します。）であった組織経営体を指します。農業生産等を行う組織経営体は、経営目的により次の３区分とした。(1)販売目的農産物の販売により農業収入を得ることを直接の目的とするものを指します。会社等が内部の加工場に原料を供給することを目的とするものも含める。なお、この場合、加工そのものは農業とはしない。(2)牧草地経営牧草を栽培することにより、家畜の預託事業を営むことを目的とする預託牧場及び農家等が共同して牧草を栽培し、共同で採草・放牧に利用することを目的とする共同利用採草・放牧場を指します。また、集落営農、農事組合法人等が同様の目的で採草する場合も含める。(3)その他販売目的及び牧草地経営以外のもので、試験研究等を目的とするもの（会社等の実験農場も含みます。）を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 3
+  },
+  {
+    "id": "agricultural_work_contract_only_entity",
+    "term": "農作業受託のみを行う経営体",
+    "aliases": [],
+    "shortDescription": "農業経営体のうち、農家等から委託を受けて農作業を行う経営体を指します。",
+    "description": "農業経営体のうち、農家等から委託を受けて農作業を行う経営体を指します。具体的には、農作業の受託（構成員からの員内受託を含みます。）を行っている農業生産組織、農協等が農作業の受託を行うために運営している育苗センター、ライスセンター、選果・選別場等であって、調査期日現在で10ａ以上の経営耕地を有さず、かつ、調査期日前１年間における農産物販売金額が15万円未満の経営体を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 2
+  },
+  {
+    "id": "forestry_work_contract_entity",
+    "term": "林業作業受託を行う経営体",
+    "aliases": [],
+    "shortDescription": "林業経営体のうち、委託を受けて育林又は素材生産を行う経営体又は立木を購入して素材生産を行う経営体を指します。",
+    "description": "林業経営体のうち、委託を受けて育林又は素材生産を行う経営体又は立木を購入して素材生産を行う経営体を指します。具体的には、調査期日前１年間に委託を受けて育林を行ったもの及び委託を受けて又は立木を購入して素材生産を行うものであって調査期日前１年間における素材生産量が200㎥以上のものを指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 2
+  },
+  {
+    "id": "forest_household",
+    "term": "林家",
+    "aliases": [],
+    "shortDescription": "調査期日現在の保有山林面積が１ha以上の世帯を指します。",
+    "description": "調査期日現在の保有山林面積が１ha以上の世帯を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "total_land_area",
+    "term": "総土地面積",
+    "aliases": [],
+    "shortDescription": "都道府県全ての面積を指します。",
+    "description": "都道府県全ての面積を指します。本調査では、原則として国土地理院『全国都道府県市区町村別面積調』による総土地面積によった。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "forest_and_grassland_area",
+    "term": "林野面積",
+    "aliases": [],
+    "shortDescription": "現況森林面積と森林以外の草生地の面積を合わせたものをいい、不動産登記規則（平成17年法務省令第18号）第99条に規定する地目では山林と原野を合わせた面積に相当する。",
+    "description": "現況森林面積と森林以外の草生地の面積を合わせたものをいい、不動産登記規則（平成17年法務省令第18号）第99条に規定する地目では山林と原野を合わせた面積に相当する。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 2
+  },
+  {
+    "id": "forest_area",
+    "term": "森林面積",
+    "aliases": [],
+    "shortDescription": "森林法第２条に規定する森林の面積をいい、具体的には次に掲げる基準によることとした。",
+    "description": "森林法第２条に規定する森林の面積をいい、具体的には次に掲げる基準によることとした。(1)木材が集団的に生育している土地及びその土地の上にある立木竹並びに木竹の集団的な生育に供される土地を指します。(2)保安林や保安施設地区等の森林の施業に制限が加えられているものも森林に含めます。(3)国有林野の林地以外の土地（雑地（崩壊地、岩石地、草生地、高山帯など）、附帯地（苗畑敷、林道敷、作業道敷、レクリェーション施設敷など）及び貸地（道路用地、電気事業用地、採草放牧地など））は除いた。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 2
+  },
+  {
+    "id": "current_forest_area",
+    "term": "現況森林面積",
+    "aliases": [],
+    "shortDescription": "調査日現在の森林面積で、地域森林計画及び国有林の地域別の森林計画樹立時の森林計画を基準とし、計画樹立時以降の森林の移動面積を加減し、これに森林計画以外の森林面積を加えた面積を指します。",
+    "description": "調査日現在の森林面積で、地域森林計画及び国有林の地域別の森林計画樹立時の森林計画を基準とし、計画樹立時以降の森林の移動面積を加減し、これに森林計画以外の森林面積を加えた面積を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 2
+  },
+  {
+    "id": "non_forest_grassland",
+    "term": "森林以外の草生地",
+    "aliases": [],
+    "shortDescription": "森林以外の土地で野草、かん木類が繁茂している土地を指します。",
+    "description": "森林以外の土地で野草、かん木類が繁茂している土地を指します。(1)河川敷、けい畔、ていとう（堤塘）、道路敷、ゴルフ場等は草生していても除いた。(2)林野庁には、貸地の採草放牧地を含みます。(3)林野庁以外の官庁には、財務省所管の未開発地や防衛省所管の自衛隊演習地を含みます。(4)民有林には、現況が野草地（永年牧草地、退化牧草地、耕作放棄した土地が野草地化した土地を含みます。）を含みます。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 2
+  },
+  {
+    "id": "forest_land_ratio",
+    "term": "林野率",
+    "aliases": [],
+    "shortDescription": "総土地面積に占める林野面積の割合を指します。",
+    "description": "総土地面積に占める林野面積の割合を指します。なお、全国、全国農業地域別及び都道府県別の各数値を算出する際は、総土地面積から北方四島（500,305ha）及び竹島（20ha）を除いて計算した。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 2
+  },
+  {
+    "id": "forest_plan_area",
+    "term": "森林計画による森林面積",
+    "aliases": [],
+    "shortDescription": "森林法に基づく、地域森林計画及び国有林の地域別の森林計画の計画樹立時の森林面積を指します。",
+    "description": "森林法に基づく、地域森林計画及び国有林の地域別の森林計画の計画樹立時の森林面積を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "national_forest",
+    "term": "国有（林）",
+    "aliases": [],
+    "shortDescription": "林野庁及び林野庁以外の官庁が所管する土地を指します。",
+    "description": "林野庁及び林野庁以外の官庁が所管する土地を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "forestry_agency_forest",
+    "term": "林野庁",
+    "aliases": [],
+    "shortDescription": "林野庁所管の国有林野及び官行造林地を指します。",
+    "description": "林野庁所管の国有林野及び官行造林地を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "other_national_agency_forest",
+    "term": "林野庁以外の官庁",
+    "aliases": [],
+    "shortDescription": "林野庁以外の国の行政機関が所管する土地を指します。",
+    "description": "林野庁以外の国の行政機関が所管する土地を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "non_national_forest",
+    "term": "民有（林）",
+    "aliases": [],
+    "shortDescription": "国有以外の土地をいい、独立行政法人等、公有（都道府県、森林整備法人、市区町村、財産区）及び私有に分類される。",
+    "description": "国有以外の土地をいい、独立行政法人等、公有（都道府県、森林整備法人、市区町村、財産区）及び私有に分類される。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "independent_agency_owned_forest",
+    "term": "独立行政法人等",
+    "aliases": [],
+    "shortDescription": "独立行政法人、国立大学法及び特殊法人が所有する土地を指します。",
+    "description": "独立行政法人、国立大学法及び特殊法人が所有する土地を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "public_forest",
+    "term": "公有（林）",
+    "aliases": [],
+    "shortDescription": "都道府県、森林整備法人、市区町村及び財産区が所管する土地を指します。",
+    "description": "都道府県、森林整備法人、市区町村及び財産区が所管する土地を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "prefectural_owned_forest",
+    "term": "都道府県",
+    "aliases": [],
+    "shortDescription": "都道府県が所管する土地を指します。",
+    "description": "都道府県が所管する土地を指します。林務主管課（部）所管森林のほか、水道局、教育委員会、開発企業局等が所管するものをいい、都道府県行造林地、都道府県立高校の学校林等も含めます。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 2
+  },
+  {
+    "id": "forest_development_corporation_forest",
+    "term": "森林整備法人（林業・造林公社）",
+    "aliases": [],
+    "shortDescription": "分収林特別措置法（昭和33年法律第57号）第９条第２号に規定する森林整備法人（林業・造林公社等）が所管する土地を指します。",
+    "description": "分収林特別措置法（昭和33年法律第57号）第９条第２号に規定する森林整備法人（林業・造林公社等）が所管する土地を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "municipal_owned_forest",
+    "term": "市区町村",
+    "aliases": [],
+    "shortDescription": "市区町村が所管する土地を指します。",
+    "description": "市区町村が所管する土地を指します。地方自治法（昭和22年法律第67号）第284条第１項に規定する地方公共団体の組合（通常「町村組合」ともいわれているもので、市区町村の事務、例えば市区町村有林についての事務を運営するため二つ以上の市区町村が作る組合）の所管する森林を含めます。また、市区町村が造林主体となっている分収林も含めます。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 2
+  },
+  {
+    "id": "property_ward_forest",
+    "term": "財産区",
+    "aliases": [],
+    "shortDescription": "地方自治法第294条第１項に規定する財産区をいい、市区町村合併の際、集落や旧市区町村の所有していた土地について財産区を作り、地元住民が使用収益している土地を指します。",
+    "description": "地方自治法第294条第１項に規定する財産区をいい、市区町村合併の際、集落や旧市区町村の所有していた土地について財産区を作り、地元住民が使用収益している土地を指します。なお、財産区が生産森林組合に変わっている場合は私有とした。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 2
+  },
+  {
+    "id": "privately_owned_forest",
+    "term": "私有（林）",
+    "aliases": [],
+    "shortDescription": "個人、会社、社寺、共同(共有)、各種団体・組合等が所有している土地を指します。",
+    "description": "個人、会社、社寺、共同(共有)、各種団体・組合等が所有している土地を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "depopulated_area",
+    "term": "過疎地域",
+    "aliases": [],
+    "shortDescription": "過疎地域自立促進特別措置法（平成12年法律第15号）第２条第１項に規定する区域を指します。",
+    "description": "過疎地域自立促進特別措置法（平成12年法律第15号）第２条第１項に規定する区域を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "peninsula_development_area",
+    "term": "半島振興対策実施地域",
+    "aliases": [],
+    "shortDescription": "半島振興法（昭和60年法律第63号）第２条第１項に基づき指定されている地域を指します。",
+    "description": "半島振興法（昭和60年法律第63号）第２条第１項に基づき指定されている地域を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "agricultural_settlement",
+    "term": "農業集落",
+    "aliases": [],
+    "shortDescription": "市区町村の区域の一部において、農業上形成されている地域社会のことである。",
+    "description": "市区町村の区域の一部において、農業上形成されている地域社会のことである。農業集落は、もともと自然発生的な地域社会であって、家と家とが地縁的、血縁的に結びつき、各種の集団や社会関係を形成してきた社会生活の基礎的な単位である。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 2
+  },
+  {
+    "id": "agricultural_region_type",
+    "term": "農業地域類型",
+    "aliases": [],
+    "shortDescription": "短期の社会経済変動に対して、比較的安定している土地利用指標を中心とした基準指標によって市町村及び旧市区町村（昭和25年２月１日時点の市区町村）を分類したものである。",
+    "description": "短期の社会経済変動に対して、比較的安定している土地利用指標を中心とした基準指標によって市町村及び旧市区町村（昭和25年２月１日時点の市区町村）を分類したものである。農業地域類型基準指標都市的地域○可住地に占めるＤＩＤ面積が５％以上で、人口密度500人以上又はＤＩＤ人口２万人以上の旧市区町村又は市町村。○可住地に占める宅地等率が60％以上で、人口密度500人以上の旧市区町村又は市町村。ただし、林野率80％以上のものは除きます。平地農業地域○耕地率20％以上かつ林野率50％未満の旧市区町村又は市町村。ただし、傾斜20分の１以上の田と傾斜８度以上の畑の合計面積の割合が90％以上のものを除きます。○耕地率20％以上かつ林野率50％以上で、傾斜20分の１以上の田と傾斜８度以上の畑の合計面積の割合が10％未満の旧市区町村又は市町村。中間農業地域○耕地率20％未満で、「都市的地域」及び「山間農業地域」以外の旧市区町村又は市町村。○耕地率20％以上で、「都市的地域」及び「平地農業地域」以外の旧市区町村又は市町村。山間農業地域○林野率80％以上かつ耕地率10％未満の旧市区町村又は市町村。注：１決定順位：都市的地域→山間農業地域→平地農業地域・中間農業地域２傾斜は、１筆ごとの耕作面の傾斜ではなく、団地としての地形上の主傾斜を指します。３本書に用いた農業地域類型区分は、平成25年３月改定(平成25年３月28日付け24統計第1384号)のものである。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 3
+  },
+  {
+    "id": "city_planning_area",
+    "term": "都市計画区域",
+    "aliases": [],
+    "shortDescription": "都市計画法（昭和43年法律第100号）第５条に基づき指定されている区域を指します。",
+    "description": "都市計画法（昭和43年法律第100号）第５条に基づき指定されている区域を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "urbanization_and_control_areas",
+    "term": "市街化区域、市街化調整区域",
+    "aliases": [],
+    "shortDescription": "都市計画法第７条に規定する区域を指します。",
+    "description": "都市計画法第７条に規定する区域を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "unzoned_city_planning_area",
+    "term": "線引きなし",
+    "aliases": [],
+    "shortDescription": "都市計画区域内であって市街化区域又は市街化調整区域に該当しないものを指します。",
+    "description": "都市計画区域内であって市街化区域又は市街化調整区域に該当しないものを指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "agricultural_promotion_area",
+    "term": "農業振興地域",
+    "aliases": [],
+    "shortDescription": "農業振興地域の整備に関する法律（昭和44年法律第58号。",
+    "description": "農業振興地域の整備に関する法律（昭和44年法律第58号。以下「農振法」とされています。）第６条第１項に基づき指定されている地域を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "agricultural_land_use_area",
+    "term": "農用地区域",
+    "aliases": [],
+    "shortDescription": "農振法第８条第２項第１号に規定する農用地等として利用すべき土地の区域を指します。",
+    "description": "農振法第８条第２項第１号に規定する農用地等として利用すべき土地の区域を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "mountain_village_development_area",
+    "term": "振興山村地域",
+    "aliases": [],
+    "shortDescription": "山村振興法（昭和40年法律第64号）第７条第１項に基づき指定されている地域を指します。",
+    "description": "山村振興法（昭和40年法律第64号）第７条第１項に基づき指定されている地域を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "heavy_snow_area",
+    "term": "豪雪地帯",
+    "aliases": [],
+    "shortDescription": "豪雪地帯対策特別措置法（昭和37年法律第73号）第２条第１項に基づき指定されている地域を指します。",
+    "description": "豪雪地帯対策特別措置法（昭和37年法律第73号）第２条第１項に基づき指定されている地域を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "special_heavy_snow_area",
+    "term": "特別豪雪地帯",
+    "aliases": [],
+    "shortDescription": "豪雪地帯対策特別措置法第２条第２項に基づき指定されている地域を指します。",
+    "description": "豪雪地帯対策特別措置法第２条第２項に基づき指定されている地域を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "remote_island_development_area",
+    "term": "離島振興対策実施地域",
+    "aliases": [],
+    "shortDescription": "離島振興法（昭和28年法律第72号）第２条第１項に基づき指定されている地域を指します。",
+    "description": "離島振興法（昭和28年法律第72号）第２条第１項に基づき指定されている地域を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "designated_rural_area",
+    "term": "特定農山村地域",
+    "aliases": [],
+    "shortDescription": "特定農山村地域における農林業等の活性化のための基盤整備の促進に関する法律（平成５年法律第72号。",
+    "description": "特定農山村地域における農林業等の活性化のための基盤整備の促進に関する法律（平成５年法律第72号。以下「特定農山村法」とされています。）第２条第１項に規定する地域を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 2
+  },
+  {
+    "id": "specially_approved_area",
+    "term": "特認地域",
+    "aliases": [],
+    "shortDescription": "地域振興立法８法を指します。",
+    "description": "地域振興立法８法（特定農山村法、山村振興法、過疎地域自立促進特別措置法、半島振興法、離島振興法、沖縄振興特別措置法（平成14年法律第14号）、奄美群島振興開発特別措置法（昭和29年法律第189号）及び小笠原諸島振興開発特別措置法（昭和44年法律第79号））の指定地域以外で、中山間地域等直接支払制度により、地域の実態に応じて都道府県知事が指定する、生産条件の不利な地域を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 2
+  },
+  {
+    "id": "agricultural_settlement_did",
+    "term": "ＤＩＤ（人口集中地区）",
+    "aliases": [],
+    "shortDescription": "国勢調査において、都市的地域の特質を明らかにする統計上の地域単位として決定された地域単位で、人口密度約4,000人/ｋ㎡以上の国勢調査基本単位区がいくつか隣接し、合わせて人口5,000人以上を有する地域を指します。",
+    "description": "国勢調査において、都市的地域の特質を明らかにする統計上の地域単位として決定された地域単位で、人口密度約4,000人/ｋ㎡以上の国勢調査基本単位区がいくつか隣接し、合わせて人口5,000人以上を有する地域を指します。（ＤＩＤ：DenselyInhabitedDistrict）",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 2
+  },
+  {
+    "id": "daily_life_facilities",
+    "term": "生活関連施設",
+    "aliases": [],
+    "shortDescription": "本調査では、市区町村役場、農協、警察・交番、病院・診療所、小学校、中学校、公民館、スーパーマーケット・コンビニエンスストアを指します。",
+    "description": "本調査では、市区町村役場、農協、警察・交番、病院・診療所、小学校、中学校、公民館、スーパーマーケット・コンビニエンスストアを指します。なお、該当施設が複数存在する場合は、最も近くの施設を対象とするが、公民館については、当該市区町村内にある最も近くのものを対象とした。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 2
+  },
+  {
+    "id": "municipal_office",
+    "term": "市区町村役場",
+    "aliases": [],
+    "shortDescription": "農業集落が所在する市区町村の市役所、区役所、町役場又は村役場を指します。",
+    "description": "農業集落が所在する市区町村の市役所、区役所、町役場又は村役場を指します。なお、支所等については、本所と同様の窓口業務（住民票の取扱い等）を行っている場合は含めます。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 2
+  },
+  {
+    "id": "agricultural_cooperative_facility",
+    "term": "農協",
+    "aliases": [],
+    "shortDescription": "農業協同組合法（昭和22年法律第132号）に基づく農業協同組合をいい、本調査項目では当該農業集落内の経営体等の大半が所属するものを対象とした。",
+    "description": "農業協同組合法（昭和22年法律第132号）に基づく農業協同組合をいい、本調査項目では当該農業集落内の経営体等の大半が所属するものを対象とした。なお、支所については、本所と同様の機能（金融、購買の取扱い、取次ぎ等）を有している場合は含めます。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 2
+  },
+  {
+    "id": "police_station_or_box",
+    "term": "警察・交番",
+    "aliases": [],
+    "shortDescription": "農業集落が所在する市区町村を管轄する警察署、交番又は駐在所を指します。",
+    "description": "農業集落が所在する市区町村を管轄する警察署、交番又は駐在所を指します。なお、交番については、非常勤の警察官のみの場合も含めます。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "hospital_or_clinic",
+    "term": "病院・診療所",
+    "aliases": [],
+    "shortDescription": "内科又は外科のある病院又は診療所を指します。",
+    "description": "内科又は外科のある病院又は診療所を指します。なお、接骨院は除いた。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "primary_school_facility",
+    "term": "小学校",
+    "aliases": [],
+    "shortDescription": "農業集落内に居住している小学生の大半が通学している小学校を指します。",
+    "description": "農業集落内に居住している小学生の大半が通学している小学校を指します。なお、調査日現在で農業集落に児童がいない場合は、最も近くの小学校を対象とした。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "junior_high_school_facility",
+    "term": "中学校",
+    "aliases": [],
+    "shortDescription": "農業集落内に居住している中学生の大半が通学している中学校を指します。",
+    "description": "農業集落内に居住している中学生の大半が通学している中学校を指します。なお、調査日現在で農業集落に生徒がいない場合は、最も近くの中学校を対象とした。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "community_center",
+    "term": "公民館",
+    "aliases": [],
+    "shortDescription": "社会教育法（昭和24年法律第207号）に基づき設置された公民館を指します。",
+    "description": "社会教育法（昭和24年法律第207号）に基づき設置された公民館を指します。なお、分館については、常勤の職員がいる場合は含めます。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "supermarket_or_convenience_store",
+    "term": "スーパーマーケット・コンビニエンスストア",
+    "aliases": [],
+    "shortDescription": "スーパーマーケットとは、衣、食、住にわたる各種の商品を小売する事業所で、その事業所の性格上いずれが主たる販売商品であるかが判別できない事業所であって、セルフサービス方式により販売しているものを指します。",
+    "description": "スーパーマーケットとは、衣、食、住にわたる各種の商品を小売する事業所で、その事業所の性格上いずれが主たる販売商品であるかが判別できない事業所であって、セルフサービス方式により販売しているものを指します。なお、食料品が販売されていない場合は除いた。コンビニエンスストアとは、主として飲食料品を中心とした各種最寄り品をセルフサービス方式で小売する事業所で、店舗規模が小さく（おおむね30㎡以上250㎡未満）、終日又は長時間営業（おおむね１日で14時間以上）を行う事業所を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 2
+  },
+  {
+    "id": "travel_time",
+    "term": "所要時間",
+    "aliases": [],
+    "shortDescription": "農業集落の中心地から農業集落に最も近いＤＩＤの中心地にある施設又は最寄りの生活関連施設に行く際に主な交通手段を使った場合の所要時間を指します。",
+    "description": "農業集落の中心地から農業集落に最も近いＤＩＤの中心地にある施設又は最寄りの生活関連施設に行く際に主な交通手段を使った場合の所要時間を指します。なお、小学校及び中学校への所要時間については、児童又は生徒が通学にかかる時間とした。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 2
+  },
+  {
+    "id": "farm_household_count",
+    "term": "農家数",
+    "aliases": [],
+    "shortDescription": "農林業経営体調査で把握した農家数。",
+    "description": "農林業経営体調査で把握した農家数。農家とは、調査期日現在で、経営耕地面積が10ａ以上の農業を営む世帯又は経営耕地面積が10ａ未満であっても、調査期日前１年間における農産物販売金額が15万円以上あった世帯を指します。なお、「農業を営む」とは、営利又は自家消費のために耕種、養畜、養蚕、又は自家生産の農産物を原料とする加工を行うことを指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 2
+  },
+  {
+    "id": "farm_household_ratio",
+    "term": "農家率",
+    "aliases": [],
+    "shortDescription": "農業集落の総戸数に占める農家の割合を指します。",
+    "description": "農業集落の総戸数に占める農家の割合を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "cultivated_land",
+    "term": "耕地",
+    "aliases": [],
+    "shortDescription": "農作物の栽培を目的とする土地のことをいい、けい畔は耕地に含みます。",
+    "description": "農作物の栽培を目的とする土地のことをいい、けい畔は耕地に含みます。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "settlement_paddy_field",
+    "term": "田",
+    "aliases": [],
+    "shortDescription": "耕地のうち、水をたたえるためのけい畔のある土地を指します。",
+    "description": "耕地のうち、水をたたえるためのけい畔のある土地を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "settlement_upland_field",
+    "term": "畑",
+    "aliases": [],
+    "shortDescription": "耕地のうち田と樹園地を除いた耕地を指します。",
+    "description": "耕地のうち田と樹園地を除いた耕地を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "settlement_orchard",
+    "term": "樹園地",
+    "aliases": [],
+    "shortDescription": "木本性周年作物を規則的又は連続的に栽培している土地で果樹、茶、桑などが１ａ以上まとまっているもの（一定のうね幅及び株間を持ち、前後左右に連続して栽培されていることを指します。",
+    "description": "木本性周年作物を規則的又は連続的に栽培している土地で果樹、茶、桑などが１ａ以上まとまっているもの（一定のうね幅及び株間を持ち、前後左右に連続して栽培されていることを指します。）で肥培管理している土地を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 2
+  },
+  {
+    "id": "cultivated_land_ratio",
+    "term": "耕地率",
+    "aliases": [],
+    "shortDescription": "総土地面積に占める耕地面積の割合を指します。",
+    "description": "総土地面積に占める耕地面積の割合を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "paddy_field_ratio",
+    "term": "水田率",
+    "aliases": [],
+    "shortDescription": "耕地面積に占める田面積の割合を指します。",
+    "description": "耕地面積に占める田面積の割合を指します。なお、水田率を用いて農業集落の農業経営の基盤的条件の差異を示した区分は次のとおりであるが、この区分は地域農業構造の特性を把握するための統計上の区分であり、制度上や施策上の取扱いに直接結びつくものではない。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 2
+  },
+  {
+    "id": "paddy_dominant_settlement",
+    "term": "水田集落",
+    "aliases": [],
+    "shortDescription": "水田率が70％以上の集落を指します。",
+    "description": "水田率が70％以上の集落を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "mixed_paddy_upland_settlement",
+    "term": "田畑集落",
+    "aliases": [],
+    "shortDescription": "水田率が30％以上70％未満の集落を指します。",
+    "description": "水田率が30％以上70％未満の集落を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "upland_dominant_settlement",
+    "term": "畑地集落",
+    "aliases": [],
+    "shortDescription": "水田率が30％未満の集落を指します。",
+    "description": "水田率が30％未満の集落を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "settlement_functions",
+    "term": "集落機能",
+    "aliases": [],
+    "shortDescription": "農地や山林等の地域資源の維持・管理機能、収穫期の共同作業等の農業生産面での相互補完機能、冠婚葬祭等の地域住民同士が相互に扶助しあいながら生活の維持・向上を図る機能を指します。",
+    "description": "農地や山林等の地域資源の維持・管理機能、収穫期の共同作業等の農業生産面での相互補完機能、冠婚葬祭等の地域住民同士が相互に扶助しあいながら生活の維持・向上を図る機能を指します。本調査では、次のいずれかの項目が該当する場合に「集落機能がある」と判定した。・寄り合いを開催している。・実行組合が存在している。・地域資源の保全が行われている。・活性化のための活動が行われている。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 2
+  },
+  {
+    "id": "farmers_action_group",
+    "term": "実行組合",
+    "aliases": [],
+    "shortDescription": "農家によって構成された農業生産にかかわる連絡・調整、活動などの総合的な役割を担っている集団を指します。",
+    "description": "農家によって構成された農業生産にかかわる連絡・調整、活動などの総合的な役割を担っている集団を指します。具体的には、生産組合、農事実行組合、農家組合、農協支部など様々な名称で呼ばれているが、その名称のいかんにかかわらず、総合的な機能をもつ農業生産者の集団を指します。ただし、出荷組合、酪農組合、防除組合など農業の一部門だけを担当する団体は除いた。また、集落営農組織についても、農業集落の農業生産活動の総合的な機能を持つ集団と判断できる場合は、実行組合とみなした。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 2
+  },
+  {
+    "id": "community_meeting",
+    "term": "寄り合い",
+    "aliases": [],
+    "shortDescription": "原則として地域社会又は地域の農業生産に関わる事項について、農業集落の住民が協議を行うために開く会合を指します。",
+    "description": "原則として地域社会又は地域の農業生産に関わる事項について、農業集落の住民が協議を行うために開く会合を指します。なお、農業集落の全世帯あるいは農業集落内の全農家を対象とした会合ではなくても、農業集落内の各班における代表者、役員等を対象とした会合において、地域社会又は地域の農業生産に関する事項について意思決定がなされているものは寄り合いとみなした。ただし、婦人会、子供会、青年団、４Ｈクラブ等のサークル活動的なものは除いた。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 2
+  },
+  {
+    "id": "agricultural_production_matters",
+    "term": "農業生産にかかる事項",
+    "aliases": [],
+    "shortDescription": "生産調整・転作、共同で行う防除や出荷、鳥獣被害対策、農作業の労働力調整等の農業生産に関する事項を指します。",
+    "description": "生産調整・転作、共同で行う防除や出荷、鳥獣被害対策、農作業の労働力調整等の農業生産に関する事項を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "management_of_farm_roads_waterways_and_ponds",
+    "term": "農道・農業用用排水路・ため池の管理",
+    "aliases": [],
+    "shortDescription": "農道、農業用用排水路、ため池の補修、草刈り、泥上げ、清掃等の農道、農業用用排水路及びため池の維持・管理に関する事項を指します。",
+    "description": "農道、農業用用排水路、ため池の補修、草刈り、泥上げ、清掃等の農道、農業用用排水路及びため池の維持・管理に関する事項を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "management_of_shared_property_and_facilities",
+    "term": "集落共有財産・共用施設の管理",
+    "aliases": [],
+    "shortDescription": "農業集落における農業用機械、施設や共有林などの共有財産や、共用の生活関連施設の維持・管理に関する事項を指します。",
+    "description": "農業集落における農業用機械、施設や共有林などの共有財産や、共用の生活関連施設の維持・管理に関する事項を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "settlement_environmental_conservation_matters",
+    "term": "環境美化・自然環境の保全",
+    "aliases": [],
+    "shortDescription": "農業集落内の清掃、空き缶拾い、草刈り、花の植栽等の環境美化や自然資源等の保全等に関する事項を指します。",
+    "description": "農業集落内の清掃、空き缶拾い、草刈り、花の植栽等の環境美化や自然資源等の保全等に関する事項を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "planning_and_promotion_of_settlement_events",
+    "term": "農業集落行事（祭り・イベント等）の計画・推進",
+    "aliases": [],
+    "shortDescription": "寺社における祭り（祭礼、大祭、例祭等）、運動会、各種イベント等の集落行事の計画・推進に関する事項を指します。",
+    "description": "寺社における祭り（祭礼、大祭、例祭等）、運動会、各種イベント等の集落行事の計画・推進に関する事項を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "settlement_welfare_and_health",
+    "term": "農業集落内の福祉・厚生",
+    "aliases": [],
+    "shortDescription": "農業集落内の高齢者や子供会のサービス（介護活動、子供会など）やゴミ処理、リサイクル活動、共同で行う消毒等に関する事項を指します。",
+    "description": "農業集落内の高齢者や子供会のサービス（介護活動、子供会など）やゴミ処理、リサイクル活動、共同で行う消毒等に関する事項を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "renewable_energy_matters",
+    "term": "再生エネルギーへの取組",
+    "aliases": [],
+    "shortDescription": "地域資源を利用して行う、再生可能エネルギー（太陽光、小水力、風力、地熱、バイオマス等）の取組に関する事項を指します。",
+    "description": "地域資源を利用して行う、再生可能エネルギー（太陽光、小水力、風力、地熱、バイオマス等）の取組に関する事項を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "local_resources",
+    "term": "地域資源",
+    "aliases": [],
+    "shortDescription": "本調査では、農業集落内にある、農地、森林、ため池・湖沼、河川・水路、農業用用排水路を指します。",
+    "description": "本調査では、農業集落内にある、農地、森林、ため池・湖沼、河川・水路、農業用用排水路を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "local_resource_conservation",
+    "term": "地域資源の保全",
+    "aliases": [],
+    "shortDescription": "地域住民等が主体となり地域資源を農業集落の共有資源として、保全、維持、向上を目的に行う行為を指します。",
+    "description": "地域住民等が主体となり地域資源を農業集落の共有資源として、保全、維持、向上を目的に行う行為を指します。なお、地域住民のうちの数戸で共同保全しているものについては含めるが、個人が自らの農業生産活動のためだけに、維持・管理を行っている場合は除いた。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 2
+  },
+  {
+    "id": "agricultural_land",
+    "term": "農地",
+    "aliases": [],
+    "shortDescription": "農地法（昭和27年法律第229号）第２条第１項に規定する耕作の目的に供される土地を指します。",
+    "description": "農地法（昭和27年法律第229号）第２条第１項に規定する耕作の目的に供される土地を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "forest_resource",
+    "term": "森林",
+    "aliases": [],
+    "shortDescription": "森林法第２条に規定する森林を指します。",
+    "description": "森林法第２条に規定する森林を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "irrigation_pond_or_lake",
+    "term": "ため池・湖沼",
+    "aliases": [],
+    "shortDescription": "次のいずれかの条件に該当するものを指します。",
+    "description": "次のいずれかの条件に該当するものを指します。(1)かんがい用水をためておく人工又は天然の池(2)川や谷が種々の要因でせき止められたもの(3)土地が鍋状に陥没してできた凹地に水をたたえたもの(4)火口、火口原に水をたたえたもの(5)かつて海であったものが湖になったもの(6)その他、四方を陸地に囲まれた窪地に水が溜まったもの",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 2
+  },
+  {
+    "id": "river_or_waterway",
+    "term": "河川・水路",
+    "aliases": [],
+    "shortDescription": "一級河川、二級河川のほか小川等の小さな水流及び運河を指します。",
+    "description": "一級河川、二級河川のほか小川等の小さな水流及び運河を指します。なお、農業用又は生活用の用排水路は除きます。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "agricultural_irrigation_and_drainage_channel",
+    "term": "農業用用排水路",
+    "aliases": [],
+    "shortDescription": "農業集落内のほ場周辺にある農業用の用水又は排水のための施設をいい、生活用用排水路と兼用されているものも含みます。",
+    "description": "農業集落内のほ場周辺にある農業用の用水又は排水のための施設をいい、生活用用排水路と兼用されているものも含みます。なお、公的機関(都道府県、市区町村、土地改良区等)が主体となって管理している用水又は排水施設は除いた。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 2
+  },
+  {
+    "id": "community_revitalization_activity",
+    "term": "活性化のための活動",
+    "aliases": [],
+    "shortDescription": "地域住民が主体となって取り組んでいる活動で、地域で一定の協議・了承がされているものを指します。",
+    "description": "地域住民が主体となって取り組んでいる活動で、地域で一定の協議・了承がされているものを指します。なお、本調査では、伝統的な祭り・文化・芸能の保存、各種イベントの開催、高齢者などへの福祉活動、環境美化・自然環境の保全、グリーン・ツーリズムの取組、６次産業化への取組、定住を推進する取組、再生可能エネルギーの取組を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 2
+  },
+  {
+    "id": "preservation_of_traditional_festivals_culture_and_arts",
+    "term": "伝統的な祭り・文化・芸能の保存",
+    "aliases": [],
+    "shortDescription": "古くから伝わる寺社における祭り（祭礼、大祭、例祭等）の開催、工芸、郷土芸能等の保存活動を指します。",
+    "description": "古くから伝わる寺社における祭り（祭礼、大祭、例祭等）の開催、工芸、郷土芸能等の保存活動を指します。なお、おおむね戦前から伝承されているものを対象とするが、文化・芸能については、戦後のものであっても、特に保存活動を行っている場合は対象に含みます。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 2
+  },
+  {
+    "id": "community_event_holding",
+    "term": "各種イベントの開催",
+    "aliases": [],
+    "shortDescription": "農業集落住民のために定期的に行われている催し物の企画・開催を指します。",
+    "description": "農業集落住民のために定期的に行われている催し物の企画・開催を指します。具体的には、運動会、盆踊り等を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "welfare_activities_for_elderly",
+    "term": "高齢者などへの福祉活動",
+    "aliases": [],
+    "shortDescription": "高齢者などへの福祉のための活動を指します。",
+    "description": "高齢者などへの福祉のための活動を指します。具体的には、介護活動、老人施設への慰問、買い物支援等を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "landscape_and_nature_conservation_activity",
+    "term": "環境美化・自然環境の保全",
+    "aliases": [],
+    "shortDescription": "自然の景観や集落、建築物等の人工的な景観等を含めた景観全体の保全等を目的とした活動を指します。",
+    "description": "自然の景観や集落、建築物等の人工的な景観等を含めた景観全体の保全等を目的とした活動を指します。また、路側帯や公園への草花の植栽、景観保全を目的とした清掃活動等についても対象とした。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 2
+  },
+  {
+    "id": "green_tourism_activity",
+    "term": "グリーン・ツーリズムの取組",
+    "aliases": [],
+    "shortDescription": "農山村地域における自然、文化、人々との交流を楽しむ余暇活動を指します。",
+    "description": "農山村地域における自然、文化、人々との交流を楽しむ余暇活動を指します。具体的には、滞在期間にかかわらず、余暇活動の受入れを目的とした取組で、農産物直販所、観光農園、農家民宿を利用したものや、農業体験、ボランティアを取り入れたもの等を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 2
+  },
+  {
+    "id": "sixth_sector_industrialization_activity",
+    "term": "６次産業化への取組",
+    "aliases": [],
+    "shortDescription": "農業集落で生産された農林水産物及びその副産物（バイオマスなど）を使用して加工・販売を一体的に行う、地域資源を活用して雇用を創出するなどの所得の向上につなげる取組を指します。",
+    "description": "農業集落で生産された農林水産物及びその副産物（バイオマスなど）を使用して加工・販売を一体的に行う、地域資源を活用して雇用を創出するなどの所得の向上につなげる取組を指します。具体的には、地元農産物の直売、加工、輸出等の経営の多角化・複合化や２次、３次産業との連携による地元農産物の供給、学校、病院等に食材を供給する施設給食、機能性食品や介護食品に原材料を供給する医福食農連携、ネット販売等のＩＣＴ活用・流通連携等を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 2
+  },
+  {
+    "id": "settlement_promotion_activity",
+    "term": "定住を推進する取組",
+    "aliases": [],
+    "shortDescription": "ＵＩＪターン者等の定住につなげる取組を指します。",
+    "description": "ＵＩＪターン者等の定住につなげる取組を指します。具体的には、定住希望者の募集、受入態勢を整備するための空き家・廃校等の整備等を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "renewable_energy_activity",
+    "term": "再生可能エネルギーへの取組",
+    "aliases": [],
+    "shortDescription": "地域資源を利用して行う、再生可能エネルギー（太陽光、小水力、風力、地熱、バイオマス等）の取組を指します。",
+    "description": "地域資源を利用して行う、再生可能エネルギー（太陽光、小水力、風力、地熱、バイオマス等）の取組を指します。具体的には、農地や林地の転用地に太陽光発電パネルを設置、農業用用排水路に発電施設を設置するなどの取組を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 2
+  },
+  {
+    "id": "collaboration_with_urban_residents",
+    "term": "都市住民との連携・交流",
+    "aliases": [],
+    "shortDescription": "地域住民と都市住民が合同で地域資源の保全又は活性化の取組を行っている場合を指します。",
+    "description": "地域住民と都市住民が合同で地域資源の保全又は活性化の取組を行っている場合を指します。具体的には、地域住民が立ち上げた保全ボランティアの会に都市住民が登録し、一体となってそれぞれの地域資源の保全を行っている場合や、農村地域に興味を持つ都市住民を受入れ、一体となって活性化のための各種活動を行っている場合などを指します。なお、都市住民とは、農業集落の旧市区町村外の市街化地域や都市的地域に類する地域等の非農家のことを指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 2
+  },
+  {
+    "id": "collaboration_with_npo_schools_and_companies",
+    "term": "ＮＰＯ・学校・企業と連携",
+    "aliases": [],
+    "shortDescription": "地域住民とＮＰＯ・学校・企業が合同でそれぞれの地域資源の保全や、活性化のための各種活動を行っている場合などを指します。",
+    "description": "地域住民とＮＰＯ・学校・企業が合同でそれぞれの地域資源の保全や、活性化のための各種活動を行っている場合などを指します。具体的には、幼稚園や小学校等の校外学習の一環としての農業体験などが該当します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 2
+  },
+  {
+    "id": "settlement_center_elevation",
+    "term": "中心地の標高",
+    "aliases": [],
+    "shortDescription": "農業集落の中心地を平均海水面から測った高さを指します。",
+    "description": "農業集落の中心地を平均海水面から測った高さを指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "terrain",
+    "term": "地勢",
+    "aliases": [],
+    "shortDescription": "農業集落の耕地の大半がある部分の地形分類を指します。",
+    "description": "農業集落の耕地の大半がある部分の地形分類を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "flatland",
+    "term": "平地",
+    "aliases": [],
+    "shortDescription": "起伏が極めて小さく、ほとんど平らで、広く低い地域を指します。",
+    "description": "起伏が極めて小さく、ほとんど平らで、広く低い地域を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "basin",
+    "term": "盆地",
+    "aliases": [],
+    "shortDescription": "周囲を山地、丘陵地等に囲まれた相対的に低く平坦な地域を指します。",
+    "description": "周囲を山地、丘陵地等に囲まれた相対的に低く平坦な地域を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "plateau",
+    "term": "高原",
+    "aliases": [],
+    "shortDescription": "海面からかなり高い位置にあって、比較的起伏が小さく平らな地域を指します。",
+    "description": "海面からかなり高い位置にあって、比較的起伏が小さく平らな地域を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "foothill",
+    "term": "裾野",
+    "aliases": [],
+    "shortDescription": "山麓が遠く延びてゆるやかな斜面をなす地域を指します。",
+    "description": "山麓が遠く延びてゆるやかな斜面をなす地域を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "mountain_area",
+    "term": "山間",
+    "aliases": [],
+    "shortDescription": "山と山との間、山の中の地域を指します。",
+    "description": "山と山との間、山の中の地域を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "gorge",
+    "term": "峡谷",
+    "aliases": [],
+    "shortDescription": "幅の割に深く細長い谷となっている地域を指します。",
+    "description": "幅の割に深く細長い谷となっている地域を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 1
+  },
+  {
+    "id": "unconnectable_settlement_data",
+    "term": "接続不能",
+    "aliases": [],
+    "shortDescription": "中心地の標高及び地勢については、2000年世界農林業センサス農業集落調査の結果を活用したものであるため、同調査の調査対象外の農業集落及び集落範囲に変更のあった農業集落については、接続不能として整理した。",
+    "description": "中心地の標高及び地勢については、2000年世界農林業センサス農業集落調査の結果を活用したものであるため、同調査の調査対象外の農業集落及び集落範囲に変更のあった農業集落については、接続不能として整理した。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "農林業センサス",
+    "difficulty": 2
   }
 ]
