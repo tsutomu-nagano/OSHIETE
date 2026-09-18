@@ -61,5 +61,13 @@
     "publisher": "総務省統計局",
     "retrievedAt": "2026-09-17",
     "termIds": ["prefecture", "municipality", "former_municipality", "shi_bu", "gun_bu", "major_city", "densely_inhabited_district", "quasi_densely_inhabited_district", "combined_densely_inhabited_district", "metropolitan_area", "urban_area", "central_city", "surrounding_municipality", "distance_zone", "basic_unit_block", "cho_aza", "regional_mesh", "urban_planning_area_classification"]
+  },
+  {
+    "id": "economic-census-2019-glossary",
+    "title": "経済センサス‐基礎調査 用語の解説",
+    "url": "https://www.stat.go.jp/data/e-census/2019/yougo.html",
+    "publisher": "総務省統計局",
+    "retrievedAt": "2026-09-18",
+    "termIds": ["establishment", "establishment_by_activity_status", "persons_engaged", "employees_dispatched_from_other_establishments", "private_sector_workers", "persons_working_at_establishment", "establishment_industry_classification", "establishment_opening_period", "legal_organization", "head_branch_status", "head_office_location", "enterprises_etc", "company_enterprise", "enterprise_industry_classification", "capital_amount", "sales_revenue_amount"]
   }
 ]

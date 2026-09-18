@@ -746,5 +746,181 @@
     "relatedTerms": ["地域区分"],
     "category": "地域区分",
     "difficulty": 3
+  },
+  {
+    "id": "establishment",
+    "term": "事業所",
+    "aliases": [],
+    "shortDescription": "一定の場所で、継続して経済活動を行う単位です。",
+    "description": "原則として、一つの区画を占め、単一の経営主体のもとで、従業者と設備を備えて物の生産・販売やサービスの提供を継続的に行う場所をいいます。",
+    "examples": ["店舗", "工場", "営業所"],
+    "relatedTerms": ["従業者", "企業等", "事業所の産業分類"],
+    "category": "事業所・企業",
+    "difficulty": 1
+  },
+  {
+    "id": "establishment_by_activity_status",
+    "term": "活動状態別事業所",
+    "aliases": [],
+    "shortDescription": "事業所を存続、新規把握、休業、廃業などの状態で分けたものです。",
+    "description": "調査日時点の経済活動の状況や、前回調査からの変化により、事業所を存続事業所、新規把握事業所、休業事業所、廃業事業所などに区分したものです。調査年や調査区分により対象となる区分は異なります。",
+    "examples": ["存続事業所", "新規把握事業所", "休業事業所", "廃業事業所"],
+    "relatedTerms": ["事業所"],
+    "category": "事業所・企業",
+    "difficulty": 2
+  },
+  {
+    "id": "persons_engaged",
+    "term": "従業者",
+    "aliases": [],
+    "shortDescription": "調査日に、その事業所に所属して働いている全ての人です。",
+    "description": "調査日現在、その事業所に所属して働く全ての人をいいます。他の事業所へ出向・派遣中の人を含み、別経営の事業所から来て働く人は含みません。個人経営の家族従業者は、無給でも含まれます。",
+    "examples": ["個人業主", "無給の家族従業者", "有給役員", "常用雇用者", "臨時雇用者"],
+    "relatedTerms": ["事業所", "他からの出向・派遣従業者", "事業従事者数"],
+    "category": "従業者",
+    "difficulty": 1
+  },
+  {
+    "id": "employees_dispatched_from_other_establishments",
+    "term": "他からの出向・派遣従業者",
+    "aliases": ["他からの出向・派遣従業者数"],
+    "shortDescription": "別の経営主体に籍を置き、その事業所に来て働いている人です。",
+    "description": "労働者派遣法上の派遣労働者や在籍出向者など、別経営の出向元に籍を置きながら、調査対象の事業所に来て働いている人をいいます。",
+    "examples": ["派遣労働者", "在籍出向者"],
+    "relatedTerms": ["従業者", "事業従事者数"],
+    "category": "従業者",
+    "difficulty": 2
+  },
+  {
+    "id": "private_sector_workers",
+    "term": "民間からの従業者",
+    "aliases": [],
+    "shortDescription": "国や地方公共団体の事業所に、民間事業所から派遣されている人です。",
+    "description": "国または地方公共団体の事業所で働く人のうち、民間の事業所から派遣されている人をいいます。指定管理や清掃・警備など、委託業務に従事する民間の人は含みません。",
+    "examples": ["行政機関に派遣された民間事業所の従業者"],
+    "relatedTerms": ["事業所", "従業者"],
+    "category": "従業者",
+    "difficulty": 2
+  },
+  {
+    "id": "persons_working_at_establishment",
+    "term": "事業従事者数",
+    "aliases": [],
+    "shortDescription": "その事業所で実際に働いている人の数です。",
+    "description": "従業者数から他の事業所へ出向・派遣している従業者数を除き、他の事業所から来ている出向・派遣従業者数を加えて算出します。",
+    "examples": ["従業者数－他への出向・派遣従業者数＋他からの出向・派遣従業者数"],
+    "relatedTerms": ["従業者", "他からの出向・派遣従業者"],
+    "category": "従業者",
+    "difficulty": 2
+  },
+  {
+    "id": "establishment_industry_classification",
+    "term": "事業所の産業分類",
+    "aliases": [],
+    "shortDescription": "事業所を主な事業内容に基づいて分けた産業分類です。",
+    "description": "事業所の主な事業内容により、日本標準産業分類に基づいて分類したものです。令和元年経済センサス‐基礎調査では平成25年10月改定の分類を用いています。",
+    "examples": ["製造業", "卸売業，小売業", "サービス業"],
+    "relatedTerms": ["事業所", "企業産業分類", "産業"],
+    "category": "産業分類",
+    "difficulty": 2
+  },
+  {
+    "id": "establishment_opening_period",
+    "term": "事業所の開設時期",
+    "aliases": ["開設時期"],
+    "shortDescription": "事業所が現在の場所で事業を始めた時期です。",
+    "description": "会社や企業の創業時期ではなく、その事業所が現在の場所で事業を始めた時期です。経営権の譲渡、組織変更、新設合併、会社分割、事業譲渡などでは、その変更時期を開設時期とします。",
+    "examples": ["現在地で営業を開始した年月"],
+    "relatedTerms": ["事業所", "経営組織"],
+    "category": "事業所・企業",
+    "difficulty": 2
+  },
+  {
+    "id": "legal_organization",
+    "term": "経営組織",
+    "aliases": [],
+    "shortDescription": "事業所を、経営主体の法的な形態などで分けた区分です。",
+    "description": "事業所の経営主体を、国・地方公共団体、個人経営、会社、会社以外の法人、法人でない団体などに区分したものです。",
+    "examples": ["個人経営", "会社", "会社以外の法人", "法人でない団体"],
+    "relatedTerms": ["事業所", "企業等", "会社企業"],
+    "category": "事業所・企業",
+    "difficulty": 1
+  },
+  {
+    "id": "head_branch_status",
+    "term": "単独・本所・支所の別",
+    "aliases": ["単独・本所・支所別"],
+    "shortDescription": "事業所を、単独事業所、本所、支所に分けた区分です。",
+    "description": "同一経営の他の事業所との関係により、他に本所や支所を持たない単独事業所、全ての支所を統括する本所、本所の統括を受ける支所に区分したものです。",
+    "examples": ["単独事業所", "本所（本社・本店）", "支所（支社・支店）"],
+    "relatedTerms": ["事業所", "本所の所在地", "企業等"],
+    "category": "事業所・企業",
+    "difficulty": 2
+  },
+  {
+    "id": "head_office_location",
+    "term": "本所の所在地",
+    "aliases": ["本社の所在地", "本店の所在地"],
+    "shortDescription": "支所を統括する本所が所在する地域です。",
+    "description": "支所である事業所について、本所が支所と同じ都道府県にあるか、別の都道府県にあるかを示す区分です。",
+    "examples": ["同一都道府県", "他の都道府県"],
+    "relatedTerms": ["単独・本所・支所の別", "都道府県"],
+    "category": "事業所・企業",
+    "difficulty": 1
+  },
+  {
+    "id": "enterprises_etc",
+    "term": "企業等",
+    "aliases": [],
+    "shortDescription": "法人や個人経営の事業所を、経営主体ごとにまとめた単位です。",
+    "description": "事業・活動を行う法人（外国の会社を除く）と個人経営の事業所をいいます。同じ経営者が複数の事業所を経営する場合は、本所と支所を含めて一つの企業等とします。",
+    "examples": ["本所と複数の支所からなる企業", "単独事業所"],
+    "relatedTerms": ["事業所", "会社企業", "経営組織"],
+    "category": "事業所・企業",
+    "difficulty": 2
+  },
+  {
+    "id": "company_enterprise",
+    "term": "会社企業",
+    "aliases": [],
+    "shortDescription": "会社形態で経営される、本所と支所を含む企業全体です。",
+    "description": "経営組織が株式会社、有限会社、相互会社、合名会社、合資会社または合同会社である企業を、本所と支所を含めて一つの単位としたものです。単独事業所は、その事業所だけで会社企業となります。",
+    "examples": ["株式会社", "合同会社", "相互会社"],
+    "relatedTerms": ["企業等", "経営組織", "単独・本所・支所の別"],
+    "category": "事業所・企業",
+    "difficulty": 2
+  },
+  {
+    "id": "enterprise_industry_classification",
+    "term": "企業産業分類",
+    "aliases": [],
+    "shortDescription": "企業全体を主な事業内容に基づいて分けた産業分類です。",
+    "description": "本所や支所を含む組織全体の主な事業内容により、日本標準産業分類に基づいて分類したものです。令和元年経済センサス‐基礎調査では平成25年10月改定の分類を用いています。",
+    "examples": ["製造業", "情報通信業", "医療，福祉"],
+    "relatedTerms": ["企業等", "事業所の産業分類", "産業"],
+    "category": "産業分類",
+    "difficulty": 2
+  },
+  {
+    "id": "capital_amount",
+    "term": "資本金額",
+    "aliases": ["資本金の額"],
+    "shortDescription": "会社の形態に応じた資本金、出資金または基金の額です。",
+    "description": "株式会社・有限会社では資本金、合名会社・合資会社・合同会社では出資金、相互会社では基金の額をいいます。",
+    "examples": ["資本金1,000万円", "出資金500万円"],
+    "relatedTerms": ["会社企業", "経営組織"],
+    "category": "企業の経理",
+    "difficulty": 1
+  },
+  {
+    "id": "sales_revenue_amount",
+    "term": "売上（収入）金額",
+    "aliases": ["売上金額", "収入金額", "売上高", "営業収益", "完成工事高"],
+    "shortDescription": "商品販売やサービス提供など、通常の事業活動で得た収入額です。",
+    "description": "商品などの販売やサービスの提供によって得た売上高、営業収益、完成工事高などをいいます。土地・建物や機械などの財産を売却して得た収入は含みません。一部の企業・法人・団体では経常収益を用います。",
+    "examples": ["商品の販売額", "サービスの提供による収入", "完成工事高"],
+    "relatedTerms": ["企業等", "会社企業", "資本金額"],
+    "category": "企業の経理",
+    "difficulty": 1
   }
 ]
