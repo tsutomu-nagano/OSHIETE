@@ -6350,5 +6350,2860 @@
     "officialStatisticsCodes": [
       "00200531"
     ]
+  },
+  {
+    "id": "housing_survey_dwelling",
+    "term": "住宅",
+    "aliases": [],
+    "shortDescription": "独立して家庭生活を営めるよう建築・改造された建物またはその一部です。",
+    "description": "固定的に区画され、一つ以上の居住室、専用の炊事用流し、専用のトイレ、専用の出入口という要件を満たす建物またはその一部をいいます。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "住宅・土地統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200522"
+    ]
+  },
+  {
+    "id": "housing_survey_temporarily_occupied_dwelling",
+    "term": "一時現在者のみの住宅",
+    "aliases": [],
+    "shortDescription": "ふだん居住する人がいない一時利用の住宅です。",
+    "description": "昼間だけ使用する、複数人が交代で寝泊まりするなど、そこにふだん居住している者が一人もいない住宅です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "住宅・土地統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200522"
+    ]
+  },
+  {
+    "id": "housing_survey_vacant_dwelling",
+    "term": "空き家",
+    "aliases": [],
+    "shortDescription": "ふだん人が居住していない住宅です。",
+    "description": "居住世帯が長期間不在であることが確認できる住宅や、転居・入院などで居住世帯が長期にわたり不在となることが見込まれる住宅をいいます。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "住宅・土地統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200522"
+    ]
+  },
+  {
+    "id": "housing_survey_secondary_dwelling",
+    "term": "二次的住宅",
+    "aliases": [],
+    "shortDescription": "別荘や週末・休暇時などに使う住宅です。",
+    "description": "週末や休暇時に避暑・避寒・保養などの目的で使用する別荘や、ふだん住んでいる住宅とは別に残業で遅くなったときなどに寝泊まりする住宅です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "住宅・土地統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200522"
+    ]
+  },
+  {
+    "id": "housing_survey_rental_vacant_dwelling",
+    "term": "賃貸用の住宅",
+    "aliases": [],
+    "shortDescription": "新築・中古を問わず賃貸のため空き家になっている住宅です。",
+    "description": "新築か中古かを問わず、賃貸することを目的として空き家になっている住宅です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "住宅・土地統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200522"
+    ]
+  },
+  {
+    "id": "housing_survey_for_sale_vacant_dwelling",
+    "term": "売却用の住宅",
+    "aliases": [],
+    "shortDescription": "売却するため空き家になっている住宅です。",
+    "description": "新築か中古かを問わず、売却することを目的として空き家になっている住宅です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "住宅・土地統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200522"
+    ]
+  },
+  {
+    "id": "housing_survey_other_vacant_dwelling",
+    "term": "その他の住宅",
+    "aliases": [],
+    "shortDescription": "転勤・入院などで居住世帯が長期不在の住宅などです。",
+    "description": "賃貸用、売却用、二次的住宅以外で、転勤・入院などにより居住世帯が長期にわたり不在の住宅や、建て替えなどのため取り壊すことになっている住宅です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "住宅・土地統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200522"
+    ]
+  },
+  {
+    "id": "housing_survey_dwelling_under_construction",
+    "term": "建築中の住宅",
+    "aliases": [],
+    "shortDescription": "建築途中で、まだ人が住める状態になっていない住宅です。",
+    "description": "住宅として建築中で、戸締まりができる程度に完成していないものをいいます。戸締まりができる程度なら、内装未完了でも空き家に含めます。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "住宅・土地統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200522"
+    ]
+  },
+  {
+    "id": "housing_survey_non_dwelling_occupied_building",
+    "term": "住宅以外で人が居住する建物",
+    "aliases": [],
+    "shortDescription": "住宅の要件を満たさない建物で人が居住しているものです。",
+    "description": "会社・学校等の寮や寄宿舎、旅館・宿泊所、店舗・工場・事務所など、住宅の設備要件を満たさない建物に人が居住している場合の建物です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "住宅・土地統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200522"
+    ]
+  },
+  {
+    "id": "housing_survey_exclusive_dwelling",
+    "term": "専用住宅",
+    "aliases": [],
+    "shortDescription": "居住だけを目的として建てられた住宅です。",
+    "description": "居住の目的だけに建てられ、店舗、作業場、事務所など業務用の部分がない住宅です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "住宅・土地統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200522"
+    ]
+  },
+  {
+    "id": "housing_survey_combined_use_dwelling",
+    "term": "店舗その他の併用住宅",
+    "aliases": [],
+    "shortDescription": "居住部分と店舗・作業場などが結合した住宅です。",
+    "description": "商店、飲食店、理髪店、医院などの業務に使用する部分と、居住用の部分が結合している住宅です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "住宅・土地統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200522"
+    ]
+  },
+  {
+    "id": "housing_survey_detached_house",
+    "term": "一戸建",
+    "aliases": [],
+    "shortDescription": "一つの建物が一つの住宅であるものです。",
+    "description": "一つの建物が一つの住宅になっているものです。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "住宅・土地統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200522"
+    ]
+  },
+  {
+    "id": "housing_survey_tenement_house",
+    "term": "長屋建",
+    "aliases": [],
+    "shortDescription": "複数住宅が壁を共有し、各戸が外部への専用出入口を持つ建物です。",
+    "description": "二つ以上の住宅を一棟に建て連ね、各住宅が壁を共通にし、それぞれ別々に外部への出入口を持つ建物です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "住宅・土地統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200522"
+    ]
+  },
+  {
+    "id": "housing_survey_apartment_building",
+    "term": "共同住宅",
+    "aliases": [],
+    "shortDescription": "複数住宅が一棟にあり、共同の廊下や階段などを持つ建物です。",
+    "description": "一棟の中に二つ以上の住宅があり、廊下・階段などを共同で使用する建て方の住宅です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "住宅・土地統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200522"
+    ]
+  },
+  {
+    "id": "housing_survey_wooden_structure",
+    "term": "木造（防火木造を除く）",
+    "aliases": [],
+    "shortDescription": "建物の主な骨組みが木造で、防火木造に該当しないものです。",
+    "description": "柱・はりなど建物の主な骨組みが木造で、外壁などに防火性能のある材料を用いた防火木造を除くものです。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "住宅・土地統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200522"
+    ]
+  },
+  {
+    "id": "housing_survey_fireproof_wooden_structure",
+    "term": "防火木造",
+    "aliases": [],
+    "shortDescription": "木造の骨組みに防火性能のある外壁などを用いた建物です。",
+    "description": "柱・はりなどの骨組みが木造で、屋根や外壁など延焼のおそれのある部分をモルタル、サイディングボード、瓦など防火性能のある材料で造った建物です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "住宅・土地統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200522"
+    ]
+  },
+  {
+    "id": "housing_survey_reinforced_concrete_structure",
+    "term": "鉄筋・鉄骨コンクリート造",
+    "aliases": [],
+    "shortDescription": "主な骨組みが鉄筋コンクリート造または鉄骨鉄筋コンクリート造の建物です。",
+    "description": "建物の骨組みが鉄筋コンクリート造または鉄骨鉄筋コンクリート造のものです。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "住宅・土地統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200522"
+    ]
+  },
+  {
+    "id": "housing_survey_steel_frame_structure",
+    "term": "鉄骨造",
+    "aliases": [],
+    "shortDescription": "主な骨組みが鉄骨造の建物です。",
+    "description": "建物の骨組みが鉄骨造のものです。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "住宅・土地統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200522"
+    ]
+  },
+  {
+    "id": "housing_survey_owner_occupied_dwelling",
+    "term": "持ち家",
+    "aliases": [],
+    "shortDescription": "居住している世帯が所有している住宅です。",
+    "description": "居住している世帯が所有している住宅です。登記未了やローン支払中の場合、親名義の住宅に住む場合も含みます。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "住宅・土地統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200522"
+    ]
+  },
+  {
+    "id": "housing_survey_public_rental_dwelling",
+    "term": "公営の借家",
+    "aliases": [],
+    "shortDescription": "都道府県や市区町村が所有・管理する賃貸住宅です。",
+    "description": "都道府県や市区町村が所有または管理する賃貸住宅です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "住宅・土地統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200522"
+    ]
+  },
+  {
+    "id": "housing_survey_ur_public_corporation_rental",
+    "term": "都市再生機構（UR）・公社の借家",
+    "aliases": [],
+    "shortDescription": "URや地方住宅供給公社などが所有・管理する賃貸住宅です。",
+    "description": "都市再生機構または都道府県・市区町村の住宅供給公社等が所有または管理する賃貸住宅です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "住宅・土地統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200522"
+    ]
+  },
+  {
+    "id": "housing_survey_private_rental_dwelling",
+    "term": "民営借家",
+    "aliases": [],
+    "shortDescription": "国・自治体・公的機関以外が所有する賃貸住宅です。",
+    "description": "国、都道府県、市区町村、都市再生機構、公社以外のものが所有または管理する賃貸住宅です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "住宅・土地統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200522"
+    ]
+  },
+  {
+    "id": "housing_survey_issued_dwelling",
+    "term": "給与住宅",
+    "aliases": [],
+    "shortDescription": "勤務先が所有・管理し、職務上または給与の一部として貸与する住宅です。",
+    "description": "社宅、公務員住宅など、勤務先の会社・官公庁・団体が所有または管理し、職務上の都合や給与の一部として貸与する住宅です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "住宅・土地統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200522"
+    ]
+  },
+  {
+    "id": "housing_survey_living_rooms",
+    "term": "居住室数",
+    "aliases": [],
+    "shortDescription": "居間、寝室、客間など居住用の部屋数です。",
+    "description": "居間、茶の間、寝室、客間、書斎、応接間、仏間、食事室など、居住用の部屋を数えたものです。玄関、台所、浴室、廊下などは含みません。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "住宅・土地統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200522"
+    ]
+  },
+  {
+    "id": "housing_survey_tatami_units",
+    "term": "居住室の畳数",
+    "aliases": [],
+    "shortDescription": "居住室の広さを畳数に換算したものです。",
+    "description": "各居住室の広さを畳数に換算して合計したものです。洋間などは床面積を基に換算します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "住宅・土地統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200522"
+    ]
+  },
+  {
+    "id": "housing_survey_total_floor_area",
+    "term": "住宅の延べ面積",
+    "aliases": [],
+    "shortDescription": "住宅に含まれる床面積の合計です。",
+    "description": "居住室のほか、玄関、台所、トイレ、浴室、廊下、押し入れ、住宅内の営業用部分などを含む床面積の合計です。共同住宅の共用廊下・階段や別棟の物置・車庫などは含みません。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "住宅・土地統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200522"
+    ]
+  },
+  {
+    "id": "housing_survey_elderly_facilities",
+    "term": "高齢者等のための設備がある",
+    "aliases": [],
+    "shortDescription": "手すり、段差解消など高齢者等に配慮した設備がある住宅です。",
+    "description": "手すり、またぎやすい浴槽、車いすで通行可能な廊下幅、段差のない屋内、道路から玄関まで車いすで通行可能などの設備がある住宅です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "住宅・土地統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200522"
+    ]
+  },
+  {
+    "id": "housing_survey_basic_barrier_free",
+    "term": "一定のバリアフリー化",
+    "aliases": [],
+    "shortDescription": "基本的なバリアフリー設備を備える住宅です。",
+    "description": "高齢者等のための設備のうち、手すりが2か所以上にある、または段差のない屋内のいずれかを満たす住宅です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "住宅・土地統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200522"
+    ]
+  },
+  {
+    "id": "housing_survey_advanced_barrier_free",
+    "term": "高度のバリアフリー化",
+    "aliases": [],
+    "shortDescription": "より高い水準のバリアフリー設備を備える住宅です。",
+    "description": "手すりが2か所以上にあり、段差のない屋内で、廊下などが車いすで通行可能な幅という条件をすべて満たす住宅です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "住宅・土地統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200522"
+    ]
+  },
+  {
+    "id": "housing_survey_solar_thermal_equipment",
+    "term": "太陽熱を利用した温水機器等",
+    "aliases": [],
+    "shortDescription": "太陽熱で温水を作る機器などです。",
+    "description": "水を屋根上の集熱器に通して太陽熱で温める温水機器など、太陽熱を利用する設備です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "住宅・土地統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200522"
+    ]
+  },
+  {
+    "id": "housing_survey_solar_power_equipment",
+    "term": "太陽光を利用した発電機器",
+    "aliases": [],
+    "shortDescription": "太陽光を電力に変換する発電設備です。",
+    "description": "屋根などに設置した太陽電池を利用して、太陽光を電力に変換する発電設備です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "住宅・土地統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200522"
+    ]
+  },
+  {
+    "id": "housing_survey_double_sash_window",
+    "term": "二重サッシ",
+    "aliases": [],
+    "shortDescription": "外窓と内窓の二重構造にした窓です。",
+    "description": "既存の窓の内側または外側に別の窓を設け、二重構造にした窓です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "住宅・土地統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200522"
+    ]
+  },
+  {
+    "id": "housing_survey_multiple_glazing",
+    "term": "複層ガラスの窓",
+    "aliases": [],
+    "shortDescription": "複数のガラスの間に空気層を設けた断熱窓です。",
+    "description": "複数枚のガラスを組み合わせ、ガラス間に空気層を作ることにより断熱効果を持たせた窓です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "住宅・土地統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200522"
+    ]
+  },
+  {
+    "id": "housing_survey_deterioration_damage",
+    "term": "腐朽・破損あり",
+    "aliases": [],
+    "shortDescription": "住宅の主要部分などに腐朽または破損がある状態です。",
+    "description": "建物の主要部分やその他の部分に腐朽、破損があり、修理を必要とする住宅をいいます。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "住宅・土地統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200522"
+    ]
+  },
+  {
+    "id": "housing_survey_elderly_friendly_apartment",
+    "term": "高齢者対応型共同住宅",
+    "aliases": [],
+    "shortDescription": "道路から各住戸入口まで車いすで通行できる共同住宅です。",
+    "description": "敷地に接する道路から共同住宅の各住宅の入口まで、介助なしに車いすで通行できる構造の共同住宅です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "住宅・土地統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200522"
+    ]
+  },
+  {
+    "id": "housing_survey_auto_lock",
+    "term": "オートロック式",
+    "aliases": [],
+    "shortDescription": "建物入口の扉を居住者等が遠隔解錠できる共同住宅です。",
+    "description": "共同住宅の共用玄関などの扉が閉鎖され、居住者が室内から解錠するなどして来訪者を確認できる方式です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "住宅・土地統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200522"
+    ]
+  },
+  {
+    "id": "housing_survey_new_dwelling_purchase",
+    "term": "新築の住宅を購入",
+    "aliases": [],
+    "shortDescription": "新築住宅を購入した場合です。",
+    "description": "新たに建てられた住宅を購入した場合で、建売住宅や分譲住宅の購入を含みます。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "住宅・土地統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200522"
+    ]
+  },
+  {
+    "id": "housing_survey_used_dwelling_purchase",
+    "term": "中古住宅を購入",
+    "aliases": [],
+    "shortDescription": "他世帯が居住したことのある住宅を購入した場合です。",
+    "description": "新築後に他の世帯が居住したことのある住宅を購入した場合です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "住宅・土地統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200522"
+    ]
+  },
+  {
+    "id": "housing_survey_rebuilding",
+    "term": "建て替え",
+    "aliases": [],
+    "shortDescription": "以前の住宅を取り壊して同じ敷地に新しい住宅を建てた場合です。",
+    "description": "以前あった持ち家を取り壊し、その敷地に新たに持ち家を建築した場合です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "住宅・土地統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200522"
+    ]
+  },
+  {
+    "id": "housing_survey_extension_renovation",
+    "term": "増改築・改修工事等をした",
+    "aliases": [],
+    "shortDescription": "住宅の増築、間取り変更、設備・内外装改修などを行った状態です。",
+    "description": "増築、間取り変更、台所・トイレ・浴室等の改修、内装・屋根・外壁の改修、構造補強、断熱工事などを行った住宅です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "住宅・土地統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200522"
+    ]
+  },
+  {
+    "id": "housing_survey_seismic_diagnosis",
+    "term": "耐震診断をしたことがある",
+    "aliases": [],
+    "shortDescription": "建築士などに依頼して住宅の耐震性を調べたことがある状態です。",
+    "description": "持ち家について、建築事業者などの建築士に依頼し、地震に対する安全性を調べる耐震診断を行ったことがある場合です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "住宅・土地統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200522"
+    ]
+  },
+  {
+    "id": "housing_survey_seismic_retrofit",
+    "term": "耐震改修工事をした",
+    "aliases": [],
+    "shortDescription": "壁・基礎・筋かい・金具などによる耐震補強を行った状態です。",
+    "description": "壁の新設・補強、筋かいの設置、基礎の補強、柱やはりの金具による補強など、住宅の耐震性能を高める工事を行った場合です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "住宅・土地統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200522"
+    ]
+  },
+  {
+    "id": "housing_survey_owned_land",
+    "term": "所有地",
+    "aliases": [],
+    "shortDescription": "居住世帯が所有する住宅敷地です。",
+    "description": "居住している世帯の世帯員が所有している住宅の敷地です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "住宅・土地統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200522"
+    ]
+  },
+  {
+    "id": "housing_survey_leased_land",
+    "term": "借地",
+    "aliases": [],
+    "shortDescription": "他者が所有する土地を借りて住宅敷地としているものです。",
+    "description": "国、地方公共団体、法人、個人などから土地を借りて住宅の敷地としているものです。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "住宅・土地統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200522"
+    ]
+  },
+  {
+    "id": "housing_survey_general_leasehold",
+    "term": "一般の借地権",
+    "aliases": [],
+    "shortDescription": "定期借地権等に該当しない通常の借地権です。",
+    "description": "借地借家法上の借地権のうち、契約期間満了時に更新や建物買取請求が認められ得る一般の借地権です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "住宅・土地統計調査",
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00200522"
+    ]
+  },
+  {
+    "id": "housing_survey_fixed_term_leasehold",
+    "term": "定期借地権など",
+    "aliases": [],
+    "shortDescription": "更新されず期間満了で土地を返還する借地権などです。",
+    "description": "契約期間満了後に土地を返還し、契約を更新しない定期借地権や建物譲渡特約付借地権などです。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "住宅・土地統計調査",
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00200522"
+    ]
+  },
+  {
+    "id": "housing_survey_main_household",
+    "term": "主世帯",
+    "aliases": [],
+    "shortDescription": "住宅を所有または借りている世帯です。",
+    "description": "一つの住宅に居住する世帯のうち、その住宅を所有または借りている世帯です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "住宅・土地統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200522"
+    ]
+  },
+  {
+    "id": "housing_survey_co_resident_household",
+    "term": "同居世帯",
+    "aliases": [],
+    "shortDescription": "主世帯から住宅の一部を借りて独立して暮らす世帯です。",
+    "description": "一つの住宅に二つ以上の世帯が住む場合に、主世帯から住宅の一部を借りて独立の世帯として暮らしている世帯です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "住宅・土地統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200522"
+    ]
+  },
+  {
+    "id": "housing_survey_ordinary_household",
+    "term": "普通世帯",
+    "aliases": [],
+    "shortDescription": "住居と生計を共にする家族などの世帯です。",
+    "description": "住居と生計を共にしている家族などから成る世帯で、単身世帯も含みます。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "住宅・土地統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200522"
+    ]
+  },
+  {
+    "id": "housing_survey_quasi_household",
+    "term": "準世帯",
+    "aliases": [],
+    "shortDescription": "寮・寄宿舎などで住居または生計を共にする単身者の集まりです。",
+    "description": "単身の住み込み雇人や、寮・寄宿舎、病院、社会施設などで住居または生計を共にしている単身者の集まりを、棟または施設単位などで一つの世帯として扱うものです。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "住宅・土地統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200522"
+    ]
+  },
+  {
+    "id": "housing_survey_household_type",
+    "term": "世帯の型",
+    "aliases": [],
+    "shortDescription": "世帯人員と構成員の関係・年齢で区分した世帯分類です。",
+    "description": "世帯人員、夫婦・子・親などの構成、構成員の年齢などに基づいて世帯を区分したものです。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "住宅・土地統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200522"
+    ]
+  },
+  {
+    "id": "housing_survey_family_type",
+    "term": "家族類型",
+    "aliases": [],
+    "shortDescription": "世帯主と親族世帯員の続き柄で区分した世帯分類です。",
+    "description": "世帯主と親族世帯員との続き柄を基に、夫婦のみ、夫婦と子供、ひとり親と子供などに区分した家族構成です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "住宅・土地統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200522"
+    ]
+  },
+  {
+    "id": "housing_survey_rent",
+    "term": "家賃・間代",
+    "aliases": [],
+    "shortDescription": "住宅や部屋を借りるために毎月支払う額です。",
+    "description": "住宅または住宅の一部を借りるために毎月支払う額で、敷金、権利金、礼金、共益費、管理費などは含みません。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "住宅・土地統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200522"
+    ]
+  },
+  {
+    "id": "housing_survey_common_service_charge",
+    "term": "共益費・管理費",
+    "aliases": [],
+    "shortDescription": "共同住宅の共用部分の維持管理のために支払う費用です。",
+    "description": "家賃・間代とは別に支払う、廊下や階段など共用部分の水道料、電気料、清掃費などです。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "住宅・土地統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200522"
+    ]
+  },
+  {
+    "id": "housing_survey_minimum_housing_area_standard",
+    "term": "最低居住面積水準",
+    "aliases": [],
+    "shortDescription": "健康で文化的な住生活の基礎として必要不可欠な住宅面積の水準です。",
+    "description": "世帯人数に応じ、健康で文化的な住生活を営む基礎として必要不可欠な住宅面積を算式等で示した水準です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "住宅・土地統計調査",
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00200522"
+    ]
+  },
+  {
+    "id": "housing_survey_guided_housing_area_standard",
+    "term": "誘導居住面積水準",
+    "aliases": [],
+    "shortDescription": "豊かな住生活の実現を前提とした住宅面積の目標水準です。",
+    "description": "世帯人数に応じ、多様なライフスタイルを想定して豊かな住生活を実現するために必要と考えられる住宅面積の水準です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "住宅・土地統計調査",
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00200522"
+    ]
+  },
+  {
+    "id": "housing_survey_main_household_financial_supporter",
+    "term": "世帯の家計を主に支える者",
+    "aliases": [],
+    "shortDescription": "世帯の家計費を主として負担する人です。",
+    "description": "その世帯の家計費を主として負担している者をいいます。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "住宅・土地統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200522"
+    ]
+  },
+  {
+    "id": "housing_survey_commuting_time",
+    "term": "通勤時間",
+    "aliases": [],
+    "shortDescription": "家計を主に支える者が自宅から勤務先まで通常要する時間です。",
+    "description": "世帯の家計を主に支える者が、ふだんの交通手段で自宅から勤務先まで通勤するのに通常要する時間です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "住宅・土地統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200522"
+    ]
+  },
+  {
+    "id": "housing_survey_previous_residence_type",
+    "term": "従前の居住形態",
+    "aliases": [],
+    "shortDescription": "現在の住宅へ入居する前に住んでいた住宅等の形態です。",
+    "description": "現住居への入居時期が一定期間以降の者について、直前に居住していた持ち家、借家、下宿・間借り、寮・寄宿舎などの形態です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "住宅・土地統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200522"
+    ]
+  },
+  {
+    "id": "housing_survey_road_width",
+    "term": "敷地に接している道路の幅員",
+    "aliases": [],
+    "shortDescription": "住宅敷地に接する道路の幅です。",
+    "description": "住宅敷地に接する道路の歩道・側溝を含む幅員で、複数道路に接する場合は広い方を用います。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "住宅・土地統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200522"
+    ]
+  },
+  {
+    "id": "housing_survey_city_planning_zone",
+    "term": "都市計画の地域区分",
+    "aliases": [],
+    "shortDescription": "都市計画法に基づく用途地域等による地域分類です。",
+    "description": "住宅が所在する調査区を、都市計画法に基づく用途地域などによって区分したものです。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "住宅・土地統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200522"
+    ]
+  },
+  {
+    "id": "housing_survey_building_coverage_ratio",
+    "term": "調査区の建ぺい率",
+    "aliases": [],
+    "shortDescription": "調査区に指定された建ぺい率の区分です。",
+    "description": "都市計画の指定に基づき、調査区の建ぺい率を区分したものです。複数区分にまたがる場合は大きい方を用います。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "住宅・土地統計調査",
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00200522"
+    ]
+  },
+  {
+    "id": "housing_survey_floor_area_ratio",
+    "term": "調査区の容積率",
+    "aliases": [],
+    "shortDescription": "調査区に指定された容積率の区分です。",
+    "description": "都市計画の指定に基づき、調査区の容積率を区分したものです。複数区分にまたがる場合は大きい方を用います。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "住宅・土地統計調査",
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00200522"
+    ]
+  },
+  {
+    "id": "housing_survey_public_sewerage",
+    "term": "公共下水道の有無",
+    "aliases": [],
+    "shortDescription": "調査区内で公共下水道が利用可能かを示します。",
+    "description": "調査区内に公共下水道が敷設され、住宅が接続可能かどうかを区分したものです。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "住宅・土地統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200522"
+    ]
+  },
+  {
+    "id": "housing_survey_ownership_title",
+    "term": "住宅及び敷地の所有名義",
+    "aliases": [],
+    "shortDescription": "住宅や敷地の登記上の所有名義の区分です。",
+    "description": "持ち家や所有地について、世帯員の単独所有・世帯員同士の共有、他世帯員・法人等との共同所有、その他に区分したものです。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "住宅・土地統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200522"
+    ]
+  },
+  {
+    "id": "housing_survey_owned_other_dwelling_use",
+    "term": "現住居以外に所有する住宅の主な用途",
+    "aliases": [],
+    "shortDescription": "現住居以外に所有する住宅の主用途です。",
+    "description": "現住居以外に所有する住宅について、親族居住用、二次的住宅・別荘用、貸家用、その他などの主な用途を示します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "住宅・土地統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200522"
+    ]
+  },
+  {
+    "id": "housing_survey_other_land_current_use",
+    "term": "現住居の敷地以外に所有する宅地などの利用現況",
+    "aliases": [],
+    "shortDescription": "現住居敷地以外に所有する宅地等の現在の利用状態です。",
+    "description": "現住居の敷地以外に所有する宅地などを、建物敷地、屋外駐車場、資材置場、スポーツ・レジャー用地、未利用などに区分したものです。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "住宅・土地統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00200522"
+    ]
+  },
+  {
+    "id": "construction_orders_received_amount",
+    "term": "受注及び受注高",
+    "aliases": [],
+    "shortDescription": "請負契約1件を、契約時点で1件の受注として計上した金額です。",
+    "description": "請負契約を締結した時点で受注したものとし、一件の請負契約を一件の受注高として扱います。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "建設工事受注動態統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00600130"
+    ]
+  },
+  {
+    "id": "construction_orderer",
+    "term": "発注者",
+    "aliases": [],
+    "shortDescription": "工事を実質的に発注した企業等です。",
+    "description": "工事を発注した企業をいいます。直接の発注者が二次的で本来の発注者が別に存在する場合は、本来の発注者を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "建設工事受注動態統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00600130"
+    ]
+  },
+  {
+    "id": "construction_small_order",
+    "term": "小口工事（大手50社のみ）",
+    "aliases": [],
+    "shortDescription": "1件の受注高が1,000万円未満で分類しにくい工事です。",
+    "description": "大手50社について、一件の受注高が1,000万円未満で、発注者別・工事種類別に分類しにくい工事です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "建設工事受注動態統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00600130"
+    ]
+  },
+  {
+    "id": "construction_large_scale_order",
+    "term": "大規模工事（大手50社のみ）",
+    "aliases": [],
+    "shortDescription": "1件の受注高が10億円以上の工事です。",
+    "description": "大手50社について、一件の受注高が10億円以上の工事です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "建設工事受注動態統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00600130"
+    ]
+  },
+  {
+    "id": "construction_completed_value",
+    "term": "施工高（大手50社のみ）",
+    "aliases": [],
+    "shortDescription": "調査期間中の工事進捗率に応じた金額です。",
+    "description": "大手50社について、調査期間における工事の進捗率に応じて算定した額です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "建設工事受注動態統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00600130"
+    ]
+  },
+  {
+    "id": "construction_backlog",
+    "term": "手持ち工事高（大手50社のみ）",
+    "aliases": [],
+    "shortDescription": "調査日時点で請負契約済みだが未施工の工事額です。",
+    "description": "大手50社について、調査期日時点の手持ち分をいい、請負契約済みで未着手の工事も含みます。2015年3月分から未消化工事高より名称変更されています。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "建設工事受注動態統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00600130"
+    ]
+  },
+  {
+    "id": "construction_backlog_months",
+    "term": "手持工事月数（大手50社のみ）",
+    "aliases": [],
+    "shortDescription": "手持ち工事高が平均施工高の何か月分かを示す値です。",
+    "description": "調査期日の未消化工事高を、調査期日までの12か月平均の施工高で除した数値です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "建設工事受注動態統計調査",
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00600130"
+    ]
+  },
+  {
+    "id": "construction_tangible_fixed_assets_excluding_land",
+    "term": "有形固定資産（土地を除く）",
+    "aliases": [],
+    "shortDescription": "貸借対照表の有形固定資産から土地を除いた額です。",
+    "description": "建設業法に定める貸借対照表の有形固定資産の額から土地を除いた額です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "建設工事受注動態統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00600130"
+    ]
+  },
+  {
+    "id": "construction_workers",
+    "term": "従業員",
+    "aliases": [],
+    "shortDescription": "企業に所属して業務に従事する雇用者、個人業主等です。",
+    "description": "企業に所属して業務に従事する直接雇用の雇用者、個人業主、無給家族従業者、有給役員をいいます。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "建設工事受注動態統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00600130"
+    ]
+  },
+  {
+    "id": "construction_regular_employee",
+    "term": "常雇",
+    "aliases": [],
+    "shortDescription": "1か月を超えて雇用される者などです。",
+    "description": "1か月を超えて雇用される者、および1か月以内の雇用でも5月と6月にそれぞれ18日以上雇用された者をいいます。条件を満たすパート・アルバイトも含みます。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "建設工事受注動態統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00600130"
+    ]
+  },
+  {
+    "id": "construction_temporary_daily_employee",
+    "term": "臨時・日雇",
+    "aliases": [],
+    "shortDescription": "従業者のうち常雇以外の者です。",
+    "description": "従業者のうち、この調査で定義する常雇に該当しない者です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "建設工事受注動態統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00600130"
+    ]
+  },
+  {
+    "id": "construction_outsourced_labour",
+    "term": "労務外注",
+    "aliases": [],
+    "shortDescription": "労務外注契約等により現場で働く技能工・労務作業者です。",
+    "description": "建設業許可業者を相手方とする場合を除く労務外注契約、または準直用により、建設工事現場で働く技能工（職長を含む）および労務作業者です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "建設工事受注動態統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00600130"
+    ]
+  },
+  {
+    "id": "construction_executive",
+    "term": "役員",
+    "aliases": [],
+    "shortDescription": "常時勤務して報酬を受ける役員です。",
+    "description": "役員のうち常時勤務して報酬を受ける者です。一般職員と同じ給与規則で事務・労務職を兼ねる場合は該当職種へ分類します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "建設工事受注動態統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00600130"
+    ]
+  },
+  {
+    "id": "construction_engineer",
+    "term": "技術者",
+    "aliases": [],
+    "shortDescription": "工事の設計、積算、施工管理・監督を行う者です。",
+    "description": "工事の設計、積算、または現場施工の管理・監督に当たる者です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "建設工事受注動態統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00600130"
+    ]
+  },
+  {
+    "id": "construction_site_worker",
+    "term": "現場労働者",
+    "aliases": [],
+    "shortDescription": "建設現場で働く技能工・労務作業者です。",
+    "description": "建設工事現場で働く技能工（職長を含む）および労務作業者で、施工の管理・監督者は含みません。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "建設工事受注動態統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00600130"
+    ]
+  },
+  {
+    "id": "construction_completed_work_value",
+    "term": "完成工事高",
+    "aliases": [],
+    "shortDescription": "決算期中に完成・引渡しした工事等の請負高です。",
+    "description": "決算期内に完成し引渡しが完了した工事の最終請負高と、未完成工事を工事進行基準で収益計上する場合の決算期中出来高相当額です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "建設工事受注動態統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00600130"
+    ]
+  },
+  {
+    "id": "construction_prime_contract_work",
+    "term": "元請工事",
+    "aliases": [],
+    "shortDescription": "施主から直接請け負った建設工事です。",
+    "description": "発注者（施主）から直接請け負った建設工事で、民間等が自社のために行った自家工事も含みます。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "建設工事受注動態統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00600130"
+    ]
+  },
+  {
+    "id": "construction_subcontract_work",
+    "term": "下請工事",
+    "aliases": [],
+    "shortDescription": "他の建設業者から下請として請け負った工事です。",
+    "description": "元請工事以外で、元請業者や下請業者など他の建設業者から下請として請け負った建設工事です。一次・二次等の下請を含みます。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "建設工事受注動態統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00600130"
+    ]
+  },
+  {
+    "id": "construction_public_ordered_work",
+    "term": "公共発注工事",
+    "aliases": [],
+    "shortDescription": "国や地方公共団体などが発注した工事です。",
+    "description": "国、独立行政法人、政府関連企業、都道府県、市区町村、地方公営企業、地方独立行政法人、公立大学法人などが発注した工事です。資料に明記された除外・民間扱いの機関は含みません。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "建設工事受注動態統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00600130"
+    ]
+  },
+  {
+    "id": "construction_private_ordered_work",
+    "term": "民間発注工事",
+    "aliases": [],
+    "shortDescription": "公共発注工事以外の工事です。",
+    "description": "公共発注工事以外の工事で、駐留軍や外国公館等による発注も含みます。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "建設工事受注動態統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00600130"
+    ]
+  },
+  {
+    "id": "construction_new_work",
+    "term": "新設工事",
+    "aliases": [],
+    "shortDescription": "構造物等を新設・増改築・改良する工事です。",
+    "description": "構造物や附属設備を新設、増改築、改良する工事で、改良復旧、除却、解体、耐震改修も含みます。新設と維持修繕の双方を含む場合は主たる内容で区分します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "建設工事受注動態統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00600130"
+    ]
+  },
+  {
+    "id": "construction_maintenance_repair_work",
+    "term": "維持・修繕工事",
+    "aliases": [],
+    "shortDescription": "既存構造物等の機能を保つための補修・改装等です。",
+    "description": "新設工事以外で、既存の構造物・附属設備の従前の機能を保つための経常的補修、改装、移転、災害復旧、区画線設置などを含みます。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "建設工事受注動態統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00600130"
+    ]
+  },
+  {
+    "id": "construction_annual_orders_value",
+    "term": "受注高",
+    "aliases": [],
+    "shortDescription": "元請・下請による建設工事の請負高です。",
+    "description": "建設工事の元請および下請による請負高で、請負高が未確定の場合は見積計上額を用います。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "建設工事受注動態統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00600130"
+    ]
+  },
+  {
+    "id": "construction_expenses",
+    "term": "経費",
+    "aliases": [],
+    "shortDescription": "完成工事に係る材料費・労務費・外注費以外の費用です。",
+    "description": "完成工事について発生・負担する材料費、労務費、外注費以外の費用で、動力用水光熱費、機械等経費、設計費、租税公課、給料手当などの合計です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "建設工事受注動態統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00600130"
+    ]
+  },
+  {
+    "id": "construction_personnel_expenses",
+    "term": "うち人件費",
+    "aliases": [],
+    "shortDescription": "経費のうち給料手当、退職金、法定福利費等の合計です。",
+    "description": "経費のうち、従業員給料手当、退職金、法定福利費および福利厚生費の合計です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "建設工事受注動態統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00600130"
+    ]
+  },
+  {
+    "id": "construction_material_cost",
+    "term": "材料費",
+    "aliases": [],
+    "shortDescription": "工事のため直接購入・振替した材料の費用です。",
+    "description": "工事のために直接購入した素材、半製品、製品や、材料貯蔵品勘定等から振り替えた材料費で、仮設材料の損耗額等も含みます。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "建設工事受注動態統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00600130"
+    ]
+  },
+  {
+    "id": "construction_labour_cost",
+    "term": "労務費",
+    "aliases": [],
+    "shortDescription": "工事に従事した直接雇用作業員への賃金等です。",
+    "description": "工事に従事した直接雇用の作業員に対する賃金、給料、手当等です。一定の労務主体の請負支払額を含められる場合があります。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "建設工事受注動態統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00600130"
+    ]
+  },
+  {
+    "id": "construction_outsourced_labour_cost",
+    "term": "うち労務外注費",
+    "aliases": [],
+    "shortDescription": "労務費のうち労務主体の請負契約に基づく支払額です。",
+    "description": "労務費のうち、工種・工程別等の工事完成を約する契約で、その大部分が労務費であるものに基づく支払額です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "建設工事受注動態統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00600130"
+    ]
+  },
+  {
+    "id": "construction_subcontracting_cost",
+    "term": "外注費",
+    "aliases": [],
+    "shortDescription": "材料等を作業とともに提供する工事契約に基づく支払額です。",
+    "description": "工種・工程等について素材、半製品、製品等を作業とともに提供して完成を約する契約に基づく支払額で、労務費に含めたものを除きます。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "建設工事受注動態統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00600130"
+    ]
+  },
+  {
+    "id": "construction_taxes_and_dues",
+    "term": "租税公課",
+    "aliases": [],
+    "shortDescription": "建設業務に係る租税や公課です。",
+    "description": "事業税の一部、事業所税、不動産取得税、固定資産税等の租税と、道路占用料、身体障害者雇用納付金等の公課です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "建設工事受注動態統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00600130"
+    ]
+  },
+  {
+    "id": "construction_operating_profit_loss",
+    "term": "営業損益",
+    "aliases": [],
+    "shortDescription": "売上総利益等から販売費・一般管理費を控除した額です。",
+    "description": "売上総利益（または売上総損失）から販売費および一般管理費を控除した額です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "建設工事受注動態統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00600130"
+    ]
+  },
+  {
+    "id": "construction_civil_engineering_work",
+    "term": "土木工事",
+    "aliases": [],
+    "shortDescription": "道路・河川・農業土木などの土木工作物に関する工事です。",
+    "description": "道路、河川、農業土木のほか、送配電線、屋外配管、タンク、交通標識、造園、解体、サイロ等と土木施設の附属物の工事を含みます。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "建設工事受注動態統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00600130"
+    ]
+  },
+  {
+    "id": "construction_building_and_equipment_work",
+    "term": "建築工事・建築設備工事",
+    "aliases": [],
+    "shortDescription": "建築物と、その冷暖房・給排水・電気等の設備工事です。",
+    "description": "建築物本体とその一部を構成する工事、建築に附帯する整地・門塀等、および建築物の冷暖房、換気、給排水、電気、ガス、消火、昇降機等の設備工事です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "建設工事受注動態統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00600130"
+    ]
+  },
+  {
+    "id": "construction_residential_building",
+    "term": "住宅",
+    "aliases": [],
+    "shortDescription": "居住を主目的とする建築物です。",
+    "description": "居住を主たる目的とする建築物で、複合建築物では居住用床面積が全体の50％以上のものです。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "建設工事受注動態統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00600130"
+    ]
+  },
+  {
+    "id": "construction_non_residential_building",
+    "term": "非住宅",
+    "aliases": [],
+    "shortDescription": "居住以外を主目的とする建築物です。",
+    "description": "鉱工業用、商業用、サービス業用、公益事業用、公務・文教用など、居住以外を主たる目的とする建築物です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "建設工事受注動態統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00600130"
+    ]
+  },
+  {
+    "id": "construction_machinery_installation_work",
+    "term": "機械装置等工事",
+    "aliases": [],
+    "shortDescription": "工場の動力設備や機械器具装置等に関する工事です。",
+    "description": "工場等の動力設備、配管、機械基礎、築炉、機械器具装置、変電設備、屋外通信設備、ガス導管、坑井、遊戯設備、索道設備等の工事で、建築設備を除きます。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "建設工事受注動態統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00600130"
+    ]
+  },
+  {
+    "id": "corporate_enterprise_equity_ratio",
+    "term": "自己資本比率",
+    "aliases": [],
+    "shortDescription": "総資本に占める自己資本の割合です。",
+    "description": "総資本のうち純資産から新株予約権を除いた自己資本が占める割合で、返済不要の資本への依存度と財務の健全性を示します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "法人企業統計調査",
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00350600"
+    ]
+  },
+  {
+    "id": "corporate_enterprise_return_on_assets",
+    "term": "総資本利益率",
+    "aliases": [],
+    "shortDescription": "利益の総資本に対する割合で、企業の総合的な収益性を示します。",
+    "description": "利益を総資本で除した指標です。用いる利益により総資本営業利益率、総資本経常利益率などがあり、売上高利益率と総資本回転率に分解できます。一般にROAとも呼ばれます。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "法人企業統計調査",
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00350600"
+    ]
+  },
+  {
+    "id": "corporate_enterprise_return_on_equity",
+    "term": "自己資本利益率",
+    "aliases": [],
+    "shortDescription": "当期純利益の自己資本に対する割合です。",
+    "description": "当期純利益を純資産から新株予約権を除いた自己資本で除した指標で、株主資金と内部留保資金によりどの程度の利益を上げたかを示します。一般にROEと呼ばれます。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "法人企業統計調査",
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00350600"
+    ]
+  },
+  {
+    "id": "corporate_enterprise_labour_productivity",
+    "term": "労働生産性",
+    "aliases": [],
+    "shortDescription": "従業員一人当たりの付加価値額です。",
+    "description": "付加価値額を従業員数で除した指標で、投入された労働力がどれだけ効率的に利用されたかを示します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "法人企業統計調査",
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00350600"
+    ]
+  },
+  {
+    "id": "corporate_enterprise_personnel_cost_ratio",
+    "term": "売上高人件費比率",
+    "aliases": [],
+    "shortDescription": "売上高に対する人件費の割合です。",
+    "description": "人件費を売上高で除した指標です。売上原価や販売費・一般管理費に人件費が含まれるため、売上高営業利益率と表裏の関係にあります。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "法人企業統計調査",
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00350600"
+    ]
+  },
+  {
+    "id": "corporate_enterprise_ordinary_profit_margin",
+    "term": "売上高経常利益率",
+    "aliases": [],
+    "shortDescription": "売上高に対する経常利益の割合です。",
+    "description": "経常利益を売上高で除した指標で、財務活動の損益を含む通常の経営活動における収益力を示します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "法人企業統計調査",
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00350600"
+    ]
+  },
+  {
+    "id": "corporate_enterprise_dividends_from_surplus",
+    "term": "剰余金の配当",
+    "aliases": [],
+    "shortDescription": "当期純利益を配当と内部留保に分ける処分状況です。",
+    "description": "法人企業統計では、一年間の企業活動で得た当期純利益の処分状況を指し、配当（中間配当を含む）と内部留保に分けます。役員賞与の扱いは2006年度以前と2007年度以降で異なります。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "法人企業統計調査",
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00350600"
+    ]
+  },
+  {
+    "id": "corporate_enterprise_dividend_payout_ratio",
+    "term": "配当性向",
+    "aliases": [],
+    "shortDescription": "当期純利益に対する配当金の割合です。",
+    "description": "配当金（中間配当を含む）を当期純利益で除した割合で、株主への利益還元と内部留保の度合いを示します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "法人企業統計調査",
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00350600"
+    ]
+  },
+  {
+    "id": "corporate_enterprise_cash_flow",
+    "term": "キャッシュフロー",
+    "aliases": [],
+    "shortDescription": "内部留保に減価償却費を加えた内部資金です。",
+    "description": "企業活動で得た正味の現金収支に相当する内部金融で、ここでは当期純利益の内部留保分に減価償却費を加えたものです。内部留保の算定は2006年度以前と2007年度以降で役員賞与の扱いが異なります。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "法人企業統計調査",
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00350600"
+    ]
+  },
+  {
+    "id": "corporate_enterprise_value_added_ratio",
+    "term": "付加価値率",
+    "aliases": [],
+    "shortDescription": "売上高に占める付加価値額の割合です。",
+    "description": "付加価値額を売上高で除した割合です。付加価値額は人件費、支払利息等、動産・不動産賃借料、租税公課、営業純益の合計として算定します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "法人企業統計調査",
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00350600"
+    ]
+  },
+  {
+    "id": "corporate_enterprise_inventory_investment",
+    "term": "在庫投資",
+    "aliases": [],
+    "shortDescription": "当期末と前期末の棚卸資産の差額です。",
+    "description": "調査対象期間中の棚卸資産増加額で、貸借対照表上の当期末棚卸資産から前期末棚卸資産を差し引いた増減額です。棚卸資産は製品商品、仕掛品、原材料から成ります。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "法人企業統計調査",
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00350600"
+    ]
+  },
+  {
+    "id": "corporate_enterprise_intangible_fixed_assets",
+    "term": "無形固定資産",
+    "aliases": [],
+    "shortDescription": "物理的形態を持たず1年を超えて利用される資産です。",
+    "description": "特許権・借地権などの法律上の権利、ソフトウェア、のれん等からなる資産で、毎期の償却額を控除した残額が貸借対照表の期末値となります。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "法人企業統計調査",
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00350600"
+    ]
+  },
+  {
+    "id": "monthly_labor_cash_earnings",
+    "term": "現金給与額（毎月勤労統計調査）",
+    "aliases": [],
+    "shortDescription": "労働の対価として使用者が通貨で支払う賃金等の額です。",
+    "description": "賃金・給与・手当・賞与など名称を問わず、労働の対価として使用者が労働者に通貨で支払う額です。所得税、社会保険料、組合費、購買代金等を差し引く前の額で、退職金は含みません。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "毎月勤労統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00450071"
+    ]
+  },
+  {
+    "id": "monthly_labor_total_cash_earnings",
+    "term": "現金給与総額（毎月勤労統計調査）",
+    "aliases": [],
+    "shortDescription": "きまって支給する給与と特別に支払われた給与の合計です。",
+    "description": "きまって支給する給与（定期給与）と特別に支払われた給与（特別給与）を合計した額です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "毎月勤労統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00450071"
+    ]
+  },
+  {
+    "id": "monthly_labor_scheduled_earnings",
+    "term": "きまって支給する給与（定期給与）",
+    "aliases": [
+      "定期給与"
+    ],
+    "shortDescription": "あらかじめ定めた条件や算定方法により支給する給与です。",
+    "description": "労働協約や就業規則等であらかじめ定められた支給条件・算定方法により支給される給与で、基本給、家族手当、超過労働手当を含みます。",
+    "examples": [
+      "基本給",
+      "家族手当",
+      "超過労働手当"
+    ],
+    "relatedTerms": [],
+    "category": "毎月勤労統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00450071"
+    ]
+  },
+  {
+    "id": "monthly_labor_scheduled_earnings_in",
+    "term": "所定内給与（毎月勤労統計調査）",
+    "aliases": [],
+    "shortDescription": "定期給与のうち所定外給与以外の給与です。",
+    "description": "きまって支給する給与のうち、所定外給与に該当するものを除いた給与です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "毎月勤労統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00450071"
+    ]
+  },
+  {
+    "id": "monthly_labor_overtime_earnings",
+    "term": "所定外給与（毎月勤労統計調査）",
+    "aliases": [
+      "超過労働給与"
+    ],
+    "shortDescription": "所定時間外・休日・深夜労働に対して支給される給与です。",
+    "description": "所定労働時間を超える労働、休日労働、深夜労働に対して支給される給与です。時間外手当、早朝出勤手当、休日出勤手当、深夜手当などが該当します。",
+    "examples": [
+      "時間外手当",
+      "休日出勤手当",
+      "深夜手当"
+    ],
+    "relatedTerms": [],
+    "category": "毎月勤労統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00450071"
+    ]
+  },
+  {
+    "id": "monthly_labor_special_earnings",
+    "term": "特別に支払われた給与（毎月勤労統計調査）",
+    "aliases": [
+      "特別給与"
+    ],
+    "shortDescription": "一時的・突発的な事由などで支払われる給与です。",
+    "description": "労働協約や就業規則等によらない一時的・突発的事由による給与、またはあらかじめ条件・算定方法が定められていても、賞与等の一時金、不定期に発生するもの、3か月を超える期間で算定する手当、ベースアップ差額の追給に当たる給与です。",
+    "examples": [
+      "夏冬の賞与",
+      "期末手当",
+      "6か月分の通勤手当"
+    ],
+    "relatedTerms": [],
+    "category": "毎月勤労統計調査",
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00450071"
+    ]
+  },
+  {
+    "id": "monthly_labor_actual_working_hours",
+    "term": "実労働時間数（毎月勤労統計調査）",
+    "aliases": [],
+    "shortDescription": "労働者が実際に働いた時間数です。",
+    "description": "労働者が実際に労働した時間数です。休憩時間は給与支給の有無にかかわらず除き、有給休暇の取得分も除きます。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "毎月勤労統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00450071"
+    ]
+  },
+  {
+    "id": "monthly_labor_total_actual_hours",
+    "term": "総実労働時間（毎月勤労統計調査）",
+    "aliases": [],
+    "shortDescription": "所定内労働時間と所定外労働時間の合計です。",
+    "description": "所定内労働時間と所定外労働時間を合計した実労働時間です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "毎月勤労統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00450071"
+    ]
+  },
+  {
+    "id": "monthly_labor_scheduled_hours",
+    "term": "所定内労働時間（毎月勤労統計調査）",
+    "aliases": [],
+    "shortDescription": "就業規則等で定める始業・終業時刻の間の実労働時間です。",
+    "description": "労働協約や就業規則等で定められた正規の始業時刻と終業時刻の間に実際に働いた時間数です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "毎月勤労統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00450071"
+    ]
+  },
+  {
+    "id": "monthly_labor_overtime_hours",
+    "term": "所定外労働時間（毎月勤労統計調査）",
+    "aliases": [],
+    "shortDescription": "早出・残業・休日出勤などの実労働時間です。",
+    "description": "早出、残業、臨時の呼出、休日出勤等における実労働時間数です。",
+    "examples": [
+      "残業時間",
+      "休日出勤時間"
+    ],
+    "relatedTerms": [],
+    "category": "毎月勤労統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00450071"
+    ]
+  },
+  {
+    "id": "monthly_labor_attendance_days",
+    "term": "出勤日数（毎月勤労統計調査）",
+    "aliases": [],
+    "shortDescription": "業務のため実際に出勤した日数です。",
+    "description": "業務のため実際に出勤した日数で、1時間でも就業すれば1出勤日として数えます。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "毎月勤労統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00450071"
+    ]
+  },
+  {
+    "id": "monthly_labor_regular_worker",
+    "term": "常用労働者（毎月勤労統計調査）",
+    "aliases": [],
+    "shortDescription": "期間の定めなく、または1か月以上の期間を定めて雇われる労働者です。",
+    "description": "雇用期間を定めずに雇われている者、または1か月以上の期間を定めて雇われている者のいずれかに該当する労働者です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "毎月勤労統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00450071"
+    ]
+  },
+  {
+    "id": "monthly_labor_general_worker",
+    "term": "一般労働者（毎月勤労統計調査）",
+    "aliases": [],
+    "shortDescription": "常用労働者のうち、パートタイム労働者以外の者です。",
+    "description": "常用労働者のうち、調査上のパートタイム労働者に該当しない者です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "毎月勤労統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00450071"
+    ]
+  },
+  {
+    "id": "monthly_labor_part_time_worker",
+    "term": "パートタイム労働者（毎月勤労統計調査）",
+    "aliases": [],
+    "shortDescription": "所定労働時間または所定労働日数が一般労働者より短い常用労働者です。",
+    "description": "常用労働者のうち、1日の所定労働時間が一般労働者より短い者、または1日の所定労働時間は同じでも1週間の所定労働日数が少ない者です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "毎月勤労統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00450071"
+    ]
+  },
+  {
+    "id": "welfare_protected_households_persons",
+    "term": "被保護世帯・被保護実人員",
+    "aliases": [],
+    "shortDescription": "月中に生活保護を受けた世帯・実人員等です。",
+    "description": "月中に1日（回）でも生活保護を受けた世帯数・実人員、および月初から月末まで引き続いて保護が停止されていた世帯数・実人員を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "福祉行政報告例",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00450046"
+    ]
+  },
+  {
+    "id": "welfare_elderly_household",
+    "term": "高齢者世帯（福祉行政報告例）",
+    "aliases": [],
+    "shortDescription": "構成員が全員65歳以上、またはその世帯に18歳未満の者が加わる世帯です。",
+    "description": "男女ともに65歳以上の者のみで構成される世帯、またはその世帯に18歳未満の者が加わった世帯です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "福祉行政報告例",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00450046"
+    ]
+  },
+  {
+    "id": "welfare_mother_child_household",
+    "term": "母子世帯（福祉行政報告例）",
+    "aliases": [],
+    "shortDescription": "配偶者のいない65歳未満の女性と18歳未満の子のみの世帯です。",
+    "description": "死別・離別・生死不明・未婚等で配偶者がいない65歳未満の女性と、18歳未満のその子（養子を含む）のみで構成される世帯です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "福祉行政報告例",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00450046"
+    ]
+  },
+  {
+    "id": "welfare_disabled_or_sick_household",
+    "term": "障害者世帯・傷病者世帯",
+    "aliases": [],
+    "shortDescription": "世帯主が障害または傷病により就労困難などの条件に該当する世帯です。",
+    "description": "世帯主が障害者加算を受けるか、心身の障害により働けない世帯、または世帯主の入院（介護老人保健施設入所を含む）、在宅患者加算の受給、傷病による就労困難のいずれかに該当する世帯です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "福祉行政報告例",
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00450046"
+    ]
+  },
+  {
+    "id": "welfare_other_household",
+    "term": "その他の世帯（福祉行政報告例）",
+    "aliases": [],
+    "shortDescription": "高齢者・母子・障害者／傷病者世帯のいずれにも当てはまらない世帯です。",
+    "description": "高齢者世帯、母子世帯、障害者世帯・傷病者世帯のいずれにも該当しない世帯です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "福祉行政報告例",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00450046"
+    ]
+  },
+  {
+    "id": "welfare_child_disability_allowance",
+    "term": "障害児福祉手当",
+    "aliases": [],
+    "shortDescription": "20歳未満の重度障害児を対象とする手当です。",
+    "description": "20歳未満の重度障害児を対象として支給される手当です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "福祉行政報告例",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00450046"
+    ]
+  },
+  {
+    "id": "welfare_special_disability_allowance",
+    "term": "特別障害者手当",
+    "aliases": [],
+    "shortDescription": "20歳以上の重度障害者を対象とする手当です。",
+    "description": "20歳以上の重度障害者を対象として支給される手当です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "福祉行政報告例",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00450046"
+    ]
+  },
+  {
+    "id": "welfare_allowance_transitional",
+    "term": "福祉手当（経過措置分）",
+    "aliases": [],
+    "shortDescription": "一定の旧福祉手当受給者に経過的に支給される手当です。",
+    "description": "従来の福祉手当を受けていた重度障害者のうち、特別障害者手当の要件に該当せず、障害基礎年金も受けられない人に経過的に支給される手当です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "福祉行政報告例",
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00450046"
+    ]
+  },
+  {
+    "id": "welfare_special_child_rearing_allowance",
+    "term": "特別児童扶養手当",
+    "aliases": [],
+    "shortDescription": "20歳未満の障害児を養育する父母または養育者を対象とする手当です。",
+    "description": "20歳未満の障害児（支給対象障害児）の父・母または養育者（受給者）を対象として支給される手当です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "福祉行政報告例",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00450046"
+    ]
+  },
+  {
+    "id": "welfare_nursery",
+    "term": "保育所（福祉行政報告例）",
+    "aliases": [],
+    "shortDescription": "児童福祉法に基づく許可を受けた施設です。",
+    "description": "児童福祉法により都道府県知事、指定都市または中核市の市長の許可を受けた施設です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "福祉行政報告例",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00450046"
+    ]
+  },
+  {
+    "id": "welfare_child_rearing_allowance",
+    "term": "児童扶養手当（福祉行政報告例）",
+    "aliases": [],
+    "shortDescription": "一定年齢までの児童を監護する母・父または養育者を対象とする手当です。",
+    "description": "父母が婚姻を解消した児童など（18歳到達後最初の3月31日まで、または20歳未満の障害児）を監護する母、監護しかつ生計を同じくする父、または養育者を対象とする手当です。ページ注記では平成22年8月分から父子家庭の父も対象になったとしています。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "福祉行政報告例",
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00450046"
+    ]
+  },
+  {
+    "id": "welfare_supported_households_persons",
+    "term": "被支援世帯・被支援実人員",
+    "aliases": [],
+    "shortDescription": "中国残留邦人等支援給付を受けた世帯・実人員等です。",
+    "description": "月中に1日（回）でも支援給付を受けた世帯・実人員、および月初から月末まで引き続いて支援給付が停止されていた世帯・実人員を指します。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "福祉行政報告例",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00450046"
+    ]
+  },
+  {
+    "id": "pharma_medicinal_product",
+    "term": "医薬品（薬事工業生産動態統計調査）",
+    "aliases": [],
+    "shortDescription": "薬機法に規定される医薬品のうち、調査上の除外品を除いたものです。",
+    "description": "医薬品医療機器等法第2条第1項に規定する医薬品です。ただし、原薬、専ら動物用のもの、および薬局製造販売医薬品を除きます。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "薬事工業生産動態統計調査",
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00450151"
+    ]
+  },
+  {
+    "id": "pharma_prescription_drug",
+    "term": "医療用医薬品（薬事工業生産動態統計調査）",
+    "aliases": [],
+    "shortDescription": "医師・歯科医師の使用または処方等を目的に供給される医薬品です。",
+    "description": "医師または歯科医師が使用する、もしくはその処方せん・指示によって使用することを目的に供給される医薬品です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "薬事工業生産動態統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00450151"
+    ]
+  },
+  {
+    "id": "pharma_guidance_and_otc_drug",
+    "term": "要指導医薬品・一般用医薬品",
+    "aliases": [],
+    "shortDescription": "医療用医薬品以外の医薬品です。",
+    "description": "医療用医薬品以外の医薬品で、一般消費者が薬局で処方せんなしに購入できるものです。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "薬事工業生産動態統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00450151"
+    ]
+  },
+  {
+    "id": "pharma_self_medication_tax_drug",
+    "term": "セルフメディケーション税制対象医薬品",
+    "aliases": [],
+    "shortDescription": "要指導・一般用医薬品のうち、同税制の対象となる医薬品です。",
+    "description": "要指導医薬品・一般用医薬品のうち、セルフメディケーション税制の対象となる医薬品です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "薬事工業生産動態統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00450151"
+    ]
+  },
+  {
+    "id": "pharma_household_placement_drug",
+    "term": "配置用家庭薬",
+    "aliases": [],
+    "shortDescription": "配置用家庭薬として使うことを主な目的とする要指導・一般用医薬品です。",
+    "description": "要指導医薬品・一般用医薬品のうち、主として配置用家庭薬に用いることを目的とする医薬品です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "薬事工業生産動態統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00450151"
+    ]
+  },
+  {
+    "id": "pharma_medical_device",
+    "term": "医療機器（薬事工業生産動態統計調査）",
+    "aliases": [],
+    "shortDescription": "薬機法に規定される医療機器のうち、専ら動物用のものを除きます。",
+    "description": "医薬品医療機器等法第2条第4項に規定する医療機器です。ただし、専ら動物用のものを除きます。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "薬事工業生産動態統計調査",
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00450151"
+    ]
+  },
+  {
+    "id": "pharma_quasi_drug",
+    "term": "医薬部外品（薬事工業生産動態統計調査）",
+    "aliases": [],
+    "shortDescription": "薬機法に規定される医薬部外品のうち、専ら動物用のものを除きます。",
+    "description": "医薬品医療機器等法第2条第2項に規定する医薬部外品です。ただし、専ら動物用のものを除きます。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "薬事工業生産動態統計調査",
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00450151"
+    ]
+  },
+  {
+    "id": "pharma_featured_quasi_drug",
+    "term": "特掲医薬部外品",
+    "aliases": [],
+    "shortDescription": "生産金額が多い、または頻繁に使われる医薬部外品です。",
+    "description": "医薬部外品のうち、生産金額が多いものまたは頻用されているものです。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "薬事工業生産動態統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00450151"
+    ]
+  },
+  {
+    "id": "pharma_regenerative_product",
+    "term": "再生医療等製品（薬事工業生産動態統計調査）",
+    "aliases": [],
+    "shortDescription": "薬機法に規定される再生医療等製品のうち、専ら動物用のものを除きます。",
+    "description": "医薬品医療機器等法第2条第9項に規定する再生医療等製品です。ただし、専ら動物用のものを除きます。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "薬事工業生産動態統計調査",
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00450151"
+    ]
+  },
+  {
+    "id": "pharma_marketing_authorization_holder",
+    "term": "製造販売業者（薬事工業生産動態統計調査）",
+    "aliases": [],
+    "shortDescription": "医薬品等を製造販売する許可を受けた業者で、この調査の調査客体です。",
+    "description": "薬機法上、医薬品、医薬部外品、医療機器または再生医療等製品の製造販売業の許可を受けて製造販売する業者です。本調査の調査客体です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "薬事工業生産動態統計調査",
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00450151"
+    ]
+  },
+  {
+    "id": "pharma_manufacturing_and_marketing",
+    "term": "製造販売（薬事工業生産動態統計調査）",
+    "aliases": [],
+    "shortDescription": "製造・輸入した医薬品等を販売・貸与・提供することです。",
+    "description": "自ら製造（他社への委託製造を含み、他社から受託する製造を除く）または輸入した対象製品を販売・貸与し、あるいは医療機器プログラムを通信回線を通じて提供することです。原薬たる医薬品は対象から除かれます。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "薬事工業生産動態統計調査",
+    "difficulty": 3,
+    "officialStatisticsCodes": [
+      "00450151"
+    ]
+  },
+  {
+    "id": "pharma_manufacturer",
+    "term": "製造業者（薬事工業生産動態統計調査）",
+    "aliases": [],
+    "shortDescription": "許可・登録を受け、国内で最終製造工程を行う業者です。",
+    "description": "薬機法上の許可または登録を受けて対象製品を製造し、最終製造工程を行う国内業者です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "薬事工業生産動態統計調査",
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00450151"
+    ]
+  },
+  {
+    "id": "pharma_contract_manufacturer",
+    "term": "受託製造のあった製造業者",
+    "aliases": [],
+    "shortDescription": "調査月に委託を受け、最終製造工程を行った製造業者です。",
+    "description": "製造販売業者から製造委託を受け、調査月に最終製造工程を行った製造業者です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "薬事工業生産動態統計調査",
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00450151"
+    ]
+  },
+  {
+    "id": "pharma_foreign_manufacturer",
+    "term": "外国製造業者（薬事工業生産動態統計調査）",
+    "aliases": [],
+    "shortDescription": "認定・登録を受け、国外で最終製造工程を行う業者です。",
+    "description": "薬機法に基づく外国製造業者認定または登録を受け、国外で対象製品の最終製造工程を行う業者です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "薬事工業生産動態統計調査",
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00450151"
+    ]
+  },
+  {
+    "id": "pharma_final_manufacturing_process",
+    "term": "最終製造工程",
+    "aliases": [],
+    "shortDescription": "製品の品質に影響する最後の製造工程です。",
+    "description": "製品の品質に影響する最後の工程です。医薬品では一次包装（体外診断用医薬品は反応系成分の最終製品への充填）、医療機器では主たる組立（プログラムは設計）、医薬部外品・再生医療等製品では容器への充填・封入等が該当します。",
+    "examples": [
+      "PTP包装",
+      "瓶詰め",
+      "医療機器の主たる組立"
+    ],
+    "relatedTerms": [],
+    "category": "薬事工業生産動態統計調査",
+    "difficulty": 3,
+    "officialStatisticsCodes": [
+      "00450151"
+    ]
+  },
+  {
+    "id": "pharma_packaging_labeling_process",
+    "term": "包装・表示工程",
+    "aliases": [],
+    "shortDescription": "最終製造工程後に行う小分け・箱詰めや法定表示の工程です。",
+    "description": "最終製造工程後、消費者等が使用できるよう小分け・箱詰めを行い、薬機法に定める表示を施す工程等です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "薬事工業生産動態統計調査",
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00450151"
+    ]
+  },
+  {
+    "id": "pharma_final_product",
+    "term": "最終製品（薬事工業生産動態統計調査）",
+    "aliases": [],
+    "shortDescription": "最終製造工程と包装・表示工程を終えた製品です。",
+    "description": "最終製造工程および包装・表示工程を完了した製品です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "薬事工業生産動態統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00450151"
+    ]
+  },
+  {
+    "id": "pharma_sales_unit_price",
+    "term": "販売単価（薬事工業生産動態統計調査）",
+    "aliases": [],
+    "shortDescription": "製造販売業者が連結企業体外へ販売するときの単価です。",
+    "description": "製造販売業者が連結企業体外の卸売業者等に販売する際の単価です。消費税込みで、国内運賃、積込料、保険料・倉庫保管料等の諸掛を含みます。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "薬事工業生産動態統計調査",
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00450151"
+    ]
+  },
+  {
+    "id": "pharma_production_quantity",
+    "term": "生産数量（薬事工業生産動態統計調査）",
+    "aliases": [],
+    "shortDescription": "調査月に市場への出荷可と判定された最終製品の数量です。",
+    "description": "国内製造業者が最終製造工程を行った最終製品について、調査月に製造販売業者が市場への出荷可否を判定し、出荷可とした数量です。輸出品は輸出可とした数量です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "薬事工業生産動態統計調査",
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00450151"
+    ]
+  },
+  {
+    "id": "pharma_production_value",
+    "term": "生産金額（薬事工業生産動態統計調査）",
+    "aliases": [],
+    "shortDescription": "生産数量に販売単価を乗じた金額です。",
+    "description": "生産数量に販売単価を乗じて算出する金額です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "薬事工業生産動態統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00450151"
+    ]
+  },
+  {
+    "id": "pharma_domestic_component_value",
+    "term": "医薬品の生産金額（国産）",
+    "aliases": [],
+    "shortDescription": "主成分の半数以上が国産である医薬品の生産金額です。",
+    "description": "主成分の数で国産が半数以上（全て国産を含む）である医薬品の生産金額です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "薬事工業生産動態統計調査",
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00450151"
+    ]
+  },
+  {
+    "id": "pharma_import_dominant_value",
+    "term": "医薬品の生産金額（輸入※）",
+    "aliases": [],
+    "shortDescription": "主成分数で輸入が国産を上回る医薬品の生産金額です。",
+    "description": "主成分の数で輸入が国産より多い（全て輸入を含む）医薬品の生産金額です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "薬事工業生産動態統計調査",
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00450151"
+    ]
+  },
+  {
+    "id": "pharma_imported_product_quantity",
+    "term": "数量（輸入品☆）",
+    "aliases": [],
+    "shortDescription": "輸入品等について、調査月に出荷可と判定された数量です。",
+    "description": "外国製造業者が最終製造工程と包装・表示工程を行って輸入した最終製品、および外国で最終製造工程を行った製品を輸入後、国内で包装・表示した製品について、調査月に製造販売業者が出荷可と判定した数量です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "薬事工業生産動態統計調査",
+    "difficulty": 3,
+    "officialStatisticsCodes": [
+      "00450151"
+    ]
+  },
+  {
+    "id": "pharma_imported_product_value",
+    "term": "金額（輸入品☆）",
+    "aliases": [],
+    "shortDescription": "数量（輸入品☆）に販売単価を乗じた金額です。",
+    "description": "数量（輸入品☆）に販売単価を乗じた金額です。輸入金額そのものではありません。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "薬事工業生産動態統計調査",
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00450151"
+    ]
+  },
+  {
+    "id": "pharma_contract_manufacturing_value",
+    "term": "受託（薬事工業生産動態統計調査）",
+    "aliases": [],
+    "shortDescription": "最終製造工程を受託した場合に、委託元が調査月の製造に対して支払った額です。",
+    "description": "製造販売業者が連結企業体外の製造業者に最終製造工程を委託した場合、調査月の製造に対して製造販売業者が製造業者に支払った金額です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "薬事工業生産動態統計調査",
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00450151"
+    ]
+  },
+  {
+    "id": "pharma_shipment_quantity",
+    "term": "出荷数量（薬事工業生産動態統計調査）",
+    "aliases": [],
+    "shortDescription": "出荷可と判定された製品のうち、調査月に出荷した数量です。",
+    "description": "出荷可と判定された製品のうち、調査月に連結企業体外の卸売業者等へ出荷した数量です。輸出品は輸出可と判定され、調査月に輸出用として出荷した数量です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "薬事工業生産動態統計調査",
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00450151"
+    ]
+  },
+  {
+    "id": "pharma_shipment_value",
+    "term": "出荷金額（薬事工業生産動態統計調査）",
+    "aliases": [],
+    "shortDescription": "出荷数量に販売単価を乗じた金額です。",
+    "description": "出荷数量に販売単価を乗じて算出する金額です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "薬事工業生産動態統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00450151"
+    ]
+  },
+  {
+    "id": "pharma_end_month_inventory_quantity",
+    "term": "月末在庫数量（薬事工業生産動態統計調査）",
+    "aliases": [],
+    "shortDescription": "調査月末に、出荷せず連結企業体内で在庫管理されている出荷可製品の数量です。",
+    "description": "出荷可と判定された製品のうち、調査月に連結企業体外の卸売業者等へ出荷せず、月末時点で連結企業体内の在庫として管理している数量です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "薬事工業生産動態統計調査",
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00450151"
+    ]
+  },
+  {
+    "id": "pharma_end_month_inventory_value",
+    "term": "月末在庫金額（薬事工業生産動態統計調査）",
+    "aliases": [],
+    "shortDescription": "月末在庫数量に販売単価を乗じた金額です。",
+    "description": "月末在庫数量に販売単価を乗じて算出する金額です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "薬事工業生産動態統計調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00450151"
+    ]
+  },
+  {
+    "id": "employment_trend_labor_mover",
+    "term": "労働移動者（雇用動向調査）",
+    "aliases": [],
+    "shortDescription": "調査期間中に就職・転職・退職等の移動をした常用労働者です。",
+    "description": "常用労働者のうち調査対象期間中に就職、転職、退職などの労働移動を行った者です。本調査では入職者と離職者を合わせて延べ労働移動者とします。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "雇用動向調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00450073"
+    ]
+  },
+  {
+    "id": "employment_trend_joiner",
+    "term": "入職者（雇用動向調査）",
+    "aliases": [],
+    "shortDescription": "調査期間中に事業所が新たに採用した常用労働者です。",
+    "description": "常用労働者のうち、調査対象期間中に事業所が新たに採用した者です。他企業からの出向者・出向復帰者を含み、同一企業内の他事業所からの転入者は除きます。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "雇用動向調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00450073"
+    ]
+  },
+  {
+    "id": "employment_trend_work_history",
+    "term": "職歴（雇用動向調査）",
+    "aliases": [],
+    "shortDescription": "入職前1年間の就業経験の有無による区分です。",
+    "description": "入職前1年間の就業経験の有無で未就業入職者と転職入職者に分けます。ただし、内職や1か月未満の就業は就業経験に含めません。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "雇用動向調査",
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00450073"
+    ]
+  },
+  {
+    "id": "employment_trend_nonworking_joiner",
+    "term": "未就業入職者",
+    "aliases": [],
+    "shortDescription": "入職前1年間に就業経験のない入職者です。",
+    "description": "入職者のうち、入職前1年間に就業経験のない者です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "雇用動向調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00450073"
+    ]
+  },
+  {
+    "id": "employment_trend_job_changer",
+    "term": "転職入職者（雇用動向調査）",
+    "aliases": [],
+    "shortDescription": "入職前1年間に就業経験のある入職者です。",
+    "description": "入職者のうち、入職前1年間に就業経験のある者です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "雇用動向調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00450073"
+    ]
+  },
+  {
+    "id": "employment_trend_new_graduate",
+    "term": "新規学卒者（雇用動向調査）",
+    "aliases": [],
+    "shortDescription": "未就業入職者のうち、調査年に卒業した者です。",
+    "description": "未就業入職者のうち新卒の者です。進学等の別を問わず調査年に卒業した入職者を指し、進学後に学業とは別に常用労働者として働く場合も含みます。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "雇用動向調査",
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00450073"
+    ]
+  },
+  {
+    "id": "employment_trend_leaver",
+    "term": "離職者（雇用動向調査）",
+    "aliases": [],
+    "shortDescription": "調査期間中に事業所を退職または解雇された常用労働者です。",
+    "description": "常用労働者のうち、調査対象期間中に事業所を退職または解雇された者です。他企業への出向者・出向復帰者を含み、同一企業内の他事業所への転出者は除きます。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "雇用動向調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00450073"
+    ]
+  },
+  {
+    "id": "employment_trend_retiree",
+    "term": "退職者（雇用動向調査）",
+    "aliases": [],
+    "shortDescription": "離職者のうち、調査期間中に離職した出向者・出向復帰者以外の者です。",
+    "description": "離職者のうち、調査対象期間中に離職した出向者および出向復帰者を除いた者です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "雇用動向調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00450073"
+    ]
+  },
+  {
+    "id": "employment_trend_unfilled_vacancy",
+    "term": "未充足求人",
+    "aliases": [],
+    "shortDescription": "欠員を補充するため、6月末現在で募集している求人です。",
+    "description": "6月末日現在、事業所に欠員があり、仕事があるのに従事する者がいない状態を補うために行っている求人です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "雇用動向調査",
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00450073"
+    ]
+  },
+  {
+    "id": "employment_trend_gross_labor_movement_rate",
+    "term": "延べ労働移動率",
+    "aliases": [],
+    "shortDescription": "常用労働者数に対する入職者数と離職者数の合計の割合です。",
+    "description": "常用労働者数に対する延べ労働移動者数（入職者数と離職者数の合計）の割合です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "雇用動向調査",
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00450073"
+    ]
+  },
+  {
+    "id": "employment_trend_accession_separation_rate",
+    "term": "入（離）職率（雇用動向調査）",
+    "aliases": [],
+    "shortDescription": "常用労働者数に対する入職者または離職者の割合です。",
+    "description": "常用労働者数に対する入職者数または離職者数の割合です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "雇用動向調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00450073"
+    ]
+  },
+  {
+    "id": "employment_trend_job_change_rate",
+    "term": "転職入職率",
+    "aliases": [],
+    "shortDescription": "常用労働者数に対する転職入職者の割合です。",
+    "description": "常用労働者数に対する転職入職者数の割合です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "雇用動向調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00450073"
+    ]
+  },
+  {
+    "id": "employment_trend_nonworking_joiner_rate",
+    "term": "未就業入職率",
+    "aliases": [],
+    "shortDescription": "常用労働者数に対する未就業入職者の割合です。",
+    "description": "常用労働者数に対する未就業入職者数の割合です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "雇用動向調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00450073"
+    ]
+  },
+  {
+    "id": "employment_trend_net_accession_rate",
+    "term": "入職超過率",
+    "aliases": [],
+    "shortDescription": "入職率から離職率を差し引いた値です。",
+    "description": "入職率から離職率を差し引いた値です。正なら入職率が離職率を上回り、負なら離職率が入職率を上回ります。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "雇用動向調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00450073"
+    ]
+  },
+  {
+    "id": "employment_trend_vacancy_rate",
+    "term": "欠員率",
+    "aliases": [],
+    "shortDescription": "常用労働者数に対する未充足求人数の割合です。",
+    "description": "常用労働者数に対する未充足求人数の割合です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "雇用動向調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00450073"
+    ]
+  },
+  {
+    "id": "labor_economy_regular_worker",
+    "term": "常用労働者（労働経済動向調査）",
+    "aliases": [],
+    "shortDescription": "期間を定めず、または1か月以上の期間を定めて雇われる労働者です。",
+    "description": "期間を定めずに雇われる者、または1か月以上の期間を定めて雇われる者です。定義注記では2018年2月から期間条件が「1か月を超える」から「1か月以上」へ変更され、短期雇用の反復要件が削除されたとしています。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "労働経済動向調査",
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00450072"
+    ]
+  },
+  {
+    "id": "labor_economy_regular_employee",
+    "term": "正社員等（労働経済動向調査）",
+    "aliases": [],
+    "shortDescription": "無期雇用または1年以上の契約で雇用される者です。パート・派遣労働者は除きます。",
+    "description": "雇用期間を定めずに雇用される者、または1年以上の雇用契約を結んで雇用される者です。パートタイム労働者と派遣労働者は含みません。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "労働経済動向調査",
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00450072"
+    ]
+  },
+  {
+    "id": "labor_economy_temporary_worker",
+    "term": "臨時（労働経済動向調査）",
+    "aliases": [],
+    "shortDescription": "1か月以上1年未満の契約等で雇用される者です。パートは除きます。",
+    "description": "1か月以上1年未満の期間を定めて雇用される者、または季節的に期間を限って働く者です。1か月未満の契約者とパートタイム労働者は除きます。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "労働経済動向調査",
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00450072"
+    ]
+  },
+  {
+    "id": "labor_economy_part_time_worker",
+    "term": "パートタイム（労働経済動向調査）",
+    "aliases": [],
+    "shortDescription": "所定労働時間または週の所定労働日数が正社員より短い者です。",
+    "description": "1日の所定労働時間または1週間の所定労働日数が、当該事業所の正社員より短い者です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "労働経済動向調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00450072"
+    ]
+  },
+  {
+    "id": "labor_economy_dispatched_worker",
+    "term": "派遣労働者（労働経済動向調査）",
+    "aliases": [],
+    "shortDescription": "派遣元事業所から調査対象事業所へ派遣されている労働者です。",
+    "description": "労働者派遣法に基づき、他社である派遣元事業所から調査対象事業所へ派遣されている者です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "労働経済動向調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00450072"
+    ]
+  },
+  {
+    "id": "labor_economy_management_occupation",
+    "term": "管理（職種）",
+    "aliases": [],
+    "shortDescription": "課以上の組織の管理に従事する職種区分です。",
+    "description": "課以上の組織の管理に従事する者です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "労働経済動向調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00450072"
+    ]
+  },
+  {
+    "id": "labor_economy_clerical_occupation",
+    "term": "事務（職種）",
+    "aliases": [],
+    "shortDescription": "管理職の指導・監督を受けて事務に従事する職種区分です。",
+    "description": "課長等の管理職の指導・監督を受けて事務に従事する者で、電話応接事務員を含みます。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "労働経済動向調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00450072"
+    ]
+  },
+  {
+    "id": "labor_economy_professional_occupation",
+    "term": "専門・技術（職種）",
+    "aliases": [],
+    "shortDescription": "高度な専門知識を用いる技術業務や研究等の職種区分です。",
+    "description": "高度な専門的知識を応用し、技術的な業務や研究等に従事する者です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "労働経済動向調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00450072"
+    ]
+  },
+  {
+    "id": "labor_economy_sales_occupation",
+    "term": "販売（職種）",
+    "aliases": [],
+    "shortDescription": "商品等の売買・営業や保険外交などの職種区分です。",
+    "description": "商品・証券等の売買や営業、保険外交などに従事する者です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "労働経済動向調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00450072"
+    ]
+  },
+  {
+    "id": "labor_economy_service_occupation",
+    "term": "サービス（職種）",
+    "aliases": [],
+    "shortDescription": "調理・接客・給仕等、個人向けサービスの職種区分です。",
+    "description": "調理、接客、給仕など、個人に対するサービスに従事する者です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "労働経済動向調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00450072"
+    ]
+  },
+  {
+    "id": "labor_economy_transport_machine_occupation",
+    "term": "輸送・機械運転（職種）",
+    "aliases": [],
+    "shortDescription": "輸送機関の運転等や、定置機械・建設機械の操作に従事する職種区分です。",
+    "description": "鉄道・自動車等の運転、車掌、定置機関・機械および建設機械の操作に従事する者です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "労働経済動向調査",
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00450072"
+    ]
+  },
+  {
+    "id": "labor_economy_skilled_worker_occupation",
+    "term": "技能工（職種）",
+    "aliases": [],
+    "shortDescription": "熟練・判断力・責任を要する加工・組立・修理等を行う職種区分です。",
+    "description": "原材料加工、機械器具の組立・修理、印刷・製本、建設機械を用いない建設作業等に従事し、高度な熟練、判断力、責任を要する作業を行う者です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "労働経済動向調査",
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00450072"
+    ]
+  },
+  {
+    "id": "labor_economy_unskilled_worker_occupation",
+    "term": "単純工（職種）",
+    "aliases": [],
+    "shortDescription": "技能工と同種の作業のうち、技能習得を要しない簡単な作業等の職種区分です。",
+    "description": "技能工と同じ作業に従事していても、技能等の修得を要しない簡単な作業や単純な筋肉労働に従事する者です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "労働経済動向調査",
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00450072"
+    ]
+  },
+  {
+    "id": "labor_economy_diffusion_index",
+    "term": "D.I.（労働経済動向調査）",
+    "aliases": [
+      "ディフュージョン・インデックス"
+    ],
+    "shortDescription": "変化の方向性を示す指標です。",
+    "description": "Diffusion Indexの略で、変化の方向性を表す指標です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "労働経済動向調査",
+    "difficulty": 1,
+    "officialStatisticsCodes": [
+      "00450072"
+    ]
+  },
+  {
+    "id": "labor_economy_overtime_hours_di",
+    "term": "所定外労働時間判断D.I.",
+    "aliases": [],
+    "shortDescription": "所定外労働時間が増加と答えた事業所割合から減少割合を引いた値です。",
+    "description": "所定外労働時間について、当該期を前期と比べて増加と回答した事業所の割合から、減少と回答した事業所の割合を差し引いた値です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "労働経済動向調査",
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00450072"
+    ]
+  },
+  {
+    "id": "labor_economy_employment_di",
+    "term": "雇用判断D.I.",
+    "aliases": [],
+    "shortDescription": "労働者数が増加と答えた事業所割合から減少割合を引いた値です。",
+    "description": "労働者数について、当該期間末を前期間末と比べて増加と回答した事業所の割合から、減少と回答した事業所の割合を差し引いた値です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "労働経済動向調査",
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00450072"
+    ]
+  },
+  {
+    "id": "labor_economy_labor_shortage_di",
+    "term": "労働者過不足判断D.I.",
+    "aliases": [],
+    "shortDescription": "不足と答えた事業所割合から過剰と答えた割合を引いた値です。",
+    "description": "労働者数について調査日現在、不足（やや不足・大いに不足）と回答した事業所の割合から、過剰（やや過剰・大いに過剰）と回答した事業所の割合を差し引いた値です。",
+    "examples": [],
+    "relatedTerms": [],
+    "category": "労働経済動向調査",
+    "difficulty": 2,
+    "officialStatisticsCodes": [
+      "00450072"
+    ]
   }
 ]
