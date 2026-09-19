@@ -30,7 +30,7 @@
     ]
   },
   {
-    "urlPattern": "^/stat-search/",
+    "urlPattern": "^/stat-search(?:/|$)",
     "name": "統計データ検索ツアー",
     "elements": [
       {

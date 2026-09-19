@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>登録用語一覧 | OSHIETE</title>
+  <link rel="stylesheet" href="glossary.css">
+</head>
+<body>
+  <header class="page-header">
+    <div class="header-inner">
+      <p class="brand">OSHIETE</p>
+      <h1>登録用語一覧</h1>
+      <p>取り込まれている用語を、統計調査ごとに確認できます。</p>
+    </div>
+  </header>
+  <main>
+    <section class="controls" aria-label="一覧の絞り込み">
+      <label>
+        <span>統計調査</span>
+        <select id="survey-select"></select>
+      </label>
+      <label>
+        <span>用語を検索</span>
+        <input id="term-search" type="search" placeholder="用語・説明・カテゴリから検索">
+      </label>
+    </section>
+    <div class="summary" aria-live="polite">
+      <div>
+        <h2 id="survey-name">読み込み中</h2>
+        <p id="survey-code"></p>
+      </div>
+      <p><strong id="visible-count">—</strong><span id="count-label">語を登録</span></p>
+    </div>
+    <p id="error-message" class="error" hidden></p>
+    <ul id="term-list" class="term-list" aria-label="登録用語"></ul>
+    <p id="empty-message" class="empty" hidden>条件に一致する用語はありません。</p>
+  </main>
+  <script src="glossary.js"></script>
+</body>
+</html>

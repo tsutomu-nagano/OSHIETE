@@ -1,0 +1,67 @@
+[
+  {
+    "urlPattern": "^/stat-search(?:/|$)",
+    "hints": [
+      {
+        "id": "keyword-search",
+        "selectors": ["#keyword", "input[type='search']", "input[name*='keyword']", "input[id*='keyword']", "input[placeholder*='キーワード']"],
+        "beacon": { "side": "top", "align": "end", "offsetX": 5, "offsetY": -5 },
+        "popover": {
+          "title": "キーワードから探せます",
+          "description": "調べたい言葉を入力すると、関連する統計表を検索できます。例えば「人口」「世帯」「失業率」などを入力してみましょう。",
+          "side": "bottom",
+          "align": "start"
+        }
+      },
+      {
+        "id": "detail-search",
+        "selectors": ["#detail-search", ".search-condition", ".stat-filter-list", ".search-filter", "aside"],
+        "beacon": { "side": "top", "align": "end", "offsetX": 5, "offsetY": -5 },
+        "popover": {
+          "title": "条件を細かく指定できます",
+          "description": "統計分野や政府統計名などを指定して、検索対象を絞り込むことができます。検索結果が多い場合に便利です。",
+          "side": "right",
+          "align": "start"
+        }
+      },
+      {
+        "id": "statistics-name",
+        "selectors": ["#statistics-name", "[id*='statistics-name']", "[class*='statistics-name']"],
+        "beacon": { "side": "top", "align": "end" },
+        "popover": {
+          "title": "政府統計名",
+          "description": "国勢調査や労働力調査など、統計調査・統計の名称です。似た統計表がある場合は、まず政府統計名を確認すると探しやすくなります。",
+          "side": "bottom",
+          "align": "start"
+        }
+      }
+    ]
+  },
+  {
+    "urlPattern": "^/(dbview|stat-view)/",
+    "hints": [
+      {
+        "id": "table-title",
+        "selectors": ["#table-title", "[id*='table-title']", "h1"],
+        "beacon": { "side": "top", "align": "end" },
+        "popover": {
+          "title": "統計表のタイトル",
+          "description": "どのようなデータが収録されている統計表なのかを確認できます。",
+          "side": "bottom",
+          "align": "start"
+        }
+      },
+      {
+        "id": "download",
+        "selectors": ["#download-button", "[id*='download']", "button[class*='download']", "a[class*='download']"],
+        "beacon": { "side": "top", "align": "end" },
+        "popover": {
+          "title": "データをダウンロードできます",
+          "description": "表示している統計データをCSVやExcelなどの形式で保存できます。分析に利用したい場合はこちらを使います。",
+          "side": "bottom",
+          "align": "end"
+        }
+      }
+    ]
+  }
+]

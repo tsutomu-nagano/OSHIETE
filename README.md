@@ -19,7 +19,9 @@ e-Statのページに表示された統計用語を検出し、その場でや�
 - ポップアップから初心者モードをON / OFF（設定はブラウザに保存）
 - e-Stat画面右上の「教えてモード」スイッチからもON / OFF
 - Driver.jsによる画面別の「使い方ツアー」（画面右上またはポップアップから開始）
+- 画面上の若葉アイコンから、その機能を短く説明するFeature Hintを表示
 - ページごとの検出件数をポップアップに表示
+- ポップアップから、取り込み済みの用語を統計調査ごとに一覧表示・検索
 - URLの`toukei`（政府統計コード）に一致する調査固有用語だけを表示
 - TooltipとドロワーをShadow DOM内に配置し、サイト側CSSとの干渉を防止
 
@@ -47,8 +49,9 @@ Driver.jsは拡張機能内に同梱しているため、実行時にCDNへ接�
 2. 「統計表」「政府統計」などに点線が付くことを確認する
 3. ホバーでTooltip、クリックまたは右クリックで右側の詳細ドロワーが表示されることを確認する
 4. 拡張機能アイコンをクリックし、検出件数とON / OFFを確認する
-5. 「使い方ツアー」を押し、現在の画面に合う操作案内が表示されることを確認する
-6. OFFでマークが取り除かれ、ONで再検出されることを確認する
+5. 「登録用語一覧を見る」を押し、統計調査の切替と用語検索ができることを確認する
+6. 「使い方ツアー」を押し、現在の画面に合う操作案内が表示されることを確認する
+7. OFFでマークが取り除かれ、ONで再検出されることを確認する
 
 ## ファイル構成
 
@@ -59,6 +62,7 @@ Driver.jsは拡張機能内に同梱しているため、実行時にCDNへ接�
 ├── content/
 │   ├── content.js              # 初期化、設定、各機能の連携
 │   ├── tour.js                 # Driver.jsによる画面別ツアー
+│   ├── feature-hints.js        # 若葉ビーコンとFeature Hintの制御
 │   ├── aho-corasick.js         # Trieとfailure linkによる用語検索
 │   ├── term-marker.js          # TextNode探索と用語マーク
 │   ├── mutation-observer.js    # 動的DOMの差分監視
@@ -66,11 +70,17 @@ Driver.jsは拡張機能内に同梱しているため、実行時にCDNへ接�
 ├── dictionary/
 │   ├── terms.json              # 用語辞書
 │   ├── sources.json            # 用語の抽出元（出典）
-│   └── pages.json              # 将来のページガイド用定義例
+│   ├── surveys.json            # 政府統計コードと統計調査名の対応
+│   ├── pages.json              # 画面別ツアー定義
+│   └── feature-hints.json      # URL・画面要素ごとのFeature Hint定義
 ├── vendor/                     # 同梱したDriver.js
 ├── ui/
 │   ├── ui.js                   # Tooltip、ドロワー、イベント
 │   └── styles.css
+├── glossary/
+│   ├── glossary.html           # 統計調査ごとの登録用語一覧
+│   ├── glossary.js
+│   └── glossary.css
 └── popup/
     ├── popup.html
     ├── popup.js
@@ -99,9 +109,11 @@ Driver.jsは拡張機能内に同梱しているため、実行時にCDNへ接�
 
 ### 出典の管理
 
-外部資料から抽出した用語の出典は`dictionary/sources.json`で管理します。各出典には一意な`id`、資料名、URL、発行者、取得日、対象となる`governmentStatisticsCodes`と、その出典から作成した用語の`termIds`を記録します。`termIds`には`terms.json`に存在する用語IDだけを指定し、同じ用語IDを複数の出典へ登録することもできます。
+外部資料から抽出した用語の出典は`dictionary/sources.json`で管理します。各出典には一意な`id`、資料名、URL、発行者、取得日、対象となる`officialStatisticsCode`と、その出典から作成した用語の`termIds`を記録します。`termIds`には`terms.json`に存在する用語IDだけを指定し、同じ用語IDを複数の出典へ登録することもできます。
 
-e-StatのURLに`?toukei=00200521`のような政府統計コードがある場合、そのコードを`governmentStatisticsCodes`に持つ出典の用語だけを検出対象にします。`toukei`がない画面では従来どおり全用語を対象にします。
+登録用語一覧に表示する調査名は`dictionary/surveys.json`で管理します。`code`には出典と同じ政府統計コード、`name`には一覧で表示する統計調査名を指定します。
+
+e-StatのURLに`?toukei=00200531`のような政府統計コードがある場合、そのコードと`officialStatisticsCode`が一致する出典の用語だけを検出対象にします。`toukei`がない画面では従来どおり全用語を対象にします。
 
 ## 安全性と現時点の制約
 

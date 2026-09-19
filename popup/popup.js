@@ -2,8 +2,10 @@
   'use strict';
   const toggle = document.querySelector('#mode-toggle');
   const count = document.querySelector('#term-count');
+  const hintCount = document.querySelector('#hint-count');
   const notice = document.querySelector('#notice');
   const startTour = document.querySelector('#start-tour');
+  const openGlossary = document.querySelector('#open-glossary');
   const activeTab = async () => (await chrome.tabs.query({ active: true, currentWindow: true }))[0];
 
   async function refreshStatus() {
@@ -11,16 +13,18 @@
     toggle.checked = beginnerModeEnabled;
     const tab = await activeTab();
     if (!tab?.url?.startsWith('https://www.e-stat.go.jp/')) {
-      count.textContent = '0'; notice.textContent = 'e-Statのページで利用できます。'; return;
+      count.textContent = '0'; hintCount.textContent = '0'; notice.textContent = 'e-Statのページで利用できます。'; return;
     }
     try {
       const status = await chrome.tabs.sendMessage(tab.id, { type: 'ESTAT_BEGINNER_GET_STATUS' });
       count.textContent = String(status?.count ?? 0);
+      hintCount.textContent = String(status?.hintCount ?? 0);
       notice.textContent = beginnerModeEnabled ? '' : '初心者モードはOFFです。';
     } catch {
       const key = `detectedCount:${tab.url}`;
       const values = await chrome.storage.local.get(key);
       count.textContent = String(values[key] ?? 0);
+      hintCount.textContent = '0';
       notice.textContent = 'ページを再読み込みすると利用できます。';
     }
   }
@@ -29,6 +33,16 @@
     await chrome.storage.sync.set({ beginnerModeEnabled: toggle.checked });
     notice.textContent = toggle.checked ? '初心者モードをONにしました。' : '初心者モードをOFFにしました。';
     setTimeout(refreshStatus, 150);
+  });
+  openGlossary.addEventListener('click', async () => {
+    const tab = await activeTab();
+    const glossaryUrl = new URL(chrome.runtime.getURL('glossary/glossary.html'));
+    if (tab?.url?.startsWith('https://www.e-stat.go.jp/')) {
+      const code = new URL(tab.url).searchParams.get('toukei');
+      if (code) glossaryUrl.searchParams.set('toukei', code);
+    }
+    await chrome.tabs.create({ url: glossaryUrl.href });
+    window.close();
   });
   startTour.addEventListener('click', async () => {
     const tab = await activeTab();

@@ -20,3 +20,6 @@ input:focus-visible + .slider { outline: 2px solid #1769aa; outline-offset: 2px;
 .tour-button { width: 100%; margin-top: 14px; padding: 10px 12px; border: 0; border-radius: 8px; color: #fff; background: #1769aa; cursor: pointer; font: inherit; font-size: 13px; font-weight: 700; }
 .tour-button:hover { background: #0f578f; }
 .tour-button:focus-visible { outline: 3px solid #f4b942; outline-offset: 2px; }
+.glossary-button { width: 100%; margin-top: 14px; padding: 9px 12px; border: 1px solid #1769aa; border-radius: 8px; color: #1769aa; background: #fff; cursor: pointer; font: inherit; font-size: 13px; font-weight: 700; }
+.glossary-button:hover { background: #edf6fb; }
+.glossary-button:focus-visible { outline: 3px solid #f4b942; outline-offset: 2px; }

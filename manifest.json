@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "e-Stat 初心者モード",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "e-Stat上の統計用語をやさしく解説し、使い方をツアー形式で案内します。",
 
   "icons": {
@@ -29,16 +29,17 @@
         "content/term-marker.js",
         "ui/ui.js",
         "content/tour.js",
+        "content/feature-hints.js",
         "content/mutation-observer.js",
         "content/content.js"
       ],
-      "css": ["vendor/driver.css", "content/term-styles.css", "content/tour.css"],
+      "css": ["vendor/driver.css", "content/term-styles.css", "content/tour.css", "content/feature-hints.css"],
       "run_at": "document_idle"
     }
   ],
   "web_accessible_resources": [
     {
-      "resources": ["dictionary/*.json", "ui/styles.css"],
+      "resources": ["dictionary/*.json", "ui/styles.css", "icons/wakaba.svg"],
       "matches": ["https://www.e-stat.go.jp/*"]
     }
   ]

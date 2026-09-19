@@ -1,0 +1,66 @@
+.estat-wakaba-beacon {
+  position: fixed;
+  z-index: 1000000000;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+  cursor: pointer;
+  transition: transform 0.15s ease, filter 0.15s ease;
+}
+
+.estat-wakaba-beacon-image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.estat-wakaba-beacon-fallback {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  font-size: 25px;
+  line-height: 1;
+}
+
+.estat-wakaba-beacon-fallback[hidden] { display: none; }
+
+.estat-wakaba-beacon:hover {
+  transform: scale(1.15);
+  filter: drop-shadow(0 2px 3px rgb(0 0 0 / 25%));
+}
+
+.estat-wakaba-beacon:focus-visible {
+  outline: 3px solid #1976d2;
+  outline-offset: 3px;
+}
+
+.driver-popover.estat-feature-hint-popover {
+  max-width: min(360px, calc(100vw - 24px));
+  border-radius: 10px;
+  color: #374957;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans JP", sans-serif;
+  box-shadow: 0 12px 40px rgb(14 47 68 / 28%);
+}
+
+.estat-feature-hint-popover .driver-popover-title {
+  color: #174f72;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.estat-feature-hint-popover .driver-popover-description {
+  margin-top: 8px;
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .estat-wakaba-beacon { transition: none; }
+}

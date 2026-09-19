@@ -5,6 +5,7 @@
   let ui = null;
   let observer = null;
   let tour = null;
+  let featureHints = null;
   let enabled = false;
   let operation = Promise.resolve();
 
@@ -21,8 +22,12 @@
 
     const governmentStatisticsCode = new URL(location.href).searchParams.get('toukei');
     const activeSources = governmentStatisticsCode
-      ? sources.filter((source) => source.governmentStatisticsCodes?.includes(governmentStatisticsCode))
+      ? sources.filter((source) => source.officialStatisticsCode === governmentStatisticsCode ||
+          source.governmentStatisticsCodes?.includes(governmentStatisticsCode))
       : sources;
+    if (governmentStatisticsCode && !activeSources.length) {
+      console.info(`[e-Stat初心者モード] 政府統計コード ${governmentStatisticsCode} に対応する用語は未登録です。`);
+    }
 
     const sourcesByTermId = new Map();
     activeSources.forEach((source) => {
@@ -58,6 +63,12 @@
     await tour.load();
   }
 
+  async function ensureFeatureHints() {
+    if (featureHints) return;
+    featureHints = new app.FeatureHints();
+    await featureHints.load();
+  }
+
   async function startTour() {
     await ensureUI();
     await ensureTour();
@@ -75,10 +86,12 @@
     try {
       await ensureUI();
       await ensureMarker();
+      await ensureFeatureHints();
       ui.setModeEnabled(true);
       marker.markRoot(document.body);
       observer = new app.IncrementalObserver((root) => marker?.markRoot(root));
       observer.start();
+      featureHints.start();
       enabled = true;
     } catch (error) {
       console.warn('[e-Stat初心者モード] 初期化に失敗しました。e-Stat本体には影響ありません。', error);
@@ -91,6 +104,7 @@
     await ensureUI();
     observer?.stop();
     observer = null;
+    featureHints?.stop();
     marker?.clear();
     ui.setModeEnabled(false);
     enabled = false;
@@ -114,7 +128,7 @@
 
   chrome.runtime.onMessage.addListener((message, _sender, sendResponse) => {
     if (message?.type === 'ESTAT_BEGINNER_GET_STATUS') {
-      sendResponse({ enabled, count: marker?.count || 0 });
+      sendResponse({ enabled, count: marker?.count || 0, hintCount: featureHints?.count || 0 });
     } else if (message?.type === 'ESTAT_BEGINNER_START_TOUR') {
       startTour()
         .then((started) => sendResponse({ started }))
