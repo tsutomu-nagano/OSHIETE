@@ -1,5 +1,9 @@
 # OSHIETE
 
+<p align="center">
+  <img src="./icons/logo.png" alt="OSHIETE logo" width="320">
+</p>
+
 `O`penly `S`eek `H`elp, `I`nformation, `E`xplanations, `T`ips, and `E`xamples  
 ~ わからないことがあれば、情報・説明・ヒント・例を気軽に探せる ~ 
 
